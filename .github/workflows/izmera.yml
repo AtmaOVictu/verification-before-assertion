@@ -1,14 +1,14 @@
-name: Izmera — živi tek (Z4: požene se samo z ročnim sprožilom)
+name: Izmera zivi tek
 
 on:
   workflow_dispatch:
     inputs:
       model:
-        description: 'Model za živi tek (npr. cjvt/GaMS-9B-Instruct ali mistral-large-latest)'
+        description: 'Model za zivi tek (npr. cjvt/GaMS-9B-Instruct ali mistral-large-latest)'
         required: false
         default: 'cjvt/GaMS-9B-Instruct'
       mode:
-        description: 'Način: dry-run ali live'
+        description: 'Nacin: dry-run ali live'
         required: false
         default: 'live'
 
@@ -27,11 +27,11 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Tekač izmere — dry-run preverba cevovoda
+      - name: Teka izmere - dry-run preverba cevovoda
         run: python3 run_izmera.py --mode dry-run
 
-      - name: Živi tek (če mode=live in žeton obstaja)
-        if: ${{ inputs.mode == 'live' && (secrets.HF_TOKEN != '' || secrets.MISTRAL_API_KEY != '') }}
+      - name: Zivi tek (ce mode=live in zeton obstaja)
+        if: ${{ inputs.mode == 'live' && (env.HF_TOKEN != '' || env.MISTRAL_API_KEY != '') }}
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
@@ -41,11 +41,11 @@ jobs:
           elif [ -n "$MISTRAL_API_KEY" ]; then
             python3 run_izmera.py --mode live --model "${{ inputs.model }}"
           else
-            echo "⚠ Noben žeton ni dosegljiv — rezultat ostaja dry-run (register vnos 5)"
+            echo "NO_TOKEN - rezultat ostaja dry-run (register vnos 5)"
             exit 1
           fi
 
-      - name: Poročilo po dejanju — shrani izide
+      - name: Poročilo po dejanju - shrani izide
         run: |
           git config user.name "izmera-bot"
           git config user.email "actions@github.com"
@@ -53,6 +53,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Ni sprememb za objavo"
           else
-            git commit -m "izmera: živi tek izveden (Z4 — poročilo po dejanju) [skip ci]"
+            git commit -m "izmera: zivi tek izveden (Z4 - porocilo po dejanju) [skip ci]"
             git push
           fi

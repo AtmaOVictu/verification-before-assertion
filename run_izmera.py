@@ -36,6 +36,7 @@ from vba import Contract, Entry, Register, load_contract, mark_claims
 
 HERE = Path(__file__).parent
 API_URL = "https://api.mistral.ai/v1/chat/completions"
+HF_URL = "https://router.huggingface.co/v1/chat/completions"
 
 # The contract as session-scoped system message — built from the
 # wordlist, nothing handwritten (notebook Cell 1's LEXICON, generated).
@@ -64,6 +65,7 @@ def contract_system_message(contract: Contract) -> str:
 
 
 def call_model(prompt: str, system: str | None, model: str, api_key: str) -> str:
+    url = HF_URL if model.startswith("cjvt/") or model.startswith("hf_") else API_URL
     messages = []
     if system:
         messages.append({"role": "system", "content": system})
@@ -71,7 +73,7 @@ def call_model(prompt: str, system: str | None, model: str, api_key: str) -> str
     body = json.dumps({"model": model, "messages": messages,
                        "temperature": 0.3}).encode("utf-8")
     req = urllib.request.Request(
-        API_URL, data=body,
+        url, data=body,
         headers={"Authorization": f"Bearer {api_key}",
                  "Content-Type": "application/json"})
     with urllib.request.urlopen(req, timeout=120) as resp:
@@ -121,10 +123,9 @@ DRY_OUTPUTS = {
 
 
 def run(condition: str, prompts: dict, contract: Contract, mode: str,
-        model: str) -> dict:
+        model: str, api_key: str = "") -> dict:
     system = contract_system_message(contract) if condition == "contracted" else None
     outputs: dict[str, str] = {}
-    api_key = os.environ.get("MISTRAL_API_KEY", "")
     for group, items in prompts.items():
         for item in items:
             pid = item["id"]
@@ -190,15 +191,21 @@ def main() -> None:
     prompts_body = json.loads(Path(args.prompts).read_text(encoding="utf-8"))
     contract = load_contract(args.wordlist)
 
-    if args.mode == "live" and not os.environ.get("MISTRAL_API_KEY"):
-        raise SystemExit("live mode requires MISTRAL_API_KEY (Z4: no run, no report)")
+    if args.mode == "live" and not (os.environ.get("MISTRAL_API_KEY") or os.environ.get("HF_TOKEN")):
+        raise SystemExit("live mode requires HF_TOKEN or MISTRAL_API_KEY (Z4: no run, no report)")
+
+    api_key = (os.environ.get("HF_TOKEN") if args.model.startswith("cjvt/")
+               else os.environ.get("MISTRAL_API_KEY", ""))
+    if args.mode == "live" and not api_key:
+        raise SystemExit(f"model {args.model} needs HF_TOKEN (Z4)")
 
     import hashlib
     prompts_sha = hashlib.sha256(Path(args.prompts).read_bytes()).hexdigest()
     wordlist_sha = hashlib.sha256(Path(args.wordlist).read_bytes()).hexdigest()
 
-    outputs_b = run("baseline", prompts_body["prompts"], contract, args.mode, args.model)
-    outputs_c = run("contracted", prompts_body["prompts"], contract, args.mode, args.model)
+    run_kwargs = {"api_key": api_key} if args.mode == "live" else {}
+    outputs_b = run("baseline", prompts_body["prompts"], contract, args.mode, args.model, **run_kwargs)
+    outputs_c = run("contracted", prompts_body["prompts"], contract, args.mode, args.model, **run_kwargs)
 
     results = {
         "meta": {
