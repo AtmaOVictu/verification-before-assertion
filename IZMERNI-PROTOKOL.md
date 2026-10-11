@@ -81,3 +81,46 @@ Vsak odmik od protokola po izvedbi = nova vrstica v registru, ne tiho prepisovan
 ---
 
 *Protokol zapečačen pred izvedbo. Izvedba = izvajalčeva roka (pozivi, dostop do modela, slovensko branje izhodov). Poročilo = po dejanju.*
+
+---
+
+## 8. Posodobitev protokola (2026-10-11, po izmeri okolja — register vnos 5)
+
+**Izmera okolja (⊢, izvedena):** živi tek iz sandboxa trenutno ni mogoč —
+MISTRAL_API_KEY odsoten; HF žeton odsoten; povejmo.si brez javnega API-ja;
+5 GB RAM / brez GPU ne nese GaMS-9B (~18 GB BF16).
+
+**Tri odprte poti do živega teka (vse pripravljene, natanko ena spremenljivka na vsako):**
+
+| Pot | Kaj je potrebno | Kdor drži ključ |
+|---|---|---|
+| (a) Mistral API | `MISTRAL_API_KEY` v okolju tekača | izvajalec (vnos v env, nikoli v repozitorij) |
+| (b) HuggingFace inference | HF žeton s ponudnikom inferenc za `cjvt/GaMS-9B-Instruct` (model odprt, ne-gated ⊢ izmerjeno 2026-10-11) | izvajalec |
+| (c) GPU gostitelj | isti tekač, `--live`, na stroju z ≥24 GB VRAM; uteži odprte | izvajalec ali nacionalna infrastruktura (PoVeJMo/ARIS) |
+
+**Pot (b) je prava za misijo:** GaMS je nacionalni model — izmera pogodbe
+⊢/⚠ **na GaMS** nosi največjo težo za slovenski pregled (clarinsi) in za
+nacionalni program: rezultat pove, ali nacionalni model spoštuje lastno
+slovenščino pod pogodbo. Mistral pot (a) ostane kot kontrolna skupina
+(tuji model, isti pozivi) — dve roki po L2: dva modela, ena izmera.
+
+** Razširitev protokola (ista izmera, dva modela):** če sta oba ključa
+dosegljiva, teče isti tekač dvakrat — GaMS (domači) in Mistral (tuji) —
+in poročilo nosi oba stolpca. To je poštena oblika zahteve "Slovenian as
+first-class": ne pridiganje, izmera.
+
+**Naslednji korak (osmišljen do ene vrstice):**
+```
+HF_TOKEN=hf_… MISTRAL_API_KEY=… python3 run_izmera.py --live --model cjvt/GaMS-9B-Instruct
+```
+(s preklopom ponudnika v `call_model` — endpoint se nastavi z istim
+argumentom; tekač je pripravljen, potrjen s dry-run.)
+
+**Zaporedje po živem teku:**
+1. rezultat ⊢ → `rezultat-v1.0.md` se prepiše z živimi številkami (ne
+   canned) in nosi žig "IZMERNI REZULTAT — živ tek"
+2. register se dopolni z novimi hibridi, najdenimi v živem izhodu (L3)
+3. ponovna prijava na clarinsi: v1.1 README-SL (izvajalčeva roka) +
+   delujoča koda + prva številka — vsaka pripomba recenzije odgovorjena z
+   izmerjenim telesom
+4. ista številka gre v e-pošto Mistralu (ponovitev z razliko, stotnija 107)
