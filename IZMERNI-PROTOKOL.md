@@ -124,3 +124,15 @@ argumentom; tekač je pripravljen, potrjen s dry-run.)
    delujoča koda + prva številka — vsaka pripomba recenzije odgovorjena z
    izmerjenim telesom
 4. ista številka gre v e-pošto Mistralu (ponovitev z razliko, stotnija 107)
+
+## 9. Zapis o CI izvedbi (2026-10-11, Z4 — po dejanju)
+
+Push `ff6d954` je sprozil prvi CI tek. Izid: failure — dve izmeri:
+1. stara pokvarjena YAML je se registrirana kot "invalid workflow" na
+   GitHubovi strani (name se bere kot pot); teka je padel se pred koraki
+2. App ne more sproziti workflow_dispatch (403, izmerjeno) — zato push
+   trigger: vsak push na meritvene datoteke zene teka sam, brez gumba
+
+Push tega odseka cisti zastarelo stanje: veljavna YAML + nov push =
+registriran teka z imenom "Izmera zivi tek". Naslednji tek bo prvi
+polni CI tek (dry-run korak, potem zivi ce zeton v Secrets obstaja).
