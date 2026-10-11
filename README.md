@@ -115,3 +115,15 @@ full 20-⊢ run stays in the corpus per the deliberate boundary.
 volume (the national program) + provenance (this regime) = a priceable,
 auditable, compensable national language asset. The bug-bounty
 precedent model applied to verified language contributions.
+
+## 12. The measurement protocol
+
+`IZMERNI-PROTOKOL.md` — the next step beyond a working method: a
+pre-registered protocol for the first measured result. Does a model
+operating under the ⊢/⚠ contract produce measurably fewer hybrid
+words and more sourced claims than the same model without it?
+
+Pre-registration (hash-sealed prompts, fixed wordlist, named statistical
+test, honest limits written before the run — not after) is what separates
+a claim from a result. H0 is publishable too: a regime that publishes
+its own null results is the only one that can be believed.
