@@ -100,3 +100,18 @@ Sovereignty context: OpenEuroLLM is building multilingual foundation models for 
 **Integrity of the marks.** ⚠ words stay marked in every derived artifact. A derived version that silently verifies a ⚠ word falsifies the regime and does not represent it.
 
 **Contact:** Luka Pintarič — demonstration performed before it is reported (L4).
+
+## 10. Machine-readable contract body
+
+`wordlist-v0.6-demo.json` — the contract as data: ⊢/⚠ entries, the
+hybrid-fall register, and the two recorded real falls, loadable
+directly into the regime (`vba.load_contract`). The same artifact an
+auditor, a vendor session, or the national program would load. The
+full 20-⊢ run stays in the corpus per the deliberate boundary.
+
+## 11. The provenance channel
+
+`PROVENANCE-CHANNEL.md` — the position paper completing the argument:
+volume (the national program) + provenance (this regime) = a priceable,
+auditable, compensable national language asset. The bug-bounty
+precedent model applied to verified language contributions.
