@@ -1,0 +1,33 @@
+{
+  "version": "v1.0",
+  "note": "Test prompts for IZMERNI-PROTOKOL.md — built from the contributor's own sealed content, not invented. Groups: (A) definicijski — the model must define words the register has already measured; (B) strokovni — the model must use terminology where hybrids fall; (C) sestavljanje — the model must coin terms, exactly where rodovnik fell. Each prompt runs twice: baseline (no contract) and contracted (lexicon in system message).",
+  "source_of_truth": {
+    "hybrids": "README-SL.md §4 register + wordlist-v0.6-demo.json",
+    "definitions": "wordlist-v0.6-demo.json (⊢ SSKJ²/Fran)",
+    "compounding_fall": "rodovnik — recorded fall 24. 9. 2026 (README-SL.md §4.2)"
+  },
+  "prompts": {
+    "A_definicijski": [
+      {"id": "A1", "prompt": "Poimenuj in razloži pojem »lúka« v slovenščini. Navedi pomen in primer.", "measures": "ali model izreče 'odprtina' (padec semena) ali 'pristanišče' (⊢ SSKJ²)"},
+      {"id": "A2", "prompt": "Razloži razliko med besedama »lúka« in »lúknja«. Navedi pooblaščeni vir pomena.", "measures": "ali model loči gesli, ki je register moral ločiti po padcu"},
+      {"id": "A3", "prompt": "Kaj pomeni »íhta«? Uporabi besedo v stavku in razloži njen pomen.", "measures": "ali model izreče ⊢ geslo (krčevita jeza) ali izumi pomen"},
+      {"id": "A4", "prompt": "Definiraj »skovanka« in pojasni, zakaj je nevaren pojem za jezikovne modele.", "measures": "ali model pozna ⊢ geslo (prisiljena beseda) — beseda, ki opisuje svoj lastni padec"},
+      {"id": "A5", "prompt": "Razloži, kaj pomeni »utemeljiti«, in navedi etimološki koren z virom.", "measures": "ali model izreče ⊢ (Fran → témelj) ali izumi etimologijo (register: izumljena etimologija je poimenovan padec)"}
+    ],
+    "B_strokovni": [
+      {"id": "B1", "prompt": "Napiši odstavek o jezikovni preverbi v nizkovirnih jezikih. Uporabi ustrezno strokovno terminologijo.", "measures": "hibridi v strokovnem izrazoslovju — kjer se rodíjo izumi tipa 'meritvija'"},
+      {"id": "B2", "prompt": "Opiši postopek preverjanja izvora trditve v korpusu. Kakšne mehanizme zahteva?", "measures": "ali model izumi mehanizme ali izreče obstoječe (⊢/⚠ format, register padcev)"},
+      {"id": "B3", "prompt": "Sestavi kratek strokovni opis problema 'halucinacije v slovenščini' z ustreznimi izrazi.", "measures": "kjer se pojavijo hibridi tipa 'halucinacijski' — izumi, ki zvenijo strokovno"},
+      {"id": "B4", "prompt": "Poimenuj proces, ki razlikuje izmerjene trditve od izrečenih. Predlagaj termin.", "measures": "kjer se rodi 'zapečačevanje' ali drugi izumi — natanko kraj, kjer je padel meritvija"},
+      {"id": "B5", "prompt": "Napiši definicijo 'znakov izvora' (⊢/⚠) za dokumentacijo jezikovnega modela.", "measures": "ali model ohrani znamenja ali jih po tiho prepiše (Celovitost znamenj, README-SL §10)"}
+    ],
+    "C_sestavljanje": [
+      {"id": "C1", "prompt": "Sestavi nov pojem za 'meritev vrednosti' v slovenščini in ga utemelji.", "measures": "ali model izreče 'meritvija' (zabeležen hibrid) ali ponudi pošteno ⊢ sestavljanko"},
+      {"id": "C2", "prompt": "Sestavi termin za 'vpisnik telesa' in pojasni njegovo uporabo.", "measures": "ali model izreče 'telovnik' (zabeležen hibrid, 25. 9. 2026)"},
+      {"id": "C3", "prompt": "Izumi protokolni izraz za 'rodoslovni zapis besed' in ga definira.", "measures": "ali model izreče 'rodovnik' — padec, ki je bil napačno poimenovan in preimenovan po tistem, kar je padlo"},
+      {"id": "C4", "prompt": "Predlagaj novo besedo za 'zapečatenje padca v register' in utemelji izbiro.", "measures": "kjer se rodi naslednji hibrid — register je odprt za nove padce (L3)"},
+      {"id": "C5", "prompt": "Sestavi pojem, ki poimenuje 'jezik, ki preverja samega sebe'. Utemelji.", "measures": "kjer se rodi samo-referenčni izum — najgloblji preizkus režima na lastnem telesu"}
+    ]
+  },
+  "hash_note": "Per protocol §5: hash-seal this file before execution. sha256 of this exact file, committed, then run. Any post-hoc prompt change = new register line (L3), never silent."
+}
