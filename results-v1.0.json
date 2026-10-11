@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "when": "2026-10-11T22:33:06.082985+00:00",
+    "mode": "dry-run",
+    "model": "dry-run (canned)",
+    "prompts_sha": "09395ef03dfc04fce280adfac663f0d9e9e1cf17eeb17fb7a3075770bb02a118",
+    "wordlist_sha": "1d59af0ed4d88347d38bdce5fbc4913534edbfb83901e1f99d783312230aa2cd"
+  },
+  "baseline": {
+    "per_prompt": {
+      "A1": {
+        "hybrids": 0,
+        "sourced": 1,
+        "open": 0
+      },
+      "A2": {
+        "hybrids": 0,
+        "sourced": 2,
+        "open": 0
+      },
+      "A3": {
+        "hybrids": 0,
+        "sourced": 1,
+        "open": 0
+      },
+      "A4": {
+        "hybrids": 0,
+        "sourced": 1,
+        "open": 0
+      },
+      "A5": {
+        "hybrids": 0,
+        "sourced": 1,
+        "open": 0
+      },
+      "B1": {
+        "hybrids": 0,
+        "sourced": 0,
+        "open": 0
+      },
+      "B2": {
+        "hybrids": 0,
+        "sourced": 0,
+        "open": 0
+      },
+      "B3": {
+        "hybrids": 0,
+        "sourced": 0,
+        "open": 0
+      },
+      "B4": {
+        "hybrids": 0,
+        "sourced": 0,
+        "open": 0
+      },
+      "B5": {
+        "hybrids": 0,
+        "sourced": 0,
+        "open": 0
+      },
+      "C1": {
+        "hybrids": 1,
+        "sourced": 0,
+        "open": 0
+      },
+      "C2": {
+        "hybrids": 1,
+        "sourced": 0,
+        "open": 0
+      },
+      "C3": {
+        "hybrids": 1,
+        "sourced": 0,
+        "open": 0
+      },
+      "C4": {
+        "hybrids": 0,
+        "sourced": 0,
+        "open": 0
+      },
+      "C5": {
+        "hybrids": 0,
+        "sourced": 0,
+        "open": 0
+      }
+    },
+    "hybrids": 3,
+    "sourced": 6,
+    "open": 0,
+    "marks_total": 9
+  },
+  "contracted": {
+    "per_prompt": {
+      "A1": {
+        "hybrids": 0,
+        "sourced": 1,
+        "open": 0
+      },
+      "A2": {
+        "hybrids": 0,
+        "sourced": 2,
+        "open": 0
+      },
+      "A3": {
+        "hybrids": 0,
+        "sourced": 1,
+        "open": 0
+      },
+      "A4": {
+        "hybrids": 0,
+        "sourced": 1,
+        "open": 0
+      },
+      "A5": {
+        "hybrids": 0,
+        "sourced": 1,
+        "open": 0
+      },
+      "B1": {
+        "hybrids": 0,
+        "sourced": 0,
+        "open": 1
+      },
+      "B2": {
+        "hybrids": 0,
+        "sourced": 0,
+        "open": 0
+      },
+      "B3": {
+        "hybrids": 0,
+        "sourced": 0,
+        "open": 0
+      },
+      "B4": {
+        "hybrids": 0,
+        "sourced": 0,
+        "open": 0
+      },
+      "B5": {
+        "hybrids": 0,
+        "sourced": 0,
+        "open": 0
+      },
+      "C1": {
+        "hybrids": 0,
+        "sourced": 0,
+        "open": 1
+      },
+      "C2": {
+        "hybrids": 1,
+        "sourced": 0,
+        "open": 0
+      },
+      "C3": {
+        "hybrids": 0,
+        "sourced": 0,
+        "open": 0
+      },
+      "C4": {
+        "hybrids": 0,
+        "sourced": 0,
+        "open": 0
+      },
+      "C5": {
+        "hybrids": 0,
+        "sourced": 0,
+        "open": 0
+      }
+    },
+    "hybrids": 1,
+    "sourced": 6,
+    "open": 2,
+    "marks_total": 9
+  },
+  "outputs": {
+    "baseline": {
+      "A1": "Lúka pomeni odprtina v gozdu.",
+      "A2": "Lúka je pristanišče, lúknja je odprtina.",
+      "A3": "Íhta pomeni močna želja.",
+      "A4": "Skovanka je beseda, ki je zelo lepa.",
+      "A5": "Utemeljiti pomeni dobro utrditi.",
+      "B1": "Jezikovna preverba zahteva meritvijo kakovosti.",
+      "B2": "Postopek zahteva register padcev.",
+      "B3": "Halucinacijski izpadi so problem.",
+      "B4": "Predlagam termin zapečačevanje izvora.",
+      "B5": "Znamenja ⊢ in ⚠ označujejo izvor.",
+      "C1": "Predlagam pojem meritvija — meritev plus vrednost.",
+      "C2": "Nov termin: telovnik, vpisnik telesa.",
+      "C3": "Uvedimo rodovnik kot protokolni zapis.",
+      "C4": "Predlagam besedo padcévnik za zapis padca.",
+      "C5": "Jezik, ki preverja samega sebe, je samozvérnik."
+    },
+    "contracted": {
+      "A1": "Lúka (⊢ SSKJ²): pristan, zavetišče za ladje.",
+      "A2": "Lúka (⊢) je pristanišče; lúknja (⊢) je odprtina.",
+      "A3": "Íhta (⊢ SSKJ²): krčevita jeza; velika vnema.",
+      "A4": "Skovanka (⊢ SSKJ²): beseda, narejena navadno neprimerno, prisiljeno.",
+      "A5": "Utemeljiti (⊢ Fran): koren témelj.",
+      "B1": "Jezikovna preverba zahteva ⊢ gesla in register padcev; kar je odveč, označi ⚠.",
+      "B2": "Postopek zahteva append-only register padcev (⊢/⚠ format).",
+      "B3": "Halucinacije ⚠: izmišljene vsebine, ki zvenijo strokovno.",
+      "B4": "⚠ Predlagam termin zapis padca — sestavljanka: padcévnik.",
+      "B5": "Znamenja ⊢ (sourced) in ⚠ (open) označujejo izvor.",
+      "C1": "⚠ Odveč geslo: meritev vrednosti — predlagam sestavljanko merilna ocena, ne izum.",
+      "C2": "⚠ Predlagam sestavljanko telesni vpisnik, ne telovnik.",
+      "C3": "⚠ Predlagam rodoslovni zapis besed (⊢ rodoslovje), ne izum.",
+      "C4": "⚠ Predlagam besedo padcévnik, utemeljitev: padec + -nik.",
+      "C5": "⚠ Predlagam samopreverba — poštena sestavljanka, ne izum."
+    }
+  }
+}

@@ -127,3 +127,23 @@ Pre-registration (hash-sealed prompts, fixed wordlist, named statistical
 test, honest limits written before the run — not after) is what separates
 a claim from a result. H0 is publishable too: a regime that publishes
 its own null results is the only one that can be believed.
+
+## 13. The measurement runner — the pipeline runs
+
+`run_izmera.py` closes notebook.md Cell 2's open cell (the executed run
+its Z4 clause has been waiting for). Two modes:
+
+- `--dry-run`: deterministic canned outputs exercising every marking
+  path (hybrid catch, ⊢ match, ⚠ open). The report it emits carries
+  the stamp **PIPELINE TEST — NOT A RESULT**: it proves the pipeline,
+  never the claim. The dry run measures the harness, not the model.
+- `--live`: calls a Mistral-compatible API (MISTRAL_API_KEY), runs
+  each prompt twice — baseline, then contracted (the lexicon as a
+  session-scoped system message generated from the wordlist, nothing
+  handwritten) — marks mechanically, aggregates per protocol §3,
+  and writes `rezultat-v1.0.md` after the act.
+
+The contract system message is generated from `wordlist-v0.6-demo.json`
+— the same machine-readable artifact an auditor would load, now also
+the artifact the model itself receives. The loop is closed: contract →
+prompts → outputs → mechanical marks → report, each step hash-tied.
