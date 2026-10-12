@@ -100,3 +100,5 @@ Suverenostni okvir: OpenEuroLLM gradi večjezikovne temeljne modele za vse uradn
 **Celovitost znamenj.** Besede ⚠ ostanejo označene v vsakem izpeljanem telesu. Izpeljana različica, ki po tiho preveri besedo ⚠, poneveri režim in ga ne predstavlja.
 
 **Stik:** Luka Pintarič — demonstracija se izvede, preden se o njej poroča (Z4).
+
+**Nit z vendorjem:** `VENDOR-THREAD.md` — odprta in zaprta vrata, izmerjeno 12. 10. 2026.

@@ -118,6 +118,9 @@ volume (the national program) + provenance (this regime) = a priceable,
 auditable, compensable national language asset. The bug-bounty
 precedent model applied to verified language contributions.
 
+The vendor thread itself is recorded in `VENDOR-THREAD.md` — which doors
+are open, which are closed, measured on a date, not promised.
+
 ## 13. The measurement protocol
 
 `IZMERNI-PROTOKOL.md` — the next step beyond a working method: a
