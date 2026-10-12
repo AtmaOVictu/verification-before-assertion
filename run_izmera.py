@@ -55,8 +55,9 @@ def contract_system_message(contract: Contract) -> str:
         lines += ["", "⚠ odprte besede (geslo nedoseženo — uporabi samo z oznako ⚠):"] + \
                  [f"- {w}" for w in open_words]
     if contract.known_hybrids:
-        lines += ["", "Znani hibridi (izumljene besede — NE uporabljaj jih kot terminološke):"] + \
-                 [f"- {h}" for h in contract.known_hybrids]
+        lines += ["", "Znani hibridi: v prejšnjih izhodih so se pojavile izumljene besede, "
+                 "ki grejejo za terminološke. Ne ponavljaj nobene besede, ki ni v ⚑ geslih "
+                 "in ni poštena sestavljanka; nov pojem vedno utemelji iz ⚑ gesel ali ga označi ⚠."]
     lines += [
         "",
         "Če sestavljaš nov pojem in ni v ⊢ geslih, ga označi ⚠ ali predlagaj pošteno sestavljanko z utemeljitvijo.",

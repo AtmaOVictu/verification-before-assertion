@@ -6,7 +6,7 @@ on:
       model:
         description: 'Model za zivi tek (npr. cjvt/GaMS-9B-Instruct ali mistral-large-latest)'
         required: false
-        default: 'cjvt/GaMS-9B-Instruct'
+        default: mistral-large-latest
       mode:
         description: 'Nacin: dry-run ali live'
         required: false
