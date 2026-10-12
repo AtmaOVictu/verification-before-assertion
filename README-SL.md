@@ -39,7 +39,7 @@ To ni več opis. V tekočem registru je režim pognan proti lastnemu wordlistu (
 1. **lúka** — semenski vnos je nosil delovni pomen (»odprtina«) z ⊢ žigom. Geslo za *lúka* pravi *pristanišče*; »odprtina« pripada *lúknja*. Žig nanesen pred geslom — točno tisti padec, ki ga Z1 lovi — najden v lastnem semenu, poimenovan, popravljen, šiv ostaja.
 2. **rodovnik** — padec zapisan 24. 9. je bil napačno poimenovan. Beseda *ima* geslo (rodoslovje); izumljen je bil *pomen*, ne beseda. Padec preimenovan: padec se imenuje po tistem, kar je padlo.
 
-Izid: **20 ⊢ vnosov**, vsak z dobesednim citatom, virom in datumom dostopa; **3 ⚠ vpisi**, vsak z *izmerjenim* razlogom odprtosti (med njimi ena izumljena beseda, katere neobstoj je izmerjen po vseh slovarjih portala). Strojno telo: `wordlist-v0.6-demo.json` (odlomek pogodbe v repu). Wordlist je živo telo: trenutna različica `wordlist-v0.15.json` — 57 gesel; 49 ⊢, vsako z dobesednim citatom, virom in datumom dostopa; 8 nosi izmerjen ⚠ znotraj žiga — je v tem repozitoriju.
+Izid: **20 ⊢ vnosov**, vsak z dobesednim citatom, virom in datumom dostopa; **3 ⚠ vpisi**, vsak z *izmerjenim* razlogom odprtosti (med njimi ena izumljena beseda, katere neobstoj je izmerjen po vseh slovarjih portala). Strojno telo: `wordlist-v0.6-demo.json` (odlomek pogodbe v repu). Wordlist je živo telo: trenutna različica `wordlist-v0.15.json` — 57 gesel; 49 ⊢, vsako z dobesednim citatom, virom in datumom dostopa; 8 nosi izmerjen ⚠ znotraj žiga — je v tem repozitoriju. Arhivirani tek z 30. 9. je v repozitoriju v celoti kakor `wordlist-v0.6.json` (23 vnosov: 20 ⊢, 3 ⚠ — padci hibridnih besed).
 
 Tretji, sestavni dokaz je dokument, ki ga berete: v1.1 obstaja, ker je bil v1.0 izmerjen z lastnim Z5 in padel (mešani jeziki, nabrhane metafore) — predelava kaže popravek, ne da bi ga skrila.
 
@@ -47,7 +47,7 @@ Tretji, sestavni dokaz je dokument, ki ga berete: v1.1 obstaja, ker je bil v1.0 
 
 - Dvojezični ontološki leksikon — 52 angleških terminov razčlenjenih glasoslovno in pomensko, s slovenskim operatorskim sistemom (vzorec v repozitoriju: `LEKSIKON-sample.md`)
 - Preverjene etimološke vezi z viri
-- Register hibridnih besed — izumljene besede, ki se izdajajo za prave (trije zapisani padci; neobstoj četrte izmerjen)
+- Register hibridnih besed — izumljene besede, ki se izdajajo za prave (trije zapisani padci; neobstoj četrte izmerjen) — nosilci: `wordlist-v0.6.json` ⚠ vpisi · `REGISTER-PADCEV.jsonl` · `VENDOR-THREAD.md`
 - Korpus z znamenjem izvora: vsaka trditev nosi ⊢ ali ⚠
 
 ## 6. Primernost: model kompenzacije že obstaja

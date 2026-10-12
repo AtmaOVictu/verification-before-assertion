@@ -39,7 +39,7 @@ This is no longer a description. In the current register, the regime was run aga
 1. **lúka** — a seed entry had sealed a working gloss ("opening") with a ⊢ mark. The dictionary entry for *lúka* means *harbor*; "opening" belongs to *lúknja*. A mark applied before an entry — the exact failure L1 exists to catch — found in our own seed, named, corrected with the scar kept.
 2. **rodovnik** — a recorded fall from September 24 was misnamed. The word *does* have a dictionary entry (genealogical tree); what was invented was a *meaning*, not a word. The fall was renamed: a fall is named after the thing that fell.
 
-Result of the run: 20 ⊢ entries, each carrying a verbatim citation with source and access date; 3 ⚠ entries, each carrying a *measured* reason for being open (including one invented word verified as absent from every dictionary on the portal). Machine-readable body: `wordlist-v0.6-demo.json` (the shipped contract excerpt). The wordlist is a living artifact: the current version, `wordlist-v0.15.json` — 57 words; 49 ⊢, each with a verbatim citation, source, and access date; 8 carrying a measured ⚠ within the seal — ships in this repository.
+Result of the run: 20 ⊢ entries, each carrying a verbatim citation with source and access date; 3 ⚠ entries, each carrying a *measured* reason for being open (including one invented word verified as absent from every dictionary on the portal). Machine-readable body: `wordlist-v0.6-demo.json` (the shipped contract excerpt). The wordlist is a living artifact: the current version, `wordlist-v0.15.json` — 57 words; 49 ⊢, each with a verbatim citation, source, and access date; 8 carrying a measured ⚠ within the seal — ships in this repository. The archived September 30 run ships in full as `wordlist-v0.6.json` (23 entries: 20 ⊢, 3 ⚠ — the hybrid-word falls).
 
 A third, structural proof is the document you are reading: v1.1 exists because v1.0 was measured against its own L5 and failed (mixed languages, stacked metaphors) — and the rewrite shows the correction rather than hiding it.
 
@@ -47,7 +47,7 @@ A third, structural proof is the document you are reading: v1.1 exists because v
 
 - Bilingual ontological lexicon — 52 English terms decomposed phonetically and semantically, with the Slovenian-side operator system (sample in the repository: `LEKSIKON-sample.md`)
 - Verified etymology chains with sources
-- Register of "hybrid word" failures — model-invented words that pass as real (three recorded falls; a fourth's absence verified by measurement)
+- Register of "hybrid word" failures — model-invented words that pass as real (three recorded falls; a fourth's absence verified by measurement) — carriers: `wordlist-v0.6.json` ⚠ entries · `REGISTER-PADCEV.jsonl` · `VENDOR-THREAD.md`
 - Provenance-marked corpus: every claim carries ⊢ or ⚠
 
 ## 6. Precedents: the compensation model already exists
