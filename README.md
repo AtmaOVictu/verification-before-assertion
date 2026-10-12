@@ -39,13 +39,13 @@ This is no longer a description. In the current register, the regime was run aga
 1. **lúka** — a seed entry had sealed a working gloss ("opening") with a ⊢ mark. The dictionary entry for *lúka* means *harbor*; "opening" belongs to *lúknja*. A mark applied before an entry — the exact failure L1 exists to catch — found in our own seed, named, corrected with the scar kept.
 2. **rodovnik** — a recorded fall from September 24 was misnamed. The word *does* have a dictionary entry (genealogical tree); what was invented was a *meaning*, not a word. The fall was renamed: a fall is named after the thing that fell.
 
-Result of the run: 20 ⊢ entries, each carrying a verbatim citation with source and access date; 3 ⚠ entries, each carrying a *measured* reason for being open (including one invented word verified as absent from every dictionary on the portal). Machine-readable body: `wordlist-v0.6.json`.
+Result of the run: 20 ⊢ entries, each carrying a verbatim citation with source and access date; 3 ⚠ entries, each carrying a *measured* reason for being open (including one invented word verified as absent from every dictionary on the portal). Machine-readable body: `wordlist-v0.6-demo.json` (the shipped contract excerpt). The wordlist is a living artifact: the current version, `wordlist-v0.15.json` — 57 words; 49 ⊢, each with a verbatim citation, source, and access date; 8 carrying a measured ⚠ within the seal — ships in this repository.
 
 A third, structural proof is the document you are reading: v1.1 exists because v1.0 was measured against its own L5 and failed (mixed languages, stacked metaphors) — and the rewrite shows the correction rather than hiding it.
 
 ## 5. Transferable artifacts (available on request)
 
-- Bilingual ontological lexicon — 52 English terms decomposed phonetically and semantically, with the Slovenian-side operator system
+- Bilingual ontological lexicon — 52 English terms decomposed phonetically and semantically, with the Slovenian-side operator system (sample in the repository: `LEKSIKON-sample.md`)
 - Verified etymology chains with sources
 - Register of "hybrid word" failures — model-invented words that pass as real (three recorded falls; a fourth's absence verified by measurement)
 - Provenance-marked corpus: every claim carries ⊢ or ⚠
@@ -101,22 +101,24 @@ Sovereignty context: OpenEuroLLM is building multilingual foundation models for 
 
 **Contact:** Luka Pintarič — demonstration performed before it is reported (L4).
 
-## 10. Machine-readable contract body
+## 11. Machine-readable contract body
 
 `wordlist-v0.6-demo.json` — the contract as data: ⊢/⚠ entries, the
 hybrid-fall register, and the two recorded real falls, loadable
 directly into the regime (`vba.load_contract`). The same artifact an
 auditor, a vendor session, or the national program would load. The
-full 20-⊢ run stays in the corpus per the deliberate boundary.
+corpus bodies stay closed per the license section; the living wordlist itself
+now ships in this repository (`wordlist-v0.15.json`) — the boundary moved on
+October 12, 2026, and the move is recorded here rather than silently.
 
-## 11. The provenance channel
+## 12. The provenance channel
 
 `PROVENANCE-CHANNEL.md` — the position paper completing the argument:
 volume (the national program) + provenance (this regime) = a priceable,
 auditable, compensable national language asset. The bug-bounty
 precedent model applied to verified language contributions.
 
-## 12. The measurement protocol
+## 13. The measurement protocol
 
 `IZMERNI-PROTOKOL.md` — the next step beyond a working method: a
 pre-registered protocol for the first measured result. Does a model
@@ -128,7 +130,7 @@ test, honest limits written before the run — not after) is what separates
 a claim from a result. H0 is publishable too: a regime that publishes
 its own null results is the only one that can be believed.
 
-## 13. The measurement runner — the pipeline runs
+## 14. The measurement runner — the pipeline runs
 
 `run_izmera.py` closes notebook.md Cell 2's open cell (the executed run
 its Z4 clause has been waiting for). Two modes:

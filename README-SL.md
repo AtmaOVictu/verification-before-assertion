@@ -39,20 +39,20 @@ To ni več opis. V tekočem registru je režim pognan proti lastnemu wordlistu (
 1. **lúka** — semenski vnos je nosil delovni pomen (»odprtina«) z ⊢ žigom. Geslo za *lúka* pravi *pristanišče*; »odprtina« pripada *lúknja*. Žig nanesen pred geslom — točno tisti padec, ki ga Z1 lovi — najden v lastnem semenu, poimenovan, popravljen, šiv ostaja.
 2. **rodovnik** — padec zapisan 24. 9. je bil napačno poimenovan. Beseda *ima* geslo (rodoslovje); izumljen je bil *pomen*, ne beseda. Padec preimenovan: padec se imenuje po tistem, kar je padlo.
 
-Izid: **20 ⊢ vnosov**, vsak z dobesednim citatom, virom in datumom dostopa; **3 ⚠ vpisi**, vsak z *izmerjenim* razlogom odprtosti (med njimi ena izumljena beseda, katere neobstoj je izmerjen po vseh slovarjih portala). Strojno telo: `wordlist-v0.6.json`.
+Izid: **20 ⊢ vnosov**, vsak z dobesednim citatom, virom in datumom dostopa; **3 ⚠ vpisi**, vsak z *izmerjenim* razlogom odprtosti (med njimi ena izumljena beseda, katere neobstoj je izmerjen po vseh slovarjih portala). Strojno telo: `wordlist-v0.6-demo.json` (odlomek pogodbe v repu). Wordlist je živo telo: trenutna različica `wordlist-v0.15.json` — 57 gesel; 49 ⊢, vsako z dobesednim citatom, virom in datumom dostopa; 8 nosi izmerjen ⚠ znotraj žiga — je v tem repozitoriju.
 
 Tretji, sestavni dokaz je dokument, ki ga berete: v1.1 obstaja, ker je bil v1.0 izmerjen z lastnim Z5 in padel (mešani jeziki, nabrhane metafore) — predelava kaže popravek, ne da bi ga skrila.
 
 ## 5. Prenosljiva telesa (na zahtevo)
 
-- Dvojezični ontološki leksikon — 52 angleških terminov razčlenjenih glasoslovno in pomensko, s slovenskim operatorskim sistemom
+- Dvojezični ontološki leksikon — 52 angleških terminov razčlenjenih glasoslovno in pomensko, s slovenskim operatorskim sistemom (vzorec v repozitoriju: `LEKSIKON-sample.md`)
 - Preverjene etimološke vezi z viri
 - Register hibridnih besed — izumljene besede, ki se izdajajo za prave (trije zapisani padci; neobstoj četrte izmerjen)
 - Korpus z znamenjem izvora: vsaka trditev nosi ⊢ ali ⚠
 
 ## 6. Primernost: model kompenzacije že obstaja
 
-| Področje | Mehaniizem | Vir |
+| Področje | Mehanizem | Vir |
 |---|---|---|
 | Varnostna raziskava | Nagrade za napake: preverljiva ranljivost → plačano; ~81 milij. USD v 12 mesecih | HackerOne 2025 |
 | Ustvarjalne slike | Shutterstock Contributor Fund: nadomestila avtorjem za vlogo v učenju UI | Shutterstock |
@@ -70,7 +70,7 @@ Asimetrija, ki jo popravlja, dokumentirana: Reddit je prejel ~60 milij. USD na l
 
 Narodni napor je rešil *prostornino*. Še ne rešuje *preverjanja*. Moj korpus je plast izvora, ki manjka prispevnemu modelu. Prostornina + izvor spremenita prispevane jezikovne podatke iz surovine v ocenjen, revidirljiv prispevek.
 
-Pošten protiprimer (arXiv 2504.12427): predplačilo za učne podatke je gospodarsko neizvedljivo v velikem. Odgovor: neizvedljivo za *nediferencirane masovne podatke*; ne za *preverljive prispevke* — popravki z viri, preverjeni leksikoni — redki, pripisljivi, natanko kategorija nagrad za napake. Režim ⊢/⚠ je mehanizem, ki loči oboje. Preverben okvir in kanal kompenzacije sta en sistem.
+Pošten protiprimer (arXiv 2504.12427): predplačilo za učne podatke je gospodarsko neizvedljivo v velikem. Odgovor: neizvedljivo za *nediferencirane masovne podatke*; ne za *preverljive prispevke* — popravki z viri, preverjeni leksikoni — redki, pripisljivi, natanko kategorija nagrad za napake. Režim ⊢/⚠ je mehanizem, ki loči oboje. Preverjen okvir in kanal kompenzacije sta en sistem.
 
 ## 8. Dobitki prodajalca samega
 
