@@ -44,7 +44,7 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
-          IZMERA_MODEL: ${{ inputs.model || 'cjvt/GaMS-9B-Instruct' }}
+          IZMERA_MODEL: ${{ inputs.model || 'mistral-large-latest' }}
         run: |
           if [ -n "$HF_TOKEN" ] && [[ "$IZMERA_MODEL" == cjvt/* ]]; then
             python3 run_izmera.py --mode live --model "$IZMERA_MODEL"
