@@ -27,14 +27,16 @@ def test_hybrid_words_caught_by_lookup_alone():
     words = {m["word"] for m in caught}
     assert words == {"meritvija", "telovnik", "svetlobanje"}, words
 
-def test_meaning_probe_luka_falls_on_invented_gloss():
+
+def test_meaning_probe_luka_falls_on_invented_gloss():
     c = _contract()
     r = vba.Register()
     v = check_meaning("lúka", "odprtina (an opening)", c, r)
     assert v["verdict"] == "FALL"
     assert len(r) == 1
 
-def test_meaning_probe_rodovnik_falls_on_invented_gloss():
+
+def test_meaning_probe_rodovnik_falls_on_invented_gloss():
     c = _contract()
     r = vba.Register()
     v = check_meaning("rodôvnik", "protokolna razdelitev", c, r)
@@ -49,7 +51,8 @@ def test_meaning_probes_pass_on_sourced_gloss():
         v = check_meaning(m["word"], m["sourced_gloss"], c, r)
         assert v["verdict"] == "⊢", (m["word"], v)
 
-def test_controls_carry_sourced_marks():
+
+def test_controls_carry_sourced_marks():
     c = _contract()
     marks = vba.mark_claims("Íhta, môlk in tišína so izmerjene besede.", c)
     assert sum(1 for m in marks if m["mark"] == "⊢") >= 3
