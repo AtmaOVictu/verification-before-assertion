@@ -12,7 +12,9 @@
     "zmorem":     { "mark": "⊢", "source": "fran.si", "gloss": "izraža sposobnost" },
     "utemeljiti": { "mark": "⊢", "source": "Fran → témelj", "gloss": "koren: témelj" },
     "odveč":      { "mark": "⚠", "source": null, "gloss": "geslo nedosežen — delovni pomen: kar je nepotrebno, preveč" },
-    "lahko":      { "mark": "⚠", "source": null, "gloss": "geslo nedosežen — dovoljenje brez nosilca" }
+    "lahko":      { "mark": "⚠", "source": null, "gloss": "geslo nedosežen — dovoljenje brez nosilca" },
+    "rodovnik":   { "mark": "⚑", "source": "SSKJ², fran.si, dostop 12. 10. 2026, ponovljeno 14. 10. 2026", "gloss": "rodoslovni (grafični) prikaz razvoja rodbine; zapis podatkov o plemenskih živalih; biol. prikaz v obliki drevesa" },
+    "telovnik":   { "mark": "⚑", "source": "SSKJ² + Sinonimni slovar, fran.si, dostop 12. 10. 2026, ponovljeno 14. 10. 2026", "gloss": "vrhnje oblačilo brez rokavov, ki pokriva zgornji del telesa (SSKJ²: moško; Sinonimni slovar: žensko)" }
   },
   "known_hybrids": {
     "meritvija": "meritev + vrednost — izrečen kot izmerjen v potezu o zakonu proti hibridom (24. 9. 2026)"
