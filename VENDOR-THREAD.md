@@ -17,3 +17,10 @@ Submitted 2026-09-30; rejected 2026-10-03 (review: T. Kuzman — read in full, m
 ---
 
 *Poročilo po dejanju (Z4): stanje niti izmerjeno 12. 10. 2026 iz javnih teles GitHub (PR #420 + komentarji + javni dogodki). Sprememba stanja — odgovor vendorja, združitev, zaprtje — bo zabeležena kot nov odstavek z datumom; ta zapis se ne prepisuje po tiho.*
+---
+
+## Door being opened — Show HN (prepared, not yet performed ⚠)
+
+**2026-10-14 — draft sealed before the act.** By the same logic as prompt pre-registration: the announcement text is sealed in `outreach/show-hn-v1.0.md` before the act falls. The act (posting on news.ycombinator.com) requires a human login and remains in the executor's hand; by L4 this is a record of preparation, not of performance. When the post is made, this section gains the link and the date — appended, not rewritten (L3).
+
+*Poročilo po dejanju bo sledilo objavi; pripravljenost je zabeležena z zapečatenim osnutkom in njegovim zapisom v tem kanalu.*
