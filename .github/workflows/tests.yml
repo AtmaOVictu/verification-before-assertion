@@ -17,6 +17,10 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - name: 13 unit tests (each named for the law it verifies)
         run: python test_vba.py
+      - name: Draft gate unit tests (the gate is code, not prose)
+        run: python test_preverba.py
+      - name: Draft gate - sealed outreach draft vs the repository's measured bodies
+        run: python preverba.py
       - name: End-to-end demo on the two recorded real falls
         run: python vba.py
       - name: Hybrid eval - recorded-failure probes (SL-hybrid-eval v1.0)

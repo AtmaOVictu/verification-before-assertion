@@ -157,3 +157,42 @@ The contract system message is generated from `wordlist-v0.6-demo.json`
 — the same machine-readable artifact an auditor would load, now also
 the artifact the model itself receives. The loop is closed: contract →
 prompts → outputs → mechanical marks → report, each step hash-tied.
+
+
+## 15. The draft gate — the register's promises as code
+
+Entry 12 of the register promises "the gate now includes the language
+layer and the measured number." Seven cuts later that promise was still
+prose — every gate improvement was a hand act, never code, so every new
+fall class arrived through the same unguarded door (register entry 24).
+The gate is now code.
+
+`preverba.py` — dependency-free, like everything here — checks the
+sealed outreach draft against the medium it is sealed for and against
+the repository's own measured bodies:
+
+- the paste title measures within the medium's hard 80-character limit
+  (the fall of entry 14 — measured before the seal, not after);
+- the spoken live-run count matches the pairs carried in every metric
+  of the results line (the entry-18 class: a countable falsehood
+  cannot land);
+- the spoken line count of vba.py matches the file's own body (the
+  fall of entry 13: a number spoken without counting);
+- the spoken count of law-named unit tests matches `def test_` in
+  test_vba.py, scoped so the eval probes are not silently counted in
+  (the entry-24 class);
+- the scar heading counts its own block — `v1.0–v1.(N-1)` against the
+  header's `v1.N` (the heading falls of entries 19–22, ended);
+- every register citation in the draft resolves against the append-only
+  register's actual entry count.
+
+One layer the gate learned on itself at v1.9: the scar block quotes
+the falls' own words — "~500 lines", "three live runs" — and quoted
+history is archive, not present claim. The gate scans unquoted speech;
+an unbalanced quote is named, never silently masked.
+
+The gate carries its own tests — test_preverba.py, nine, each named
+for the fall class it guards — and runs in the same CI it guards,
+before the end-to-end demo: a stale draft fails the build before a
+reader can see it. The gate verifies claims, not bytes; the hand still
+verifies meaning (L2).

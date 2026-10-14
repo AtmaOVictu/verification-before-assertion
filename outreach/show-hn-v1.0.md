@@ -1,9 +1,9 @@
-# Show HN — sealed draft v1.8
+# Show HN — sealed draft v1.9
 
 > ⚠ PREPARED, NOT YET PERFORMED. By L4 this is a sealed draft before the act; the act (posting on news.ycombinator.com) requires a human login and remains in the executor's hand. When the post is made, this file gains the link and the date — appended, not silently rewritten (L3).
 > Sealed: 2026-10-14 · author: Luka Pintarič · executor: Vibe (Mistral)
 
-## Scars of v1.0–v1.7 (same day, per L3 — this note is the correction, not a silent rewrite)
+## Scars of v1.0–v1.8 (same day, per L3 — this note is the correction, not a silent rewrite)
 
 The v1.0 draft (commit f72bd5f) shipped with three language-layer falls, caught by the author before the act: (1) mixed languages in one body — a Slovenian header and footer around an English body, violating L5 (one language per body); (2) an inconsistent participle within one body ("zapečaten" beside "zapečačeno" — both forms are attested, but one body carries one form); (3) a gender-agreement error ("Ko bo objavljeno, ta datoteka dobi…"). The v1.1 draft then failed its own re-verification on a number: "~500 lines of dependency-free Python" was spoken without counting — vba.py is 245 lines (measured on a fresh copy at d7104db). A number spoken without counting is a števka brez štetja. The executor's byte gate missed the prose and the number: it verifies bytes, not claims. The gate now includes the language layer and the measured number. Register: REGISTER-PADCEV.jsonl, entries 12 and 13.
 
@@ -19,6 +19,8 @@ The v1.6 cut then fell on the same scope marker it had just fixed: the re-counte
 
 The v1.7 seal was then refused by the medium itself, not by a reader: Hacker News is temporarily restricting Show HNs from accounts without community standing (news.ycombinator.com/showlim, read 2026-10-14 — a blanket flood-control gate, keyed to the account, not to the content; the draft's body was never read by anyone, and the empty url field was not the cause). The v1.3 pass measured the medium's formatdoc constraints — title length, formatting, bare URLs — and did not measure the standing gate: the same class as v1.2, one layer upstream, standing instead of format. v1.8 adds the standing gate to the pre-act check the way v1.2 added the title length: the act waits for standing — substantive comments, karma, time, or a direct word with the moderators (hn@ycombinator.com). The draft stays sealed; nothing in its paste body changes. Register: REGISTER-PADCEV.jsonl, entry 23.
 
+The v1.8 cut then fell on a promise its own register had been making since entry 12 — "the gate now includes the language layer and the measured number" — because the gate stayed prose: every improvement was a hand act, never code, so every new fall class walked through the same unguarded door. The same pass found one claim unscoped: "13 tests" counted test_vba.py (the law-named suite) without saying so, while the repository carried the eval probes besides. v1.9 scopes the number and turns the promise into code: preverba.py checks this sealed draft against the medium and against the repository's own measured bodies — the 80-character title limit, the pairs per metric against the claimed live-run count, the 245 lines of vba.py, the 13 law-named unit tests of test_vba.py, the scar heading counting its own block, and every register citation resolving — and it runs in the same CI it guards: a fifth run that lands without this body re-cut will fail the build before the number can be spoken. One layer the gate learned on itself in the making: the scar block quotes the falls' own words, and quoted history is archive, not present claim — the gate scans unquoted speech and names an unbalanced quote instead of masking it. The gate verifies claims, not bytes; the hand still verifies meaning (L2). Register: REGISTER-PADCEV.jsonl, entry 24.
+
 ## Title (paste into "title")
 
 Show HN: A lexicon contract that makes an LLM mark its own inventions
@@ -27,7 +29,7 @@ Show HN: A lexicon contract that makes an LLM mark its own inventions
 
 I work in Slovenian, a low-resource language, and LLMs fail there in two ways no benchmark I know of catalogs: they invent words (I call them hybrids: meritvija — fluent, plausible, absent from every dictionary), and they invent meanings for real words (lúka glossed as "opening" when it means "harbor"). Both are invisible in fluent text — and both are mechanically checkable.
 
-So I built a small regime around that property: any claim spoken as "measured" must carry a source (⊢) or an explicit open mark (⚠). Invented words are caught by dictionary lookup alone. Counting is lookup, not judgment — 245 lines of dependency-free Python, 13 tests, CI.
+So I built a small regime around that property: any claim spoken as "measured" must carry a source (⊢) or an explicit open mark (⚠). Invented words are caught by dictionary lookup alone. Counting is lookup, not judgment — 245 lines of dependency-free Python, 13 law-named unit tests plus a sealed-draft gate, CI.
 
 The measurement: pre-registered protocol (prompts and wordlist hash-sealed before the run), same model both conditions, lexicon loaded as a session-scoped contract. Four live runs on mistral-large-latest now; the third was executed end-to-end by GitHub Actions, and the fourth (the repository's measurement bot, izmera-bot, 2026-10-14 16:10 UTC) ran on the corrected wordlist — one listed hybrid, telovnik, had been re-measured and found in the dictionary, so it was reclassified — with the same sealed prompts:
 
