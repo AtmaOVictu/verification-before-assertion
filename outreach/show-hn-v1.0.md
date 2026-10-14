@@ -1,15 +1,17 @@
-# Show HN — sealed draft v1.2
+# Show HN — sealed draft v1.3
 
 > ⚠ PREPARED, NOT YET PERFORMED. By L4 this is a sealed draft before the act; the act (posting on news.ycombinator.com) requires a human login and remains in the executor's hand. When the post is made, this file gains the link and the date — appended, not silently rewritten (L3).
 > Sealed: 2026-10-14 · author: Luka Pintarič · executor: Vibe (Mistral)
 
-## Scars of v1.0 and v1.1 (same day, per L3 — this note is the correction, not a silent rewrite)
+## Scars of v1.0–v1.2 (same day, per L3 — this note is the correction, not a silent rewrite)
 
 The v1.0 draft (commit f72bd5f) shipped with three language-layer falls, caught by the author before the act: (1) mixed languages in one body — a Slovenian header and footer around an English body, violating L5 (one language per body); (2) an inconsistent participle within one body ("zapečaten" beside "zapečačeno" — both forms are attested, but one body carries one form); (3) a gender-agreement error ("Ko bo objavljeno, ta datoteka dobi…"). The v1.1 draft then failed its own re-verification on a number: "~500 lines of dependency-free Python" was spoken without counting — vba.py is 245 lines (measured on a fresh copy at d7104db). A number spoken without counting is a števka brez štetja. The executor's byte gate missed the prose and the number: it verifies bytes, not claims. The gate now includes the language layer and the measured number. Register: REGISTER-PADCEV.jsonl, entries 12 and 13.
 
+The v1.2 draft then failed a third full re-verification on the act's medium: its title measured 91 characters, and the Hacker News submission field carries a hard 80-character limit — the seal was cut without measuring the constraint of the place it was sealed for, and the medium would have truncated it silently. The title is re-cut to 69 characters (measured); the qualifiers it carried — measured, Slovenian — already live in the body's first sentence. The gate now measures the medium's constraints before the seal. Register: REGISTER-PADCEV.jsonl, entry 14.
+
 ## Title (paste into "title")
 
-Show HN: A lexicon contract that makes an LLM mark its own inventions (measured, Slovenian)
+Show HN: A lexicon contract that makes an LLM mark its own inventions
 
 ## Text (paste into "text")
 
