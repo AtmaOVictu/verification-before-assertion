@@ -4,6 +4,10 @@
 **Luka Pintarič · v1.1 · September 30, 2026**
 *Corpus: ~2,600 documents, formal syntax, append-only records. Companion Slovenian edition: REZ body (same version, same laws).*
 
+[![Tests](https://github.com/AtmaOVictu/verification-before-assertion/actions/workflows/tests.yml/badge.svg)](https://github.com/AtmaOVictu/verification-before-assertion/actions/workflows/tests.yml)
+
+**New here?** [`QUICKSTART.md`](QUICKSTART.md) (comprehend, test, understand in ~5 min) · [`demo.ipynb`](demo.ipynb) (one-click Colab walkthrough) · [`REPRODUCE.md`](REPRODUCE.md) (re-run the live measurement yourself). Everything runs with zero dependencies: `python test_vba.py`.
+
 ## 1. The problem
 
 Current AI models assert everything in the same voice. A sourced fact, a plausible guess, and an invention arrive in identical clothing. When errors occur they are unnamed, so they repeat. This framework is the countermeasure: a mechanical distinction between measured and invented claims, plus a record that keeps the scar of every correction.
