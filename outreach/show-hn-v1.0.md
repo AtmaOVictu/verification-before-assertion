@@ -1,11 +1,11 @@
-# Show HN — sealed draft v1.1
+# Show HN — sealed draft v1.2
 
 > ⚠ PREPARED, NOT YET PERFORMED. By L4 this is a sealed draft before the act; the act (posting on news.ycombinator.com) requires a human login and remains in the executor's hand. When the post is made, this file gains the link and the date — appended, not silently rewritten (L3).
 > Sealed: 2026-10-14 · author: Luka Pintarič · executor: Vibe (Mistral)
 
-## Scar of v1.0 (same day, per L3 — this note is the correction, not a silent rewrite)
+## Scars of v1.0 and v1.1 (same day, per L3 — this note is the correction, not a silent rewrite)
 
-The v1.0 draft (commit f72bd5f) shipped with three language-layer falls, caught by the author before the act: (1) mixed languages in one body — a Slovenian header and footer around an English body, violating L5 (one language per body); (2) an inconsistent participle within one body ("zapečaten" beside "zapečačeno" — both forms are attested, but one body carries one form); (3) a gender-agreement error ("Ko bo objavljeno, ta datoteka dobi…"). The executor's hash gate verified every byte and missed all three: it measures bytes, not prose. The gate now includes the language layer. Register: REGISTER-PADCEV.jsonl, entry 12.
+The v1.0 draft (commit f72bd5f) shipped with three language-layer falls, caught by the author before the act: (1) mixed languages in one body — a Slovenian header and footer around an English body, violating L5 (one language per body); (2) an inconsistent participle within one body ("zapečaten" beside "zapečačeno" — both forms are attested, but one body carries one form); (3) a gender-agreement error ("Ko bo objavljeno, ta datoteka dobi…"). The v1.1 draft then failed its own re-verification on a number: "~500 lines of dependency-free Python" was spoken without counting — vba.py is 245 lines (measured on a fresh copy at d7104db). A number spoken without counting is a števka brez štetja. The executor's byte gate missed the prose and the number: it verifies bytes, not claims. The gate now includes the language layer and the measured number. Register: REGISTER-PADCEV.jsonl, entries 12 and 13.
 
 ## Title (paste into "title")
 
@@ -15,7 +15,7 @@ Show HN: A lexicon contract that makes an LLM mark its own inventions (measured,
 
 I work in Slovenian, a low-resource language, and LLMs fail there in two ways no benchmark I know of catalogs: they invent words (*meritvija*, *telovnik* — fluent, plausible, absent from the dictionary), and they invent meanings for real words (*lúka* sealed as "opening" when it means "harbor"). Both are invisible in fluent text — and both are mechanically checkable.
 
-So I built a small regime around that property: any claim spoken as "measured" must carry a source (⊢) or an explicit open mark (⚠). Invented words are caught by dictionary lookup alone. Counting is lookup, not judgment — ~500 lines of dependency-free Python, 13 tests, CI.
+So I built a small regime around that property: any claim spoken as "measured" must carry a source (⊢) or an explicit open mark (⚠). Invented words are caught by dictionary lookup alone. Counting is lookup, not judgment — 245 lines of dependency-free Python, 13 tests, CI.
 
 The measurement: pre-registered protocol (prompts and wordlist hash-sealed before the run), same model both conditions, lexicon loaded as a session-scoped contract. Three live runs on mistral-large-latest now; the third was executed end-to-end by GitHub Actions:
 
