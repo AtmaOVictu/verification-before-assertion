@@ -15,9 +15,7 @@
     "lahko":      { "mark": "⚠", "source": null, "gloss": "geslo nedosežen — dovoljenje brez nosilca" }
   },
   "known_hybrids": {
-    "meritvija": "meritev + vrednost — izrečen kot izmerjen v potezu o zakonu proti hibridom (24. 9. 2026)",
-    "telovnik":  "telo + vpisnik — rojen v dokaznem odstavku o čistosti (25. 9. 2026)",
-    "rodovnik":  "zgrajena protokolna razdelitev na besedi brez gesla (24. 9. 2026)"
+    "meritvija": "meritev + vrednost — izrečen kot izmerjen v potezu o zakonu proti hibridom (24. 9. 2026)"
   },
   "recorded_falls": [
     {
@@ -31,6 +29,12 @@
       "date": "2026-09-24",
       "fall": "recorded fall misnamed: the word does have a dictionary entry (genealogical tree); what was invented was a meaning, not a word.",
       "correction": "fall renamed: a fall is named after the thing that fell"
+    },
+    {
+      "word": "telovnik",
+      "date": "2026-10-14",
+      "fall": "recorded as a hybrid word with an absence note ('0 hits, Fran portal, 2026-09-30') that was asserted, not measured; re-measured against the Fran portal: the word has an SSKJ² entry (telôvnik — moško vrhnje oblačilo brez rokavov, ki pokriva zgornji del telesa; reševalni telovnik).",
+      "correction": "reclassified the way the rodovnik fall was renamed: removed from known_hybrids and from the eval set (v1.1) — register entry 16"
     }
   ]
 }

@@ -34,10 +34,11 @@ Ni zasnovan v teoriji. Vsako pravilo spodaj je nastalo po določenem, poimenovan
 
 ## 4. Dokaz: režim je ujel lastne padce
 
-To ni več opis. V tekočem registru je režim pognan proti lastnemu wordlistu (SSKJ², fran.si, dostop 30. 9. 2026). Isti dan sta bila ujeta in zapisana dva padca:
+To ni več opis. V tekočem registru je režim pognan proti lastnemu wordlistu (SSKJ², fran.si, dostop 30. 9. 2026). Isti dan sta bila ujeta in zapisana dva padca; tretji, globljega razreda, pa 14. oktobra:
 
 1. **lúka** — semenski vnos je nosil delovni pomen (»odprtina«) z ⊢ žigom. Geslo za *lúka* pravi *pristanišče*; »odprtina« pripada *lúknja*. Žig nanesen pred geslom — točno tisti padec, ki ga Z1 lovi — najden v lastnem semenu, poimenovan, popravljen, šiv ostaja.
 2. **rodovnik** — padec zapisan 24. 9. je bil napačno poimenovan. Beseda *ima* geslo (rodoslovje); izumljen je bil *pomen*, ne beseda. Padec preimenovan: padec se imenuje po tistem, kar je padlo.
+3. **telovnik** — zapisana hibridna beseda, katere opomba o odsotnosti (»0 zadetkov, portal Fran, 30. 9. 2026«) se je izkazala za izrečeno, ne izmerjeno. Ponovna izmera proti SSKJ² (14. 10. 2026): beseda obstaja (telôvnik — moško vrhnje oblačilo brez rokavov, ki pokriva zgornji del telesa; reševalni telovnik). Prerazvrščena po vzorcu preimenovanja padca rodovnik; odstranjena iz demo substrata in eval množice (v1.1). Register vnosov 15–16.
 
 Izid: **20 ⊢ vnosov**, vsak z dobesednim citatom, virom in datumom dostopa; **3 ⚠ vpisi**, vsak z *izmerjenim* razlogom odprtosti (med njimi ena izumljena beseda, katere neobstoj je izmerjen po vseh slovarjih portala). Strojno telo: `wordlist-v0.6-demo.json` (odlomek pogodbe v repu). Wordlist je živo telo: trenutna različica `wordlist-v0.15.json` — 57 gesel; 49 ⊢, vsako z dobesednim citatom, virom in datumom dostopa; 8 nosi izmerjen ⚠ znotraj žiga — je v tem repozitoriju. Arhivirani tek z 30. 9. je v repozitoriju v celoti kakor `wordlist-v0.6.json` (23 vnosov: 20 ⊢, 3 ⚠ — padci hibridnih besed).
 

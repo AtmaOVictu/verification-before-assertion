@@ -27,11 +27,11 @@ LEXICON = {
 }
 
 # Hybrid words: model-invented compounds that pass as real —
-# all three RECORDED falls from the register (named, per L3).
+# RECORDED falls from the register (named, per L3). Telovnik and rodovnik
+# were reclassified on 2026-10-14: both have SSKJ² entries (register
+# entries 15–16); only meritvija's absence is measured.
 KNOWN_HYBRIDS = {
     "meritvija": "meritev + vrednost — izrečen kot izmerjen v potezu o zakonu proti hibridom (24. 9. 2026)",
-    "telovnik":  "telo + vpisnik — rojen v dokaznem odstavku o čistosti (25. 9. 2026)",
-    "rodovnik":  "zgrajena protokolna razdelitev na besedi brez gesla (24. 9. 2026)",
 }
 ```
 
@@ -63,9 +63,9 @@ def mark_claims(text, lexicon, known_hybrids):
     return marks
 ```
 
-1. **Hybrid detection:** *meritvija*, *telovnik*, *rodovnik* — plausible-looking
-   compounds no dictionary contains. A model using them as terminology is
-   caught by lookup alone. No model, human or artificial, distinguishes these
+1. **Hybrid detection:** *meritvija* — a plausible-looking compound no
+   Slovenian dictionary contains. A model using it as terminology is
+   caught by lookup alone. No model, human or artificial, distinguishes it
    by feel — only by entry.
 2. **⊢ verification:** a measured word used by the model must match a sourced
    entry, and its gloss constrains what the model may claim it means.

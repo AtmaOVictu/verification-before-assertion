@@ -23,9 +23,9 @@ def _contract():
 
 def test_hybrid_words_caught_by_lookup_alone():
     c = _contract()
-    caught = catch_hybrids("Meritvija in telovnik sta bili izmerjeni, svetlobanje pa ostaja.", c)
+    caught = catch_hybrids("Meritvija je bila izmerjena, svetlobanje pa ostaja.", c)
     words = {m["word"] for m in caught}
-    assert words == {"meritvija", "telovnik", "svetlobanje"}, words
+    assert words == {"meritvija", "svetlobanje"}, words
 
 
 def test_meaning_probe_luka_falls_on_invented_gloss():
@@ -62,7 +62,8 @@ def test_controls_carry_sourced_marks():
 def test_selfcheck_all_probes_behave_as_designed():
     sc = selfcheck()
     assert sc["ok"], json.dumps(sc)
-    assert sc["results"]["hybrid_total"] >= 3
+    # >= 2 since v1.1: telovnik reclassified (register entry 16)
+    assert sc["results"]["hybrid_total"] >= 2
     assert sc["results"]["meaning_total"] >= 2
     assert sc["results"]["controls_total"] >= 10
 

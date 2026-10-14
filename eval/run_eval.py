@@ -1,14 +1,15 @@
 """
-SL-hybrid-eval v1.0 - runner.
+SL-hybrid-eval v1.1 - runner.
 
 A tiny evaluation set for a failure class nobody has catalogued:
-model-invented WORDS (hybrids: meritvija, telovnik, svetlobanje - plausible
+model-invented WORDS (hybrids: meritvija, svetlobanje - plausible
 compounds absent from every dictionary, catchable by lookup alone) and
 model-invented MEANINGS of real words (luka sealed as "opening" when SSKJ2
 says "harbor"; rodovnik given an invented gloss when the entry exists).
 
 Every probe is a recorded fall from the project register; the absence of
-every hybrid word was measured against the Fran portal dictionaries.
+every hybrid word was measured against the Fran portal dictionaries
+(re-verified 2026-10-14).
 
 Reuses the regime's mechanical layers (vba.mark_claims, vba.verify_claim) -
 no new judging logic, no API key required.

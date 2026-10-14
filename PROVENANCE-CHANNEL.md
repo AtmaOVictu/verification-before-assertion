@@ -70,8 +70,8 @@ the people whose language is the asset.
   catching its own seed entries (the *lúka* fall, 2026-09-30)
 - A machine-readable contract format (`wordlist-v0.6-demo.json`) that
   loads directly into the regime
-- A recorded hybrid-fall register: model-invented words (*meritvija*,
-  *telovnik*) that pass as real to any reader without a dictionary —
+- A recorded hybrid-fall register: model-invented words (*meritvija*)
+  that pass as real to any reader without a dictionary —
   caught mechanically
 - A demonstration contributed to the vendor's public cookbook
   (mistralai/cookbook PR #420), mergeable, security-checked, with the

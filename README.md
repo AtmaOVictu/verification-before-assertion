@@ -38,10 +38,11 @@ It was not designed in theory. Every rule below was written after a specific, na
 
 ## 4. Evidence: the regime catching its own falls
 
-This is no longer a description. In the current register, the regime was run against its own wordlist (SSKJ², fran.si, accessed September 30, 2026). Two falls were caught and recorded on the same day:
+This is no longer a description. In the current register, the regime was run against its own wordlist (SSKJ², fran.si, accessed September 30, 2026). Two falls were caught and recorded on the same day; a third, of a deeper class, on October 14:
 
 1. **lúka** — a seed entry had sealed a working gloss ("opening") with a ⊢ mark. The dictionary entry for *lúka* means *harbor*; "opening" belongs to *lúknja*. A mark applied before an entry — the exact failure L1 exists to catch — found in our own seed, named, corrected with the scar kept.
 2. **rodovnik** — a recorded fall from September 24 was misnamed. The word *does* have a dictionary entry (genealogical tree); what was invented was a *meaning*, not a word. The fall was renamed: a fall is named after the thing that fell.
+3. **telovnik** — a recorded hybrid word whose absence note ("0 hits, Fran portal, 2026-09-30") turned out to be asserted, not measured. Re-measured against SSKJ² on 2026-10-14: the word exists (telôvnik — moško vrhnje oblačilo brez rokavov, ki pokriva zgornji del telesa; reševalni telovnik). Reclassified the way the rodovnik fall was renamed; removed from the demo substrate and the eval set (v1.1). Register entries 15–16.
 
 Result of the run: 20 ⊢ entries, each carrying a verbatim citation with source and access date; 3 ⚠ entries, each carrying a *measured* reason for being open (including one invented word verified as absent from every dictionary on the portal). Machine-readable body: `wordlist-v0.6-demo.json` (the shipped contract excerpt). The wordlist is a living artifact: the current version, `wordlist-v0.15.json` — 57 words; 49 ⊢, each with a verbatim citation, source, and access date; 8 carrying a measured ⚠ within the seal — ships in this repository. The archived September 30 run ships in full as `wordlist-v0.6.json` (23 entries: 20 ⊢, 3 ⚠ — the hybrid-word falls).
 

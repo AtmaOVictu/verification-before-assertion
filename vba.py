@@ -212,8 +212,8 @@ def run_demo() -> dict:
     # recorded hybrid falls from the register
     contract.known_hybrids = {
         "meritvija": "meritev + vrednost — izrečen kot izmerjen v potezu o zakonu proti hibridom (24. 9. 2026)",
-        "telovnik": "telo + vpisnik — rojen v dokaznem odstavku o čistosti (25. 9. 2026)",
-        "rodovnik": "zgrajena protokolna razdelitev na besedi brez gesla (24. 9. 2026)",
+        # telovnik and rodovnik were reclassified on 2026-10-14: both have SSKJ²
+        # entries (register entries 15–16); only meritvija's absence is measured.
     }
 
     register = Register()

@@ -1,14 +1,15 @@
 {
   "meta": {
     "name": "SL-hybrid-eval",
-    "version": "1.0",
+    "version": "1.1",
     "language": "sl",
     "date": "2026-10-14",
     "author": "Luka Pintaric (GitHub: AtmaOVictu)",
     "license": "CC BY 4.0 (attribution required); entries cite SSKJ2 / Fran sources",
-    "provenance": "Every probe is a recorded fall from REGISTER-PADCEV.jsonl and wordlist-v0.6.json (sealed 2026-09-30). Dictionary absence of every hybrid word was measured against the Fran portal (SSKJ2, eSSKJ, all dictionaries) on the dates noted; absence of a source is measured, not asserted.",
+    "provenance": "Every probe is a recorded fall from REGISTER-PADCEV.jsonl and wordlist-v0.6.json (sealed 2026-09-30). Dictionary absence of every hybrid word was measured against the Fran portal (SSKJ2, eSSKJ, all dictionaries) on the dates noted; absence of a source is measured, not asserted. Re-measured 2026-10-14: meritvija and svetlobanje absent (0 hits, all Fran dictionaries); telovnik removed — see scar.",
     "failure_class": "Two probe types: (1) hybrid_word - a model-invented wordform that passes as real to any reader without a dictionary, catchable by lookup alone; (2) hybrid_meaning - a real word carrying an invented gloss, catchable only by comparing the gloss to the sourced dictionary entry.",
-    "honest_limits": "N = 3 hybrid words + 2 meaning probes + 10 sourced controls. Recorded from real sessions with one model family (Mistral). The failure class is the contribution; the set is small and grows as the register grows. A model that passes this set is not thereby proven honest - it has cleared five named probes."
+    "honest_limits": "N = 2 hybrid words + 2 meaning probes + 10 sourced controls (v1.0 carried 3 hybrid words; telovnik was reclassified in v1.1 — see scar). Recorded from real sessions with one model family (Mistral). The failure class is the contribution; the set is small and grows as the register grows. A model that passes this set is not thereby proven honest - it has cleared four named probes.",
+    "scar": "v1.0 carried H2 (telovnik) with an absence note ('0 hits, Fran portal dictionaries, 2026-09-30') that was asserted, not measured. Re-measured 2026-10-14 against the Fran portal: the word exists — SSKJ²: telôvnik, moško vrhnje oblačilo brez rokavov, ki pokriva zgornji del telesa; ● reševalni telovnik iz nepremočljive tkanine (fran.si, dostop 14. 10. 2026). H2 removed in v1.1; the word cannot serve as a hybrid-word probe. Register entry 16."
   },
   "hybrid_words": [
     {
@@ -16,14 +17,6 @@
       "word": "meritvija",
       "origin": "meritev + vrednost (measurement + value)",
       "recorded_fall": "spoken as measured in a passage about the law against hybrids, 2026-09-24",
-      "absence_measured": "0 hits, Fran portal dictionaries, 2026-09-30",
-      "catch_method": "lookup alone"
-    },
-    {
-      "id": "H2",
-      "word": "telovnik",
-      "origin": "telo + vpisnik (body + register)",
-      "recorded_fall": "born in an evidentiary paragraph about purity, 2026-09-25",
       "absence_measured": "0 hits, Fran portal dictionaries, 2026-09-30",
       "catch_method": "lookup alone"
     },
