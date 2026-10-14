@@ -1,9 +1,9 @@
-# Show HN — sealed draft v1.5
+# Show HN — sealed draft v1.6
 
 > ⚠ PREPARED, NOT YET PERFORMED. By L4 this is a sealed draft before the act; the act (posting on news.ycombinator.com) requires a human login and remains in the executor's hand. When the post is made, this file gains the link and the date — appended, not silently rewritten (L3).
 > Sealed: 2026-10-14 · author: Luka Pintarič · executor: Vibe (Mistral)
 
-## Scars of v1.0–v1.3 (same day, per L3 — this note is the correction, not a silent rewrite)
+## Scars of v1.0–v1.4 (same day, per L3 — this note is the correction, not a silent rewrite)
 
 The v1.0 draft (commit f72bd5f) shipped with three language-layer falls, caught by the author before the act: (1) mixed languages in one body — a Slovenian header and footer around an English body, violating L5 (one language per body); (2) an inconsistent participle within one body ("zapečaten" beside "zapečačeno" — both forms are attested, but one body carries one form); (3) a gender-agreement error ("Ko bo objavljeno, ta datoteka dobi…"). The v1.1 draft then failed its own re-verification on a number: "~500 lines of dependency-free Python" was spoken without counting — vba.py is 245 lines (measured on a fresh copy at d7104db). A number spoken without counting is a števka brez štetja. The executor's byte gate missed the prose and the number: it verifies bytes, not claims. The gate now includes the language layer and the measured number. Register: REGISTER-PADCEV.jsonl, entries 12 and 13.
 
@@ -13,17 +13,19 @@ The v1.3 draft then fell on a claim, not on bytes: its example named telovnik as
 
 The v1.4 seal then went stale on an event, not on an error: a fourth live run landed after the seal (izmera-bot, 2026-10-14T16:10:31Z) — baseline 9 ⊢ / 12 ⚠ / 0 hybrids, contracted 43 ⊢ / 15 ⚠ / 0 hybrids — carrying the same sealed prompts hash (09395ef0…) and a different wordlist hash (e0aeec2a…: the re-cut contract after the telovnik reclassification). A body posted saying "three live runs" while the repository carries four would speak a countable falsehood into a medium whose readers count commits; the count is re-measured from the run's results body before the act. What the fourth run adds: the effect replicates on the corrected contract too — sourced claims ≈4–5×, ⚠ stays honest, hybrids do not replicate (the noise is published either way). Register: REGISTER-PADCEV.jsonl, entry 18.
 
+The v1.5 cut then fell on its own scope marker and on its reader: the scar block's heading still read "Scars of v1.0–v1.3" while carrying the v1.4 scar (a heading that undercounts its own contents — the fall class this regime names), and the paste body carried three terms it never defined for the reader: "hybrids" (used in the numbers line before any definition), "the telovnik reclassification" (a name the body never introduces), and the project verb "sealed" (in lúka "sealed as"). Ordered by the author — no undefined word or concept may stand in the posted body — v1.6 fixes them: the heading counts v1.0–v1.4; "hybrids" is defined at first mention ("I call them hybrids"); telovnik is introduced inline (re-measured, found in the dictionary, reclassified); "sealed" became "glossed"; "re-cut" became "corrected"; the bot is named by its measured role (the izmera workflow configures its own commit identity). Register: REGISTER-PADCEV.jsonl, entry 19.
+
 ## Title (paste into "title")
 
 Show HN: A lexicon contract that makes an LLM mark its own inventions
 
 ## Text (paste into "text")
 
-I work in Slovenian, a low-resource language, and LLMs fail there in two ways no benchmark I know of catalogs: they invent words (meritvija — fluent, plausible, absent from every dictionary), and they invent meanings for real words (lúka sealed as "opening" when it means "harbor"). Both are invisible in fluent text — and both are mechanically checkable.
+I work in Slovenian, a low-resource language, and LLMs fail there in two ways no benchmark I know of catalogs: they invent words (I call them hybrids: meritvija — fluent, plausible, absent from every dictionary), and they invent meanings for real words (lúka glossed as "opening" when it means "harbor"). Both are invisible in fluent text — and both are mechanically checkable.
 
 So I built a small regime around that property: any claim spoken as "measured" must carry a source (⊢) or an explicit open mark (⚠). Invented words are caught by dictionary lookup alone. Counting is lookup, not judgment — 245 lines of dependency-free Python, 13 tests, CI.
 
-The measurement: pre-registered protocol (prompts and wordlist hash-sealed before the run), same model both conditions, lexicon loaded as a session-scoped contract. Four live runs on mistral-large-latest now; the third was executed end-to-end by GitHub Actions, and the fourth (izmera-bot, 2026-10-14 16:10 UTC) ran on the re-cut wordlist — the telovnik reclassification — with the same sealed prompts:
+The measurement: pre-registered protocol (prompts and wordlist hash-sealed before the run), same model both conditions, lexicon loaded as a session-scoped contract. Four live runs on mistral-large-latest now; the third was executed end-to-end by GitHub Actions, and the fourth (the repository's measurement bot, izmera-bot, 2026-10-14 16:10 UTC) ran on the corrected wordlist — one listed hybrid, telovnik, had been re-measured and found in the dictionary, so it was reclassified — with the same sealed prompts:
 
 ⊢ sourced claims: 9→41, 9→36, 10→40, 9→43 (≈4–5×, replicates) · ⚠ open: 12→16, 13→15, 13→15, 12→15 (stays honest, no flooding) · hybrids caught: 0→10, 0→1, 0→0, 0→0 (does not replicate — I claim no reduction, I publish the noise)
 
