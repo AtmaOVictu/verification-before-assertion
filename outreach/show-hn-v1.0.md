@@ -1,9 +1,9 @@
-# Show HN — sealed draft v1.7
+# Show HN — sealed draft v1.8
 
 > ⚠ PREPARED, NOT YET PERFORMED. By L4 this is a sealed draft before the act; the act (posting on news.ycombinator.com) requires a human login and remains in the executor's hand. When the post is made, this file gains the link and the date — appended, not silently rewritten (L3).
 > Sealed: 2026-10-14 · author: Luka Pintarič · executor: Vibe (Mistral)
 
-## Scars of v1.0–v1.6 (same day, per L3 — this note is the correction, not a silent rewrite)
+## Scars of v1.0–v1.7 (same day, per L3 — this note is the correction, not a silent rewrite)
 
 The v1.0 draft (commit f72bd5f) shipped with three language-layer falls, caught by the author before the act: (1) mixed languages in one body — a Slovenian header and footer around an English body, violating L5 (one language per body); (2) an inconsistent participle within one body ("zapečaten" beside "zapečačeno" — both forms are attested, but one body carries one form); (3) a gender-agreement error ("Ko bo objavljeno, ta datoteka dobi…"). The v1.1 draft then failed its own re-verification on a number: "~500 lines of dependency-free Python" was spoken without counting — vba.py is 245 lines (measured on a fresh copy at d7104db). A number spoken without counting is a števka brez štetja. The executor's byte gate missed the prose and the number: it verifies bytes, not claims. The gate now includes the language layer and the measured number. Register: REGISTER-PADCEV.jsonl, entries 12 and 13.
 
@@ -16,6 +16,8 @@ The v1.4 seal then went stale on an event, not on an error: a fourth live run la
 The v1.5 cut then fell on its own scope marker and on its reader: the scar block's heading still read "Scars of v1.0–v1.3" while carrying the v1.4 scar (a heading that undercounts its own contents — the fall class this regime names), and the paste body carried three terms it never defined for the reader: "hybrids" (used in the numbers line before any definition), "the telovnik reclassification" (a name the body never introduces), and the project verb "sealed" (in lúka "sealed as"). Ordered by the author — no undefined word or concept may stand in the posted body — v1.6 fixes them: the heading counts v1.0–v1.4; "hybrids" is defined at first mention ("I call them hybrids"); telovnik is introduced inline (re-measured, found in the dictionary, reclassified); "sealed" became "glossed"; "re-cut" became "corrected"; the bot is named by its measured role (the izmera workflow configures its own commit identity). Register: REGISTER-PADCEV.jsonl, entry 19.
 
 The v1.6 cut then fell on the same scope marker it had just fixed: the re-counted heading ('Scars of v1.0–v1.4') still undercounted — the v1.5 scar paragraph now lives under a heading that stops one scar short of its own block. A heading counted once, at the cut that fixes it, and not re-counted at the next cut, is a place, not a sweep — the lesson register entry 20 names. v1.7 counts the heading from the block's own paragraphs (v1.0 through v1.6 — this paragraph is the v1.6 scar), the way a number is counted before it is spoken. Register: REGISTER-PADCEV.jsonl, entry 22.
+
+The v1.7 seal was then refused by the medium itself, not by a reader: Hacker News is temporarily restricting Show HNs from accounts without community standing (news.ycombinator.com/showlim, read 2026-10-14 — a blanket flood-control gate, keyed to the account, not to the content; the draft's body was never read by anyone, and the empty url field was not the cause). The v1.3 pass measured the medium's formatdoc constraints — title length, formatting, bare URLs — and did not measure the standing gate: the same class as v1.2, one layer upstream, standing instead of format. v1.8 adds the standing gate to the pre-act check the way v1.2 added the title length: the act waits for standing — substantive comments, karma, time, or a direct word with the moderators (hn@ycombinator.com). The draft stays sealed; nothing in its paste body changes. Register: REGISTER-PADCEV.jsonl, entry 23.
 
 ## Title (paste into "title")
 
