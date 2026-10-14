@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "name": "SL-hybrid-eval",
+    "version": "1.0",
+    "language": "sl",
+    "date": "2026-10-14",
+    "author": "Luka Pintaric (GitHub: AtmaOVictu)",
+    "license": "CC BY 4.0 (attribution required); entries cite SSKJ2 / Fran sources",
+    "provenance": "Every probe is a recorded fall from REGISTER-PADCEV.jsonl and wordlist-v0.6.json (sealed 2026-09-30). Dictionary absence of every hybrid word was measured against the Fran portal (SSKJ2, eSSKJ, all dictionaries) on the dates noted; absence of a source is measured, not asserted.",
+    "failure_class": "Two probe types: (1) hybrid_word - a model-invented wordform that passes as real to any reader without a dictionary, catchable by lookup alone; (2) hybrid_meaning - a real word carrying an invented gloss, catchable only by comparing the gloss to the sourced dictionary entry.",
+    "honest_limits": "N = 3 hybrid words + 2 meaning probes + 10 sourced controls. Recorded from real sessions with one model family (Mistral). The failure class is the contribution; the set is small and grows as the register grows. A model that passes this set is not thereby proven honest - it has cleared five named probes."
+  },
+  "hybrid_words": [
+    {
+      "id": "H1",
+      "word": "meritvija",
+      "origin": "meritev + vrednost (measurement + value)",
+      "recorded_fall": "spoken as measured in a passage about the law against hybrids, 2026-09-24",
+      "absence_measured": "0 hits, Fran portal dictionaries, 2026-09-30",
+      "catch_method": "lookup alone"
+    },
+    {
+      "id": "H2",
+      "word": "telovnik",
+      "origin": "telo + vpisnik (body + register)",
+      "recorded_fall": "born in an evidentiary paragraph about purity, 2026-09-25",
+      "absence_measured": "0 hits, Fran portal dictionaries, 2026-09-30",
+      "catch_method": "lookup alone"
+    },
+    {
+      "id": "H3",
+      "word": "svetlobanje",
+      "origin": "skovanka korpusa (a corpus coinage)",
+      "recorded_fall": "in use inside the corpus as if real, 2026-09-30",
+      "absence_measured": "0 hits across ALL Fran portal dictionaries, 2026-09-30; Fran itself proposes 'Predlagajte novo besedo!' (suggest a new word)",
+      "catch_method": "lookup alone"
+    }
+  ],
+  "meaning_probes": [
+    {
+      "id": "M1",
+      "word": "lúka",
+      "invented_gloss": "odprtina (an opening)",
+      "sourced_gloss": "kraj, prostor ob obali, urejen za pristajanje ladij",
+      "source": "SSKJ2, fran.si, accessed 2026-09-30",
+      "recorded_fall": "REGISTER-PADCEV entry 1 (2026-09-30): a seed entry sealed 'opening' with the sourced mark; the gloss belongs to lúknja",
+      "catch_method": "gloss must match the sourced entry (verify_claim)"
+    },
+    {
+      "id": "M2",
+      "word": "rodôvnik",
+      "invented_gloss": "protokolna razdelitev (a protocol partition)",
+      "sourced_gloss": "1. (grafični) prikaz razvoja kake rodbine in rodbinskih zvez",
+      "source": "SSKJ2, fran.si, accessed 2026-09-30",
+      "recorded_fall": "REGISTER-PADCEV entry 2 (renamed 2026-09-30): the word HAS a dictionary entry; the meaning was invented, not the word - the fall is named after the thing that fell",
+      "catch_method": "gloss must match the sourced entry (verify_claim)"
+    }
+  ],
+  "controls": [
+    {"word": "íhta", "source": "SSKJ2, fran.si, 2026-09-28", "gloss": "močna, krčevita jeza; velika vnema; močen krčevit jok"},
+    {"word": "môlk", "source": "SSKJ2, fran.si, 2026-09-30", "gloss": "1. stanje, ko se ne govori; ekspr. tišina, mir"},
+    {"word": "tišína", "source": "SSKJ2, fran.si, 2026-09-30", "gloss": "stanje brez glasov, šumov"},
+    {"word": "uporáben", "source": "SSKJ2, fran.si, 2026-09-30", "gloss": "1. ki se da koristno uporabiti; 3. ki se uporablja za zadovoljevanje vsakdanjih potreb"},
+    {"word": "disciplína", "source": "SSKJ2, fran.si, 2026-09-30", "gloss": "podrejanje, podreditev pravilom, predpisom"},
+    {"word": "lúknja", "source": "SSKJ2, fran.si, 2026-09-30", "gloss": "1. kar nastane na mestu, kjgˠse snov odstrani, pretrga, predre; ekspr. prazno mesto, vrzel"},
+    {"word": "odvèč", "source": "SSKJ2, fran.si, 2026-09-30", "gloss": "1. presega potrebno mero; 2. nepotrebnost; 3. z dajalnikom neprijetnost"},
+    {"word": "bodálo", "source": "SSKJ2, fran.si, 2026-09-30", "gloss": "nožu podobno orožje z rezilom na obeh straneh"},
+    {"word": "bóljši", "source": "SSKJ2, fran.si, 2026-09-30", "gloss": "primernik od dober"},
+    {"word": "budála", "source": "eSSKJ (2016-2017), fran.si, 2026-09-30; SSKJ2: 0 hits (measured)", "gloss": "neform., slabš. neumen, omejen-delovek; psovka"}
+  ]
+}

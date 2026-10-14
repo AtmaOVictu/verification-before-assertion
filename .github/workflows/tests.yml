@@ -19,5 +19,7 @@ jobs:
         run: python test_vba.py
       - name: End-to-end demo on the two recorded real falls
         run: python vba.py
-      - name: Measurement pipeline (dry-run — pipeline test, not a result)
+      - name: Hybrid eval - recorded-failure probes (SL-hybrid-eval v1.0)
+        run: python eval/test_eval.py
+      - name: Measurement pipeline (dry-run - pipeline test, not a result)
         run: python run_izmera.py --mode dry-run --out pipeline-test.json --report pipeline-test.md
