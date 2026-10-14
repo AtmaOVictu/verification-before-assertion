@@ -19,8 +19,9 @@ Two modes:
               in the environment; model set with --model.
 
 Usage:
-  python run_izmera.py --dry-run
-  MISTRAL_API_KEY=... python run_izmera.py --live --model mistral-large-latest
+  python run_izmera.py --mode dry-run
+  MISTRAL_API_KEY=... python run_izmera.py --mode live --model mistral-large-latest
+  HF_TOKEN=... python run_izmera.py --mode live --model cjvt/GaMS-9B-Instruct
 """
 
 from __future__ import annotations
