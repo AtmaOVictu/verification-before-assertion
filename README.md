@@ -184,14 +184,23 @@ the repository's own measured bodies:
 - the scar heading counts its own block — `v1.0–v1.(N-1)` against the
   header's `v1.N` (the heading falls of entries 19–22, ended);
 - every register citation in the draft resolves against the append-only
-  register's actual entry count.
+  register's actual entry count;
+- every number-bearing quote names its witness in the same breath —
+  the paragraph that quotes history cites its register entry (the
+  exemption is verified, not trusted: entry 25);
+- no number-bearing quote stands in the paste body — history does
+  not belong in what you post.
 
 One layer the gate learned on itself at v1.9: the scar block quotes
 the falls' own words — "~500 lines", "three live runs" — and quoted
 history is archive, not present claim. The gate scans unquoted speech;
-an unbalanced quote is named, never silently masked.
+an unbalanced quote is named, never silently masked. At v1.10 the
+exemption itself became a check: quoted history must name its
+register witness in the same paragraph, and a number-bearing
+quote in the paste body fails the gate outright — an exemption
+is valid only as scoping, never as silence.
 
-The gate carries its own tests — test_preverba.py, nine, each named
+The gate carries its own tests — test_preverba.py, eleven, each named
 for the fall class it guards — and runs in the same CI it guards,
 before the end-to-end demo: a stale draft fails the build before a
 reader can see it. The gate verifies claims, not bytes; the hand still

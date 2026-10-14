@@ -3,17 +3,24 @@ preverba.py — the draft gate: the register's promises as code.
 
 The sealed outreach draft is a body of claims. Until this gate existed,
 every one of those claims was checked by hand — and the register
-carries the falls that walked through (entries 13, 14, 18, 19–22, 24):
-numbers spoken without counting, a title sealed longer than the
+carries the falls that walked through (entries 13, 14, 18, 19–22, 24,
+25): numbers spoken without counting, a title sealed longer than the
 medium's own limit, a heading that undercounted its own block. This
 file turns those promises into code: it verifies the sealed draft
 against the medium it is sealed for and against the repository's own
 measured bodies.
 
-One layer matters here: quoted speech is history — a named fall's own
-words, carried in the scar block — and history is not a present claim.
-The gate scans unquoted speech; an unbalanced quote is named, not
-masked, because a mask that cannot tell speech from claim must say so.
+Two layers learned on the gate itself:
+
+One — quoted speech is history, a report of a claim (L4), and history
+is verified against the archive that carries it, not against present
+bodies. The gate scans unquoted speech for present claims; and the
+exemption is itself verified: every number-bearing quote must live in
+a paragraph that names its register witness (the citation resolves
+separately), and no number-bearing quote may stand in the paste body —
+history does not belong in what you post. An unbalanced quote is
+named, not masked, because a mask that cannot tell speech from claim
+must say so.
 
 The gate verifies claims, not bytes; the hand still verifies meaning
 (L2). Counting is lookup, not judgment.
@@ -34,6 +41,13 @@ RUN_WORDS = {
     "six": 6, "seven": 7, "eight": 8, "nine": 9, "ten": 10,
 }
 
+# a number inside a quoted span: a digit, or a small counting word —
+# the marks of a fall's own words quoted as history
+QUOTE_NUMBER_RE = re.compile(
+    r"\d+|\b(?:one|two|three|four|five|six|seven|eight|nine|ten|eleven"
+    r"|twelve|thirteen|fourteen|fifteen|twenty|hundred|thousand|million"
+    r")\b", re.IGNORECASE)
+
 
 def register_entry_count(register_text: str) -> int:
     """Entries = the register's non-empty lines (append-only body)."""
@@ -43,10 +57,10 @@ def register_entry_count(register_text: str) -> int:
 def mask_quoted(text: str) -> str:
     """Mask characters inside double-quoted spans (newlines kept).
 
-    Quoted speech is history — the scar block carries the falls' own
-    words ("~500 lines of dependency-free Python", "three live runs")
-    and those quotes are archives, not claims. Everything unquoted is
-    what the draft speaks as present truth.
+    Quoted speech is history — a report of a claim (L4), verified
+    against the register, not against present bodies. Everything
+    unquoted is what the draft speaks as present truth. The exemption
+    itself is verified: see checks (g) and (h).
     """
     chars: list[str] = []
     inside = False
@@ -155,6 +169,31 @@ def findings_for(draft: str, vba_source: str, law_test_source: str,
             findings.append(f"register carries: the draft cites entry "
                             f"{cited} but the register carries {total} "
                             "entries")
+
+    # (g) quoted history names its witness: every number-bearing
+    # double-quoted span lives in a paragraph that cites the register
+    # (the entry-25 class: the exemption is verified, not trusted)
+    for para in draft.split("\n\n"):
+        spans = re.findall(r'"([^"]*)"', para)
+        if any(QUOTE_NUMBER_RE.search(s) for s in spans) and \
+                not re.search(r"\b(?:entries|entry)\s+\d+", para):
+            findings.append("quoted history names no witness: a paragraph "
+                            "quotes number-bearing history but carries no "
+                            "register citation — an exemption is valid "
+                            "only as scoping, never as silence")
+
+    # (h) no number-bearing quote stands in the paste body —
+    # history does not belong in what you post (the entry-25 class:
+    # the mask's back door, closed)
+    m_body = re.search(r'## Text \(paste into "text"\)\n\n(.+?)'
+                       r"(?:\n\n---\n|\Z)", draft, re.DOTALL)
+    if m_body:
+        for span in re.findall(r'"([^"]*)"', m_body.group(1)):
+            if QUOTE_NUMBER_RE.search(span):
+                findings.append(f"quote in the paste body: history does "
+                                f"not belong in what you post — the "
+                                f"number-bearing quote '{span[:40]}' "
+                                "stands where only present claims may")
 
     return findings
 

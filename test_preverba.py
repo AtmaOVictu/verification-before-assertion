@@ -138,6 +138,32 @@ def test_quote_imbalance_is_named_not_masked():
     assert any("quote balance" in f for f in findings)
 
 
+# The entry-25 class: quoted history must name its witness —
+# the exemption is verified, not trusted
+
+def test_quoted_history_without_witness_is_caught():
+    draft, vba_source, law_test_source, register_text = clean_fixture()
+    draft = draft.replace(
+        "The scar paragraphs count v1.0 through v1.8.\n",
+        'The v1.1 draft once said "~500 lines of dependency-free '
+        'Python".\n\n'
+        "The scar paragraphs count v1.0 through v1.8.\n")
+    findings = findings_for(draft, vba_source, law_test_source, register_text)
+    assert any("quoted history names no witness" in f for f in findings)
+
+
+# The entry-25 class: no number-bearing quote in the paste body —
+# history does not belong in what you post
+
+def test_number_bearing_quote_in_paste_body_is_caught():
+    draft, vba_source, law_test_source, register_text = clean_fixture()
+    draft = draft.replace(
+        "Four live runs on mistral-large-latest now.",
+        'As I said: "four live runs" on mistral-large-latest now.')
+    findings = findings_for(draft, vba_source, law_test_source, register_text)
+    assert any("quote in the paste body" in f for f in findings)
+
+
 if __name__ == "__main__":
     import inspect
     failed = 0
