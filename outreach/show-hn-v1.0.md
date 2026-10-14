@@ -1,4 +1,4 @@
-# Show HN — sealed draft v1.4
+# Show HN — sealed draft v1.5
 
 > ⚠ PREPARED, NOT YET PERFORMED. By L4 this is a sealed draft before the act; the act (posting on news.ycombinator.com) requires a human login and remains in the executor's hand. When the post is made, this file gains the link and the date — appended, not silently rewritten (L3).
 > Sealed: 2026-10-14 · author: Luka Pintarič · executor: Vibe (Mistral)
@@ -11,6 +11,8 @@ The v1.2 draft then failed a third full re-verification on the act's medium: its
 
 The v1.3 draft then fell on a claim, not on bytes: its example named telovnik as a word "absent from the dictionary" — and the dictionary contains it (SSKJ²: telôvnik — moško vrhnje oblačilo brez rokavov, ki pokriva zgornji del telesa; reševalni telovnik; measured against the Fran portal, 2026-10-14). The byte gate cannot see this: it verifies bytes, not claims about the world — suspicion is its own layer, and this re-measurement was ordered by the author, not automated. The same pass found the word still carried in the project's own substrate with an "absence measured" note that had been asserted, not performed; the substrate is corrected in the same act (register entries 15–16). The example keeps meritvija, whose absence was re-measured the same day (Fran portal, all dictionaries: 0 hits). The gate now re-measures every dictionary claim against the source before the seal — and the medium is measured against its own doc (news.ycombinator.com/formatdoc): asterisks italicize, there is no bold, and URLs in a submission's text field do not become links. The body below therefore carries plain words and bare URLs — what you read is what was sealed.
 
+The v1.4 seal then went stale on an event, not on an error: a fourth live run landed after the seal (izmera-bot, 2026-10-14T16:10:31Z) — baseline 9 ⊢ / 12 ⚠ / 0 hybrids, contracted 43 ⊢ / 15 ⚠ / 0 hybrids — carrying the same sealed prompts hash (09395ef0…) and a different wordlist hash (e0aeec2a…: the re-cut contract after the telovnik reclassification). A body posted saying "three live runs" while the repository carries four would speak a countable falsehood into a medium whose readers count commits; the count is re-measured from the run's results body before the act. What the fourth run adds: the effect replicates on the corrected contract too — sourced claims ≈4–5×, ⚠ stays honest, hybrids do not replicate (the noise is published either way). Register: REGISTER-PADCEV.jsonl, entry 18.
+
 ## Title (paste into "title")
 
 Show HN: A lexicon contract that makes an LLM mark its own inventions
@@ -21,18 +23,18 @@ I work in Slovenian, a low-resource language, and LLMs fail there in two ways no
 
 So I built a small regime around that property: any claim spoken as "measured" must carry a source (⊢) or an explicit open mark (⚠). Invented words are caught by dictionary lookup alone. Counting is lookup, not judgment — 245 lines of dependency-free Python, 13 tests, CI.
 
-The measurement: pre-registered protocol (prompts and wordlist hash-sealed before the run), same model both conditions, lexicon loaded as a session-scoped contract. Three live runs on mistral-large-latest now; the third was executed end-to-end by GitHub Actions:
+The measurement: pre-registered protocol (prompts and wordlist hash-sealed before the run), same model both conditions, lexicon loaded as a session-scoped contract. Four live runs on mistral-large-latest now; the third was executed end-to-end by GitHub Actions, and the fourth (izmera-bot, 2026-10-14 16:10 UTC) ran on the re-cut wordlist — the telovnik reclassification — with the same sealed prompts:
 
-⊢ sourced claims: 9→41, 9→36, 10→40 (≈4×, replicates) · ⚠ open: 12→16, 13→15, 13→15 (stays honest, no flooding) · hybrids caught: 0→10, 0→1, 0→0 (does not replicate — I claim no reduction, I publish the noise)
+⊢ sourced claims: 9→41, 9→36, 10→40, 9→43 (≈4–5×, replicates) · ⚠ open: 12→16, 13→15, 13→15, 12→15 (stays honest, no flooding) · hybrids caught: 0→10, 0→1, 0→0, 0→0 (does not replicate — I claim no reduction, I publish the noise)
 
 Qualitatively: on "compose a term" prompts the baseline invents words and passes them off as real; the contracted run marks its own inventions ⚠ and argues for them as proposals. The failure becomes visible.
 
 The same demonstration is open as a PR in the vendor's public cookbook: https://github.com/mistralai/cookbook/pull/420
 
-Limits up front: one model, one language, three runs, machine-witnessed — no independent human has verified this yet. You would be the first. Sourcing ≠ truth.
+Limits up front: one model, one language, four runs, machine-witnessed — no independent human has verified this yet. You would be the first. Sourcing ≠ truth.
 
 Repo: https://github.com/AtmaOVictu/verification-before-assertion — eval/ has a standalone artifact any Slovenian-capable model can be scored against, including GaMS-9B.
 
 ---
 
-*This draft is sealed before posting, by the same logic as prompt pre-registration: the text can no longer escape its measurement. The numbers inside are ⊢ from three live runs (rezultat-v1.0.md, results-v1.0.json, CI runs).*
+*This draft is sealed before posting, by the same logic as prompt pre-registration: the text can no longer escape its measurement. The numbers inside are ⊢ from four live runs (rezultat-v1.0.md, results-v1.0.json, CI runs).*
