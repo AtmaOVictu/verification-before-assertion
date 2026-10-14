@@ -1,9 +1,11 @@
-# Show HN — sealed draft v1.0
+# Show HN — sealed draft v1.1
 
-> ⚠ PRIPRAVLJENO, NI ŠE IZVEDENO. Po L4 je to zapečaten osnutek pred dejanjem; dejanje (objava na news.ycombinator.com) zahteva človeško prijavo in ostaja v izvajalčevi roki. Ko bo objavljeno, ta datoteka dobi povezavo in datum — ne tiho prepisovanje (L3).
-> Zapečačeno: 2026-10-14 · avtor: Luka Pintarič · izvajalka: Vibe (Mistral)
+> ⚠ PREPARED, NOT YET PERFORMED. By L4 this is a sealed draft before the act; the act (posting on news.ycombinator.com) requires a human login and remains in the executor's hand. When the post is made, this file gains the link and the date — appended, not silently rewritten (L3).
+> Sealed: 2026-10-14 · author: Luka Pintarič · executor: Vibe (Mistral)
 
----
+## Scar of v1.0 (same day, per L3 — this note is the correction, not a silent rewrite)
+
+The v1.0 draft (commit f72bd5f) shipped with three language-layer falls, caught by the author before the act: (1) mixed languages in one body — a Slovenian header and footer around an English body, violating L5 (one language per body); (2) an inconsistent participle within one body ("zapečaten" beside "zapečačeno" — both forms are attested, but one body carries one form); (3) a gender-agreement error ("Ko bo objavljeno, ta datoteka dobi…"). The executor's hash gate verified every byte and missed all three: it measures bytes, not prose. The gate now includes the language layer. Register: REGISTER-PADCEV.jsonl, entry 12.
 
 ## Title (paste into "title")
 
@@ -29,4 +31,4 @@ Repo: https://github.com/AtmaOVictu/verification-before-assertion — `eval/` ha
 
 ---
 
-*Ta osnutek je zapečačen pred objavo, po isti logiki kot predregistracija pozivov: besedilo ne more bežati od svoje izmere. Številke znotraj so ⊢ iz treh živih tekov (rezultat-v1.0.md, results-v1.0.json, CI teki).*
+*This draft is sealed before posting, by the same logic as prompt pre-registration: the text can no longer escape its measurement. The numbers inside are ⊢ from three live runs (rezultat-v1.0.md, results-v1.0.json, CI runs).*
