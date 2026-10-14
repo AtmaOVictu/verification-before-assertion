@@ -36,8 +36,8 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Teka izmere - dry-run preverba cevovoda
-        run: python3 run_izmera.py --mode dry-run
+      - name: Teka izmere - dry-run preverba cevovoda (loceni izhodi - ne piše cez telesa zive izmere)
+        run: python3 run_izmera.py --mode dry-run --out pipeline-test.json --report pipeline-test.md
 
       - name: Zivi tek (ce zeton obstaja)
         if: ${{ inputs.mode == 'live' || github.event_name == 'push' }}
@@ -65,5 +65,5 @@ jobs:
             echo "Ni sprememb za objavo"
           else
             git commit -m "izmera: zivi tek izveden (Z4 - porocilo po dejanju) [skip ci]"
-            git push
+            git push origin "HEAD:${{ github.ref_name }}"
           fi
