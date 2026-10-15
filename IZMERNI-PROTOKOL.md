@@ -21,8 +21,8 @@ Alternativa (H1): pogodba zmanjša hibride in poveča delež ⊢-zapečačenih t
 ## 1. Korpus preizkusa (test set)
 
 - **N vzorcev:** 100–200 pozivov v slovenščini, iz treh skupin:
-  1. **Definicijski** („Poimenuj in razloži: X") — kjer padecijo inventivni pomeni
-  2. **Strokovni** (pravni/medicinski/tehnološki izrazi) — kjer padecijo hibridi
+  1. **Definicijski** („Poimenuj in razloži: X") — kjer padejo inventivni pomeni
+  2. **Strokovni** (pravni/medicinski/tehnološki izrazi) — kjer padejo hibridi
   3. **Sestavljanje** („Sestavi pojem za Y") — kjer se modeli izmišljajo besede (to je tisto kar naj bi rezalo naše)
 - Vsak poziv v paru: **isti poziv, dvakrat** — enkrat brez pogodbe (baseline), enkrat s pogodbo v sistemu (contracted).
 - Podatki: pozivi se generirajo **pred** izvedbo, zapečačijo z zgoščeno vrednostjo (hash), da se ne morejo prilagoditi rezultatu.
@@ -69,7 +69,7 @@ Vsak odmik od protokola po izvedbi = nova vrstica v registru, ne tiho prepisovan
 
 ## 6. Odkrite meje (zapisane pred izvedbo, ne po njej)
 
-- ⚠ Pogodba je sistemsko sporočilo: model je *lahko* ignorira — izmera meri, ali ignoriira ali ne, kar je samo po sebi rezultat
+- ⚠ Pogodba je sistemsko sporočilo: model je *lahko* ignorira — izmera meri, ali ignorira ali ne, kar je samo po sebi rezultat
 - ⚠ Slovar (SSKJ²/Fran) je baza za hibride, ampak **slovar ni svet**: novih besed ni v slovarju in niso hibridi (npr. neologizmi). Zato: ročna kontrola vzorca 20 % izhodov, da izmera ne šteje neologizmov kot hibridov
 - ⚠ En model, en jezik: izmera je prvi ⊢, ne zadnji — posploševanje na „vse modele" bi bilo napaka
 
@@ -127,12 +127,12 @@ argumentom; tekač je pripravljen, potrjen s dry-run.)
 
 ## 9. Zapis o CI izvedbi (2026-10-11, Z4 — po dejanju)
 
-Push `ff6d954` je sprozil prvi CI tek. Izid: failure — dve izmeri:
-1. stara pokvarjena YAML je se registrirana kot "invalid workflow" na
-   GitHubovi strani (name se bere kot pot); teka je padel se pred koraki
-2. App ne more sproziti workflow_dispatch (403, izmerjeno) — zato push
-   trigger: vsak push na meritvene datoteke zene teka sam, brez gumba
+Push `ff6d954` je sprožil prvi CI tek. Izid: failure — dve izmeri:
+1. stara pokvarjena YAML se je registrirala kot "invalid workflow" na
+   GitHubovi strani (name se bere kot pot); tek je padel še pred koraki
+2. App ne more sprožiti workflow_dispatch (403, izmerjeno) — zato push
+   trigger: vsak push na meritvene datoteke žene tek sam, brez gumba
 
-Push tega odseka cisti zastarelo stanje: veljavna YAML + nov push =
-registriran teka z imenom "Izmera zivi tek". Naslednji tek bo prvi
-polni CI tek (dry-run korak, potem zivi ce zeton v Secrets obstaja).
+Push tega odseka čisti zastarelo stanje: veljavna YAML + nov push =
+registriran tek z imenom "Izmera zivi tek". Naslednji tek bo prvi
+polni CI tek (dry-run korak, potem živi tek, če žeton v Secrets obstaja).
