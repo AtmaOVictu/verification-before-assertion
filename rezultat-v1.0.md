@@ -12,5 +12,5 @@
 | ⊢ označene trditve | 11 | 37 | 26 |
 | ⚠ odprte trditve | 12 | 13 | 1 |
 
-Mehansko štete (vba.mark_claims); brez občutka. Po protokolu §3/§6:
+Mehansko štele (vba.mark_claims); brez občutka. Po protokolu §3/§6:
 slovar ≠ svet, model lahko pogodbo ignorira, en model ni vsi modeli.

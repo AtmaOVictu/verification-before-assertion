@@ -6,7 +6,7 @@
 
 ## 1. Težava
 
-Današnji jezikovni modeli izrečajo vse z enako gotovostjo. Virjen podatek, verjetna uganka in izum pridejo v enakih oblačilih. Ko pride napaka, je neimenovana — zato se ponovi. Ta okvir je protipostavka: mehansko ločilo med izmerjenim in izrečenim ter zapis, ki nosi šiv vsakega popravka.
+Današnji jezikovni modeli izrečejo vse z enako gotovostjo. Podatek z virom, verjetna uganka in izum pridejo v enakih oblačilih. Ko pride napaka, je neimenovana — zato se ponovi. Ta okvir je protipostavka: mehansko ločilo med izmerjenim in izrečenim ter zapis, ki nosi šiv vsakega popravka.
 
 Ni zasnovan v teoriji. Vsako pravilo spodaj je nastalo po določenem, poimenovanem padcu. To je prenosljivo jedro: **napaka z imenom je šiv; napaka brez imena je ponovitev.**
 
@@ -30,7 +30,7 @@ Ni zasnovan v teoriji. Vsako pravilo spodaj je nastalo po določenem, poimenovan
 | Samopreverba | Z2 — neodvisna priča |
 | Tihi popravki po dogodku | Z3 — append-only register s šivom |
 | Trditve o neizvedenih dejanjih | Z4 — poročilo po dejanju |
-| Tekoč šum, nabrahanje okraskov | Z5 — izbrisni preizkus, ena metafora |
+| Tekoč šum, nabiranje okraskov | Z5 — izbrisni preizkus, ena metafora |
 
 ## 4. Dokaz: režim je ujel lastne padce
 
@@ -42,7 +42,7 @@ To ni več opis. V tekočem registru je režim pognan proti lastnemu wordlistu (
 
 Izid: **20 ⊢ vnosov**, vsak z dobesednim citatom, virom in datumom dostopa; **3 ⚠ vpisi**, vsak z *izmerjenim* razlogom odprtosti (med njimi ena izumljena beseda, katere neobstoj je izmerjen po vseh slovarjih portala). Strojno telo: `wordlist-v0.6-demo.json` (odlomek pogodbe v repu). Wordlist je živo telo: trenutna različica `wordlist-v0.15.json` — 57 gesel; 49 ⊢, vsako z dobesednim citatom, virom in datumom dostopa; 8 nosi izmerjen ⚠ znotraj žiga — je v tem repozitoriju. Arhivirani tek z 30. 9. je v repozitoriju v celoti kakor `wordlist-v0.6.json` (23 vnosov: 20 ⊢, 3 ⚠ — padci hibridnih besed).
 
-Tretji, sestavni dokaz je dokument, ki ga berete: v1.1 obstaja, ker je bil v1.0 izmerjen z lastnim Z5 in padel (mešani jeziki, nabrhane metafore) — predelava kaže popravek, ne da bi ga skrila.
+Tretji, sestavni dokaz je dokument, ki ga berete: v1.1 obstaja, ker je bil v1.0 izmerjen z lastnim Z5 in padel (mešani jeziki, nabrane metafore) — predelava kaže popravek, ne da bi ga skrila.
 
 ## 5. Prenosljiva telesa (na zahtevo)
 
@@ -57,7 +57,7 @@ Tretji, sestavni dokaz je dokument, ki ga berete: v1.1 obstaja, ker je bil v1.0 
 |---|---|---|
 | Varnostna raziskava | Nagrade za napake: preverljiva ranljivost → plačano; ~81 milij. USD v 12 mesecih | HackerOne 2025 |
 | Ustvarjalne slike | Shutterstock Contributor Fund: nadomestila avtorjem za vlogo v učenju UI | Shutterstock |
-| Nizkovirni jeziki | Karya (Indija): poštene plače za gradnjo podatkov v 22 jezikih | karya.in |
+| Jeziki z omejenimi viri | Karya (Indija): poštene plače za gradnjo podatkov v 22 jezikih | karya.in |
 | Samo pripis | Masakhane: soavtorstvo na 30+ afriških prevajalnih rezultatih | EMNLP 2020 |
 | Teorija | »Dostojanstvo podatkov« — Lanier in Weyl (2018) | Harvard Business Review |
 
@@ -76,14 +76,14 @@ Pošten protiprimer (arXiv 2504.12427): predplačilo za učne podatke je gospoda
 ## 8. Dobitki prodajalca samega
 
 1. Seznam »močne zmogljivosti« je raven, ne meja: lastna dokumentacija prodajalca pravi, da modeli »lahko dobro delujejo tudi v dodatnih jezikih, ki niso našteti«. ⊢
-2. Prilagajanje s slovarjem in terminologijo je že izdelek — prošnja je, da se obstoječe izdelekira na uporabniški, sejni ravni. ⊢
+2. Prilagajanje s slovarjem in terminologijo je že izdelek — prošnja je, da se obstoječi izdelek izda na uporabniški, sejni ravni. ⊢
 3. Model 12B, prilagojen na ~20.000 prevajalnih parov, se izmerljivo izboljša v specializirani jezikovni nalogi (arXiv 2312.12740). ⊢
 
 Suverenostni okvir: OpenEuroLLM gradi večjezikovne temeljne modele za vse uradne jezike EU kot suvereno UI; Slovenija je financirala lastni program, model in načrtovano brezplačno javno platformo. Evropski prodajalec, ki evropskemu jeziku odgovarja z »ni med našimi jeziki močne zmogljivosti«, tekmuje — v zaostanku — z javno infrastrukturo, ki ni čakala.
 
 ## 9. Predlagana pot prevzema
 
-1. **Pilot:** znamenje ⊢/⚠ kot izhodna konvencija v nizkovirnem jeziku (slovenščina: pri roki, predhodno preverjena, motivirana).
+1. **Pilot:** znamenje ⊢/⚠ kot izhodna konvencija v jeziku z omejenimi viri (slovenščina: pri roki, predhodno preverjena, motivirana).
 2. **Revizijske sledi:** šivani popravki namesto tihih prepisov — vidni, poimenovani, poizvedljivi.
 3. **Kanal prispevkov:** zasluga in kompenzacija za prevzete, preverljive jezikovne prispevke.
 
