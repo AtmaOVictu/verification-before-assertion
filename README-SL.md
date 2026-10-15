@@ -6,7 +6,7 @@
 
 ## 1. Težava
 
-Današnji jezikovni modeli izrečajo vse z enako gotovostjo. Podatek z virom, verjetna uganka in izum pridejo v enakih oblačilih. Ko pride napaka, je neimenovana — zato se ponovi. Ta okvir je protipostavka: mehansko ločilo med izmerjenim in izrečenim ter zapis, ki nosi šiv vsakega popravka.
+Današnji jezikovni modeli izrečejo vse z enako gotovostjo. Podatek z virom, verjetna uganka in izum pridejo v enakih oblačilih. Ko pride napaka, je neimenovana — zato se ponovi. Ta okvir je protipostavka: mehansko ločilo med izmerjenim in izrečenim ter zapis, ki nosi šiv vsakega popravka.
 
 Ni zasnovan v teoriji. Vsako pravilo spodaj je nastalo po določenem, poimenovanem padcu. To je prenosljivo jedro: **napaka z imenom je šiv; napaka brez imena je ponovitev.**
 
@@ -57,7 +57,7 @@ Tretji, sestavni dokaz je dokument, ki ga berete: v1.1 obstaja, ker je bil v1.0 
 |---|---|---|
 | Varnostna raziskava | Nagrade za napake: preverljiva ranljivost → plačano; ~81 milij. USD v 12 mesecih | HackerOne 2025 |
 | Ustvarjalne slike | Shutterstock Contributor Fund: nadomestila avtorjem za vlogo v učenju UI | Shutterstock |
-| Nizkovirni jeziki | Karya (Indija): poštene plače za gradnjo podatkov v 22 jezikih | karya.in |
+| Jeziki z omejenimi viri | Karya (Indija): poštene plače za gradnjo podatkov v 22 jezikih | karya.in |
 | Samo pripis | Masakhane: soavtorstvo na 30+ afriških prevajalnih rezultatih | EMNLP 2020 |
 | Teorija | »Dostojanstvo podatkov« — Lanier in Weyl (2018) | Harvard Business Review |
 
@@ -83,7 +83,7 @@ Suverenostni okvir: OpenEuroLLM gradi večjezikovne temeljne modele za vse uradn
 
 ## 9. Predlagana pot prevzema
 
-1. **Pilot:** znamenje ⊢/⚠ kot izhodna konvencija v nizkovirnem jeziku (slovenščina: pri roki, predhodno preverjena, motivirana).
+1. **Pilot:** znamenje ⊢/⚠ kot izhodna konvencija v jeziku z omejenimi viri (slovenščina: pri roki, predhodno preverjena, motivirana).
 2. **Revizijske sledi:** šivani popravki namesto tihih prepisov — vidni, poimenovani, poizvedljivi.
 3. **Kanal prispevkov:** zasluga in kompenzacija za prevzete, preverljive jezikovne prispevke.
 
