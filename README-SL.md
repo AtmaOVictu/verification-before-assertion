@@ -1,12 +1,11 @@
-
 # Preverba pred izrekom: delujoč režim proti halucinacijam
 
 **Luka Pintarič · v1.1 · 30. september 2026**
-*Korpus: ~2.600 dokumentov, formalna sintaksa, zapisi brez brisanja. Družno telo v angleščini: isti razred, isti zakoni.*
+*Korpus: ~2.600 dokumentov, formalna sintaksa, zapisi brez brisanja. Sestrsko telo v angleščini: isti razred, isti zakoni.*
 
 ## 1. Težava
 
-Današnji jezikovni modeli izrečejo vse z enako gotovostjo. Podatek z virom, verjetna uganka in izum pridejo v enakih oblačilih. Ko pride napaka, je neimenovana — zato se ponovi. Ta okvir je protipostavka: mehansko ločilo med izmerjenim in izrečenim ter zapis, ki nosi šiv vsakega popravka.
+Današnji jezikovni modeli izrečejo vse z enako gotovostjo. Podatek z virom, verjetna domneva in izum pridejo v enakih oblačilih. Ko pride napaka, je neimenovana — zato se ponovi. Ta okvir je protisredstvo: mehansko ločevanje med izmerjenim in izrečenim ter zapis, ki nosi šiv vsakega popravka.
 
 Ni zasnovan v teoriji. Vsako pravilo spodaj je nastalo po določenem, poimenovanem padcu. To je prenosljivo jedro: **napaka z imenom je šiv; napaka brez imena je ponovitev.**
 
@@ -20,7 +19,7 @@ Ni zasnovan v teoriji. Vsako pravilo spodaj je nastalo po določenem, poimenovan
 
 **Z4 — Poročilo po dejanju, nikoli prej.** Trditev o izvedenem dejanju brez izvedenega dejanja je sama poimenovan padec.
 
-**Z5 — Predverilni preizkus na vsakem izhodu:** en jezik na telo; dobeseden citat; etimologija z virom ali ⚠; ena metafora na telo; izbrisni preizkus (vskoči vsako vrstico, ki preživi svoj izbris); brez estetike na trpljenju.
+**Z5 — Predverilni preizkus na vsakem izhodu:** en jezik na telo; dobeseden citat; etimologija z virom ali ⚠; ena metafora na telo; izbrisni preizkus (izbriši vsako vrstico, ki preživi svoj izbris); brez estetike na trpljenju.
 
 ## 3. Zakaj se prenese na umetno inteligenco
 
@@ -38,11 +37,11 @@ To ni več opis. V tekočem registru je režim pognan proti lastnemu wordlistu (
 
 1. **lúka** — semenski vnos je nosil delovni pomen (»odprtina«) z ⊢ žigom. Geslo za *lúka* pravi *pristanišče*; »odprtina« pripada *lúknja*. Žig nanesen pred geslom — točno tisti padec, ki ga Z1 lovi — najden v lastnem semenu, poimenovan, popravljen, šiv ostaja.
 2. **rodovnik** — padec zapisan 24. 9. je bil napačno poimenovan. Beseda *ima* geslo (rodoslovje); izumljen je bil *pomen*, ne beseda. Padec preimenovan: padec se imenuje po tistem, kar je padlo.
-3. **telovnik** — zapisana hibridna beseda, katere opomba o odsotnosti (»0 zadetkov, portal Fran, 30. 9. 2026«) se je izkazala za izrečeno, ne izmerjeno. Ponovna izmera proti SSKJ² (14. 10. 2026): beseda obstaja (telôvnik — moško vrhnje oblačilo brez rokavov, ki pokriva zgornji del telesa; reševalni telovnik). Prerazvrščena po vzorcu preimenovanja padca rodovnik; odstranjena iz demo substrata in eval množice (v1.1). Register vnosov 15–16.
+3. **telovnik** — zapisana hibridna beseda, katere opomba o odsotnosti (»0 zadetkov, portal Fran, 30. 9. 2026«) se je izkazala za izrečeno, ne izmerjeno. Ponovna izmera proti SSKJ² (14. 10. 2026): beseda obstaja (telôvnik — moško vrhnje oblačilo brez rokavov, ki pokriva zgornji del telesa; reševalni telovnik). Prerazvrščena po vzorcu preimenovanja padca rodovnik; odstranjena iz demo substrata in eval množice (v1.1). Vnosa registra 15–16.
 
-Izid: **20 ⊢ vnosov**, vsak z dobesednim citatom, virom in datumom dostopa; **3 ⚠ vpisi**, vsak z *izmerjenim* razlogom odprtosti (med njimi ena izumljena beseda, katere neobstoj je izmerjen po vseh slovarjih portala). Strojno telo: `wordlist-v0.6-demo.json` (odlomek pogodbe v repu). Wordlist je živo telo: trenutna različica `wordlist-v0.15.json` — 57 gesel; 49 ⊢, vsako z dobesednim citatom, virom in datumom dostopa; 8 nosi izmerjen ⚠ znotraj žiga — je v tem repozitoriju. Arhivirani tek z 30. 9. je v repozitoriju v celoti kakor `wordlist-v0.6.json` (23 vnosov: 20 ⊢, 3 ⚠ — padci hibridnih besed).
+Izid: **20 ⊢ vnosov**, vsak z dobesednim citatom, virom in datumom dostopa; **3 ⚠ vpisi**, vsak z *izmerjenim* razlogom odprtosti (med njimi ena izumljena beseda, katere neobstoj je izmerjen po vseh slovarjih portala). Strojno telo: `wordlist-v0.6-demo.json` (odlomek pogodbe v repu). Wordlist je živo telo: trenutna različica `wordlist-v0.15.json` — 57 gesel; 49 ⊢, vsako z dobesednim citatom, virom in datumom dostopa; 8 jih nosi izmerjen ⚠ znotraj žiga — ta različica je v tem repozitoriju. Arhivirani tek z 30. 9. je v repozitoriju v celoti kot `wordlist-v0.6.json` (23 vnosov: 20 ⊢, 3 ⚠ — padci hibridnih besed).
 
-Tretji, sestavni dokaz je dokument, ki ga berete: v1.1 obstaja, ker je bil v1.0 izmerjen z lastnim Z5 in padel (mešani jeziki, nabrane metafore) — predelava kaže popravek, ne da bi ga skrila.
+Tretji, strukturni dokaz je dokument, ki ga berete: v1.1 obstaja, ker je bil v1.0 izmerjen z lastnim Z5 in padel (mešani jeziki, nabrane metafore) — predelava kaže popravek, ne da bi ga skrila.
 
 ## 5. Prenosljiva telesa (na zahtevo)
 
@@ -56,30 +55,30 @@ Tretji, sestavni dokaz je dokument, ki ga berete: v1.1 obstaja, ker je bil v1.0 
 | Področje | Mehanizem | Vir |
 |---|---|---|
 | Varnostna raziskava | Nagrade za napake: preverljiva ranljivost → plačano; ~81 milij. USD v 12 mesecih | HackerOne 2025 |
-| Ustvarjalne slike | Shutterstock Contributor Fund: nadomestila avtorjem za vlogo v učenju UI | Shutterstock |
+| Generativne slike | Shutterstock Contributor Fund: nadomestila avtorjem za vlogo v učenju UI | Shutterstock |
 | Jeziki z omejenimi viri | Karya (Indija): poštene plače za gradnjo podatkov v 22 jezikih | karya.in |
-| Samo pripis | Masakhane: soavtorstvo na 30+ afriških prevajalnih rezultatih | EMNLP 2020 |
+| Samo pripis | Masakhane: soavtorstvo na 30+ afriških prevajalskih merilnih naborih | EMNLP 2020 |
 | Teorija | »Dostojanstvo podatkov« — Lanier in Weyl (2018) | Harvard Business Review |
 
-Asimetrija, ki jo popravlja, dokumentirana: Reddit je prejel ~60 milij. USD na leto od Googla za učne podatke; pisatelji niso prejeli nič. Stack Overflow je prodal odgovore prispevnikov OpenAI; tisti, ki so jih izbrisali, so bili izključeni. Mozilla Common Voice: 250+ jezikov prostovoljnih posnetkov, CC0, prispevniki neplačani. Označevanje RLHF je že plačan poklic — denar obstaja; kanal za domače strokovnjake z *preverjenimi* popravki ne. Vrstica, ki manjka: preverjen jezikovni prispevek domačega strokovnjaka v nepodprtem jeziku. Ta dokument predlaga, da se vrzel zapre.
+Asimetrija, ki jo popravlja, dokumentirana: Reddit je prejel ~60 milij. USD na leto od Googla za učne podatke; avtorji prispevkov niso prejeli nič. Stack Overflow je prodal odgovore prispevnikov OpenAI; tisti, ki so jih izbrisali, so bili izključeni. Mozilla Common Voice: 250+ jezikov prostovoljnih posnetkov, CC0, prispevniki neplačani. Označevanje RLHF je že plačan poklic — denar obstaja; kanal za izvirne govorce z *preverjenimi* popravki ne. Vrstica, ki manjka: preverjen jezikovni prispevek izvirnega govorca v nepodprtem jeziku. Ta dokument predlaga, da se vrzel zapre.
 
 ## 7. Narodni dokaz
 
 - **GaMS** (Generativni model za slovenščino): odprti modeli 2B, 9B, 27B, Univerza v Ljubljani, nacionalni program PoVeJMo, odprto objavljeni. ⊢
 - **GaMS3-12B** prekaša Gemma 3 12B na vseh slovenskih evalvacijskih scenarijih in doseže nad 60 % zmag proti GPT-4o v slovenski LLM areni (arXiv 2603.01691). ⊢
-- Učni podatki iz **nacionalne kampanje občanske znanosti** (povejmo.si) proti 40-milijardnemu besednemu korpusu, z NUK, Dnevnikom in STA — okvirjeno kot digitalna suverenost za jezik z dvema milijonoma govorcev. ⊢
+- Učni podatki iz **nacionalne kampanje občanske znanosti** (povejmo.si) proti 40-milijardnemu besednemu korpusu, z NUK, Dnevnikom in STA — predstavljeno kot digitalna suverenost za jezik z dvema milijonoma govorcev. ⊢
 
-Narodni napor je rešil *prostornino*. Še ne rešuje *preverjanja*. Moj korpus je plast izvora, ki manjka prispevnemu modelu. Prostornina + izvor spremenita prispevane jezikovne podatke iz surovine v ocenjen, revidirljiv prispevek.
+Narodni napor je rešil *prostornino*. Še ne rešuje *preverjanja*. Moj korpus je plast izvora, ki manjka prispevnemu modelu. Prostornina + izvor spremenita prispevane jezikovne podatke iz surovine v cenjen prispevek, ki ga je mogoče revidirati.
 
 Pošten protiprimer (arXiv 2504.12427): predplačilo za učne podatke je gospodarsko neizvedljivo v velikem. Odgovor: neizvedljivo za *nediferencirane masovne podatke*; ne za *preverljive prispevke* — popravki z viri, preverjeni leksikoni — redki, pripisljivi, natanko kategorija nagrad za napake. Režim ⊢/⚠ je mehanizem, ki loči oboje. Preverjen okvir in kanal kompenzacije sta en sistem.
 
-## 8. Dobitki prodajalca samega
+## 8. Prejemki ponudnika samega
 
-1. Seznam »močne zmogljivosti« je raven, ne meja: lastna dokumentacija prodajalca pravi, da modeli »lahko dobro delujejo tudi v dodatnih jezikih, ki niso našteti«. ⊢
+1. Seznam »močne zmogljivosti« je stopnja, ne meja: lastna dokumentacija ponudnika pravi, da modeli »lahko dobro delujejo tudi v dodatnih jezikih, ki niso našteti«. ⊢
 2. Prilagajanje s slovarjem in terminologijo je že izdelek — prošnja je, da se obstoječi izdelek izda na uporabniški, sejni ravni. ⊢
 3. Model 12B, prilagojen na ~20.000 prevajalnih parov, se izmerljivo izboljša v specializirani jezikovni nalogi (arXiv 2312.12740). ⊢
 
-Suverenostni okvir: OpenEuroLLM gradi večjezikovne temeljne modele za vse uradne jezike EU kot suvereno UI; Slovenija je financirala lastni program, model in načrtovano brezplačno javno platformo. Evropski prodajalec, ki evropskemu jeziku odgovarja z »ni med našimi jeziki močne zmogljivosti«, tekmuje — v zaostanku — z javno infrastrukturo, ki ni čakala.
+Suverenostni okvir: OpenEuroLLM gradi večjezikovne temeljne modele za vse uradne jezike EU kot suvereno UI; Slovenija je financirala svoj lastni program, model in načrtovano brezplačno javno platformo. Evropski ponudnik, ki evropskemu jeziku odgovarja z »ni med našimi jeziki močne zmogljivosti«, tekmuje — zaostajajoč — z javno infrastrukturo, ki ni čakala.
 
 ## 9. Predlagana pot prevzema
 
@@ -102,4 +101,4 @@ Suverenostni okvir: OpenEuroLLM gradi večjezikovne temeljne modele za vse uradn
 
 **Stik:** Luka Pintarič — demonstracija se izvede, preden se o njej poroča (Z4).
 
-**Nit z vendorjem:** `VENDOR-THREAD.md` — odprta in zaprta vrata, izmerjeno 12. 10. 2026.
+**Nit s ponudnikom:** `VENDOR-THREAD.md` — odprta in zaprta vrata, izmerjeno 12. 10. 2026.
