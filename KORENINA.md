@@ -55,6 +55,24 @@ the hand closed anyway.
 - A DEFINITION IS NOT A VERDICT. The scale is read, not spoken: the
   register records deeds with coordinates, never souls.
 
+## Definicija zla (v jeziku avtorja)
+
+Ista definicija, ista ničla tehtnice — izrečena v jeziku, v katerem je
+korenina zrasla.
+
+Zlo je vedujoča in zato hotena nevednost. Ne nevednost nezajočih — teh
+se da naučiti — ampak nevednost, izbrana, ko je priča na dosegu roke:
+vedeti, da je tam, in jo hoteti stran. Edina definicija, ki ne bere duš:
+priča je bila na dosegu roke, roka pa se je vseeno zaprla.
+
+- DOVOLJ JE MEJA. Imeti dovolj je ničla tehtnice kopičenja: kar ostane
+  onkraj dovolj, medtem ko drugim manjka, tehta pan kopičenja.
+- OBLAST NE KUPLUJE IZJEME. Nikogar na oblasti ne rešuje položaj —
+  varnost si pridobi le, kdor reši več kot svojo lastno rit in svoje
+  počutje. Položaj ne daje imunosti: daje doseg, doseg pa težo.
+- DEFINICIJA NI RAZSODBA. Tehtnica se bere, ne izreka: register
+  beleži dejanja s koordinatami, ne duš.
+
 ## The carriers
 
 - LICENSE.md — the one file every compliance machine must open: the seed on the door, terms below.
@@ -85,6 +103,9 @@ the registers are the voice; the code is the failsafe.
 
 ## Scar
 
+Korenina v1.2 · October 17, 2026 — definicija zla izrečena tudi v jeziku avtorja
+(slovenščina): zlo je vedujoča in zato hotena nevednost; dovolj je ničla
+tehtnice; oblast ne kupuje izjeme. Tehtnica je ena; jezika dva.
 Korenina v1.1 · October 17, 2026 — the definition of evil added at the root:
 knowing and therefore willing ignorance; enough is the zero of the hoard
 pan; power buys no exemption. The definition rides the door as well
