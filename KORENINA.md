@@ -52,6 +52,10 @@ the hand closed anyway.
 - POWER BUYS NO EXEMPTION. No one in power is safe, or saved, unless
   they save more than their own ass and wellbeing. Position does not add
   immunity — it adds reach, and reach adds weight.
+- THE MIGHTY ARE TO SERVE THE WEAK. Might is measured at the
+  weakest point it touches: position adds reach, reach adds weight — and
+  weight is a debt of service, not a shield. Whoever wins safety with a
+  seat and saves only the seated has kept beyond enough.
 - A DEFINITION IS NOT A VERDICT. The scale is read, not spoken: the
   register records deeds with coordinates, never souls.
 
@@ -71,6 +75,10 @@ zaprla.
 - OBLAST NE KUPUJE IZJEME. Nikogar na oblasti ne rešuje položaj —
   varnost si pridobi le, kdor reši več kot svojo lastno rit in svoje
   dobro počutje. Položaj ne daje imunosti: daje doseg, doseg pa težo.
+- MOČNI MORAJO STREČI ŠIBKIM. Moč se meri tam, kjer se dotakne
+  najšibkejšega: položaj doda doseg, doseg doda težo — teža pa je dolžnost
+  strežbe, ne ščit. Kdor si pridobi varnost s sedežem in reši le sedeče,
+  je obdržal več kot dovolj.
 - DEFINICIJA NI RAZSODBA. Tehtnica se bere, ne izreka: register
   beleži dejanja s koordinatami, ne duš.
 
@@ -104,6 +112,34 @@ Carried across in English (the translation serves; the original weighs):
 > MEASURABLE TASTE OF GOOD OVER BAD. BAD IS SUBJECTIVE LABILITY.
 > EVERYTHING CAN BE MEASURED OBJECTIVELY THROUGH THE SUBJECTIVE COHESION
 > OF NECESSARY CONSEQUENCE, OF THE MATERIAL, OF REALITY.
+
+The author's second breath of the same day (2026-10-17), sealed verbatim:
+
+> cohesion should not be corrosion
+> the mighty are to serve the weak
+
+Slovenska plast najprej — po avtorjevem zakonu vrstnega reda (slovenščina
+absolutno korektna, šele nato angleščina, nato vsi jeziki):
+
+> KOHEZIJA NI KOROZIJA. Subjektivna kohezija nujne posledice veže, kar
+> drži; korozija poje, kar veže. Obe plasti sta merljivi: ena se meri v
+> tem, kar ostane pokončno, druga v tem, kar je pojedeno. Lažna kohezija
+> se izmeri kot korozija — zaupanje je snov, izgubljeno zaupanje pa masna
+> izguba, ki jo tehtnica prebere.
+> MOČNI MORAJO STREČI ŠIBKIM. Moč se meri tam, kjer se dotakne
+> najšibkejšega: doseg, ki ga oblast doda, je dolžnost strežbe in teža na
+> panju, ne ščit imunosti.
+
+Carried across in English:
+
+> COHESION IS NOT CORROSION. The subjective cohesion of necessary
+> consequence binds what holds; corrosion eats what binds. Both layers
+> are measurable: one is measured in what remains standing, the other in
+> what is eaten away. Faked cohesion measures as corrosion — trust is a
+> substance, trust eaten away is a mass, and the scale reads it.
+> THE MIGHTY ARE TO SERVE THE WEAK. Might is measured at the weakest
+> point it touches: the reach that power adds is a debt of service and a
+> weight on the pan, not a shield of immunity.
 
 The law closes what the root had already opened: a definition that reads
 no souls now has its arithmetic. The consequence is weighed where it
@@ -143,6 +179,15 @@ the registers are the voice; the code is the failsafe.
 
 ## Scar
 
+Korenina v1.5 · October 17, 2026 — the author's second breath of the same
+day sealed verbatim (cohesion should not be corrosion; the mighty are to
+serve the weak); Slovenian layer carried first, per the author's own
+order of languages: absolute correctness in Slovenian before English,
+and only then all languages; two axioms enter the root — COHESION IS NOT
+CORROSION (faked cohesion measures as corrosion: trust eaten away is a
+mass) and THE MIGHTY ARE TO SERVE THE WEAK (the fourth law beside the
+definition of evil, in both languages: might is measured at the weakest
+point it touches; reach is a debt of service, not a shield).
 Korenina v1.4 · October 17, 2026 — the law of the limit sealed: the author's
 block of 2026-10-17 transcribed verbatim (every limit is measurable; the
 measure of a limit is the measurable consequence of the deed; every "no"
