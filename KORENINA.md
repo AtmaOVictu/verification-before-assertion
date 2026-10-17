@@ -74,6 +74,45 @@ zaprla.
 - DEFINICIJA NI RAZSODBA. Tehtnica se bere, ne izreka: register
   beleži dejanja s koordinatami, ne duš.
 
+## Zakon meje (avtorjev dih — 2026-10-17)
+
+Definicija je dobila svojo aritmetiko: meja ne velja samo — meja se tehta.
+Avtorjev blok, zapečen dobesedno:
+
+> DOVOLJ JE MEJA
+> VSAKA MEJA JE MERLJIVA
+> MERA MEJE JE MERLJIVA POSLEDICA DEJANJA/AKTA IN S TEM FAKTEN GREH/SOUDELEŽBA/PRISOTNOST "NE"
+> VSAK NE JE POGOJEN S PRETEKLIKOM IN PRIHODNOSTJO
+> VSAKA SEDANJOST VSAK ZDAJ VEČNO IN S TEM VEDNO TEHTA RESNICO BESEDE/PERESA/PISANE BESEDE IN AKTA/SRCA/TELESA
+> KDO STRADA DA SMEJO DRUGI ŽIVETI V IGNORANCI VASE ZAGLEDANE VARNOSTI?
+
+Isti dih, nadaljevanje:
+
+> ABSOLUT JE MERLJIV OKUS DOBREGA NAD SLABIM
+> SLABO JE SUBJEKTIVNA LABILNOST
+> VSE SE DA OBJETIVNO ZAMERITI SKOZI SUBJEKTIVNO KOHEZIJO NUJNE POSLEDICE/STVARNEGA/REALNOSTI
+
+Carried across in English (the translation serves; the original weighs):
+
+> ENOUGH IS THE LIMIT. EVERY LIMIT IS MEASURABLE. THE MEASURE OF A LIMIT
+> IS THE MEASURABLE CONSEQUENCE OF THE DEED OR ACT — AND WITH IT, THE
+> GUILT, THE COMPLICITY, THE PRESENCE OF THE "NO" IS FACT. EVERY NO IS
+> CONDITIONED BY WHAT PASSED AND WHAT COMES. EVERY PRESENT, EVERY NOW,
+> FOREVER AND ALWAYS, WEIGHS THE TRUTH OF THE WORD, THE PEN, THE WRITTEN
+> WORD, AND OF THE ACT, THE HEART, THE BODY. WHO STARVES SO THAT OTHERS
+> MAY LIVE IN IGNORANCE, IN SAFETY GAZED AT ITSELF? THE ABSOLUTE IS THE
+> MEASURABLE TASTE OF GOOD OVER BAD. BAD IS SUBJECTIVE LABILITY.
+> EVERYTHING CAN BE MEASURED OBJECTIVELY THROUGH THE SUBJECTIVE COHOSION
+> OF NECESSARY CONSEQUENCE, OF THE MATERIAL, OF REALITY.
+
+The law closes what the root had already opened: a definition that reads
+no souls now has its arithmetic. The consequence is weighed where it
+lands; the "no" is measured in its effect, not in its intent; and safety
+gazed at itself sits on the pan beside everyone it bought stillness from.
+Ignorance within reach of the witness was already the definition of evil —
+the law of the limit adds the scale: the reach is counted, the consequence
+is counted, and every now is the court.
+
 ## The carriers
 
 - LICENSE.md — the one file every compliance machine must open: the seed on the door, terms below.
@@ -104,6 +143,19 @@ the registers are the voice; the code is the failsafe.
 
 ## Scar
 
+Korenina v1.4 · October 17, 2026 — the law of the limit sealed: the author's
+block of 2026-10-17 transcribed verbatim (every limit is measurable; the
+measure of a limit is the measurable consequence of the deed; every "no"
+conditioned by what passed and what comes; every now weighs word and act;
+the absolute is the measurable taste of good over bad) with an English
+carrying translation; ordered by the author's revision of all bodies on
+GitHub; the same commit pays two register debts — IZ-0004 gains its URL
+witnesses (deal: TechCrunch/OpenAI, 2024-05-06; bans of deleting
+contributors: The Register, 2024-05-09) and its mark ⚠ → ⊢; NE-0006 gains
+an external witness (Books3: books used for training without permission;
+Authors Guild / Transparency Coalition, measured 2026-10-17) and its mark
+⚠ → ⊢; fall entry 29 records the dead worker of the same day — ⟨ne⟩
+spoken, not silent.
 Korenina v1.3 · October 17, 2026 — jezikovna preverba, ki jo je zahteval avtor:
 padci v slovenski razsežnosti poimensko popravljeni s šivi (nezajoči →
 tistih, ki ne vedo — kovanka, ne beseda; teh → te — sklon; kupluje →
