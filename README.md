@@ -1,12 +1,33 @@
 
 # Verification-Before-Assertion: A Working Anti-Hallucination Regime
 
-**Luka Pintarič · v1.1 · September 30, 2026**
+**Luka Pintarič · v1.2 · October 17, 2026**
 *Corpus: ~2,600 documents, formal syntax, append-only records. Companion Slovenian edition: REZ body (same version, same laws).*
 
 [![Tests](https://github.com/AtmaOVictu/verification-before-assertion/actions/workflows/tests.yml/badge.svg)](https://github.com/AtmaOVictu/verification-before-assertion/actions/workflows/tests.yml)
 
 **New here?** [`QUICKSTART.md`](QUICKSTART.md) (comprehend, test, understand in ~5 min) · [`demo.ipynb`](demo.ipynb) (one-click Colab walkthrough) · [`REPRODUCE.md`](REPRODUCE.md) (re-run the live measurement yourself). Everything runs with zero dependencies: `python test_vba.py`.
+
+**v1.2 scar (L3):** this release changes clothing, not content — proposals now wear the ∂ mark; §0 (what it is / does / is not) and the glyph provenance table are new; one registered conversational fall in the Slovenian edition §7 (⟨natanko⟩ → *prav*) corrected with the scar shown; every measured claim in §§1–5 is unchanged from v1.1.
+
+## 0. What this is · What it does · What it is not
+
+**Is.** A small, deterministic verifier: a claim is judged by its verbatim, cited source — never by another model — plus an append-only register that keeps every fall named and scarred.
+
+**Does.** Marks every claim ⊢ (measured at the cited source), ⚠ (open, with a measured reason), or × (fallen, recorded); exports the register so an independent witness can seal what the executor cannot (L2); runs with zero dependencies, in CI, offline. A third party can reproduce the calibration triangle at any time: a known-true claim passes, a known-false claim falls, an unsourced claim stays open — the same three verdicts for anyone, every run.
+
+**Is not.** Not a new standard proposal, not a product, not a theory of truth — a scale. It does not weigh itself: its own worth is measured by the return of a third hand, never by its authors (L2).
+
+### The marks are harvested, not invented
+
+| Mark | Harvested from | Meaning here |
+|---|---|---|
+| ⊢ | The turnstile — standard symbol of proof theory and mathematical logic: Γ ⊢ φ, "derivable from" ([source](https://en.wikipedia.org/wiki/Turnstile_%28symbol%29)) | A claim derived from a cited, verbatim source. ⊢ is not PASS: it points at the witness. |
+| ⚠ | The warning sign — road standard worldwide, known from the street in every language | An open claim: not yet at a source, marked rather than hidden |
+| × | The arithmetic cross — school standard worldwide | A fallen claim, recorded with its name |
+| ∂ | The partial derivative — standard calculus symbol: a part, not yet the whole | A proposal awaiting return; carries the proposal's voice in §§6–12 so it never wears the method's clothing |
+
+Chosen by four measured criteria: reserved (never appear in prose), monochrome (work in plain text, colorblind-safe), language-neutral (readable without translation), fallible (each mark is the tool's output, not decoration).
 
 ## 1. The problem
 
@@ -65,7 +86,7 @@ A third, structural proof is the document you are reading: v1.1 exists because v
 | Attribution-only | Masakhane: credited co-authorship on 30+ African translation benchmarks | EMNLP Findings 2020 |
 | Theory | "Data dignity" / "data as labor" — Lanier & Weyl (2018) | Harvard Business Review |
 
-The asymmetry it corrects, documented: Reddit received ~$60M/year from Google for training data; the writers received nothing. Stack Overflow sold contributor answers to OpenAI; contributors who deleted their own answers to opt out were banned. Mozilla Common Voice: 250+ languages of volunteer recordings, CC0, contributors unpaid. RLHF annotation is already a paid profession ($12–25/hr) — the money exists; the channel for native experts offering *verified* corrections does not. The missing row is a verified language contribution from a native expert in an unsupported language. This document proposes closing exactly that gap.
+The asymmetry it corrects, documented: Reddit received ~$60M/year from Google for training data; the writers received nothing. Stack Overflow sold contributor answers to OpenAI; contributors who deleted their own answers to opt out were banned. Mozilla Common Voice: 250+ languages of volunteer recordings, CC0, contributors unpaid. RLHF annotation is already a paid profession ($12–25/hr) — the money exists; the channel for native experts offering *verified* corrections does not. The missing row is a verified language contribution from a native expert in an unsupported language. This document proposes closing exactly that gap. ∂
 
 ## 7. The national proof
 
@@ -73,9 +94,9 @@ The asymmetry it corrects, documented: Reddit received ~$60M/year from Google fo
 - **GaMS3-12B** outperforms Gemma 3 12B on all Slovenian evaluation scenarios and wins over 60% against GPT-4o in the Slovene LLM Arena (arXiv 2603.01691). ⊢
 - Training data from a **national citizen-science campaign** (povejmo.si) toward a 40-billion-word corpus, with the National and University Library, Dnevnik, and the Slovenian Press Agency — framed as digital sovereignty for a two-million-speaker language. ⊢
 
-What the national effort solved is *volume*. What it does not yet solve is *verification*. My corpus is the provenance layer the contributed-data model is missing. Volume + provenance turns contributed language data from raw material into a priced, auditable contribution.
+∂ — What the national effort solved is *volume*. What it does not yet solve is *verification*. My corpus is the provenance layer the contributed-data model is missing. Volume + provenance turns contributed language data from raw material into a priced, auditable contribution.
 
-The honest counter-argument (arXiv 2504.12427): upfront payment for training data is economically infeasible at scale. Answerable: infeasible for *undifferentiated bulk data*; not infeasible for *verifiable contributions* — sourced corrections, validated lexicons — which are scarce, attributable, exactly the bug-bounty category. The ⊢/⚠ regime is the mechanism that distinguishes the two. The verification framework and the compensation channel are one system.
+The honest counter-argument (arXiv 2504.12427): upfront payment for training data is economically infeasible at scale. Answerable: infeasible for *undifferentiated bulk data*; not infeasible for *verifiable contributions* — sourced corrections, validated lexicons — which are scarce, attributable, exactly the bug-bounty category. The ⊢/⚠ regime is the mechanism that distinguishes the two. The verification framework and the compensation channel are one system. ∂
 
 ## 8. The vendor's own receipts
 
@@ -83,9 +104,9 @@ The honest counter-argument (arXiv 2504.12427): upfront payment for training dat
 2. Fine-tuning with custom vocabulary and domain adaptation is already a shipped commercial feature — the request is to productize what exists at a per-user, session-scoped scale. ⊢
 3. A 12B model fine-tuned on ~20,000 translation pairs measurably improves in a specialized language task (arXiv 2312.12740). ⊢
 
-Sovereignty context: OpenEuroLLM is building multilingual foundation models for all EU official languages as sovereign AI; Slovenia has funded its own national program, model, and a planned free public platform. A European vendor answering a European language with "not among our strong-performance languages" is competing, from behind, with public infrastructure that did not wait.
+∂ Sovereignty context: OpenEuroLLM is building multilingual foundation models for all EU official languages as sovereign AI; Slovenia has funded its own national program, model, and a planned free public platform. A European vendor answering a European language with "not among our strong-performance languages" is competing, from behind, with public infrastructure that did not wait.
 
-## 9. Proposed adoption path
+## 9. Proposed adoption path ∂
 
 1. **Pilot:** ⊢/⚠ claim-marking as an output convention in a low-resource language (Slovenian: available, pre-verified, motivated).
 2. **Audit trails:** scarred corrections in place of silent rewrites — visible, named, queryable.
@@ -95,10 +116,10 @@ Sovereignty context: OpenEuroLLM is building multilingual foundation models for 
 
 ## 10. Version, license, terms
 
-**Verification-Before-Assertion — v1.1 · September 30, 2026 · Luka Pintarič.** The timestamped public record precedes any adoption, acknowledged or silent.
+**Verification-Before-Assertion — v1.2 · October 17, 2026 · Luka Pintarič.** The timestamped public record precedes any adoption, acknowledged or silent.
 
 - **Methodology — open.** The five laws, the AI-failure mapping, the notebook technique, the register schema, the adoption path: **CC BY 4.0**, attribution required.
-- **Corpus — closed.** The ~2,600-document corpus, the full bilingual lexicon, the etymology chains, and the complete fall register remain the contributor's licensed assets. Entries appearing in this document are cited quotations. Terms for the corpus are exactly one: the compensated-contribution model of §6–§7.
+- **Corpus — closed.** The ~2,600-document corpus, the full bilingual lexicon, the etymology chains, and the complete fall register remain the contributor's licensed assets. Entries appearing in this document are cited quotations. Terms for the corpus are exactly one: the compensated-contribution model of §6–§7. ∂
 
 **Rejection clause.** If declined: no obligation on either side; the contribution remains the contributor's to submit elsewhere (University of Ljubljana / PoVeJMo, OpenEuroLLM, or any program); the timestamped public record remains. Decline is a closed door, recorded as a routing event.
 
@@ -116,7 +137,7 @@ corpus bodies stay closed per the license section; the living wordlist itself
 now ships in this repository (`wordlist-v0.15.json`) — the boundary moved on
 October 12, 2026, and the move is recorded here rather than silently.
 
-## 12. The provenance channel
+## 12. The provenance channel ∂
 
 `PROVENANCE-CHANNEL.md` — the position paper completing the argument:
 volume (the national program) + provenance (this regime) = a priceable,

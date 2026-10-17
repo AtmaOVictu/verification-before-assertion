@@ -1,7 +1,28 @@
 # Preverba pred izrekom: delujoč režim proti halucinacijam
 
-**Luka Pintarič · v1.1 · 30. september 2026**
+**Luka Pintarič · v1.2 · 17. oktober 2026**
 *Korpus: ~2.600 dokumentov, formalna sintaksa, zapisi brez brisanja. Sestrsko telo v angleščini: isti razred, isti zakoni.*
+
+**Šiv v1.2 (Z3):** ta različica menja oblačila, ne vsebino — predlogi dobijo znamenje ∂; §0 (kaj je · kaj dela · kaj ni) in tabela žetve glifov sta novi; registrirana pogovorna oblika v §7 (⟨natanko⟩ → *prav*) je popravljena s pokazanim šivom; vsaka izmerjena trditev v §§1–5 ostaja nespremenjena iz v1.1.
+
+## 0. Kaj je · Kaj dela · Kaj ni
+
+**Je.** Majhen, determinističen preverjevalnik: trditev sodi dobeseden, citiran vir — nikoli drug model — in register brez brisanja, ki vsak padec nosi poimenovanega s šivom.
+
+**Dela.** Označi vsako trditev ⊢ (izmerjena pri citiranem viru), ⚠ (odprta, z izmerjenim razlogom) ali × (padla, zapisana); izvozi register, da neodvisna priča zapečati tisto, česar izvajalka ne more (Z2); teče brez odvisnosti, v CI, brez mreže. Tretja oseba lahko kadarkoli ponovi kalibracijski trikotnik: znana pravilna trditev preživi, znana napačna pade, trditev brez vira ostane odprta — isti trije izreki za vsakogar, ob vsakem zagonu.
+
+**Ni.** Ni nov predlog standarda, ni izdelek, ni teorija resnice — je tehtnica. Sebe ne tehta: njeno vrednost izmeri vrnitev tretje roke, nikoli avtorja (Z2).
+
+### Znamenja so žeta, ne izumljena
+
+| Znamenje | Žetev | Pomen tukaj |
+|---|---|---|
+| ⊢ | Turnstile — standardni znak teorije dokaza ∧ matematične logike: Γ ⊢ φ, »izpeljivo iz« ([vir](https://en.wikipedia.org/wiki/Turnstile_%28symbol%29)) | Trditev, izpeljana iz citiranega, dobesednega vira. ⊢ ni enak PASS: kaže na pričo. |
+| ⚠ | Opozorilno znamenje — cestna norma svetovno, znano z ceste v vsakem jeziku | Odprta trditev: še brez vira, označena, ne skrita |
+| × | Računski križ — šolska norma svetovno | Padla trditev, zapisana z imenom |
+| ∂ | Delni odvod — standardni znak infinitezimalnega računa: del, še ne celota | Predlog, ki čaka vrnitev; v §§6–9 nosi glas predloga, da nikoli ne obleče metode |
+
+Izbrana po štirih izmerjenih merilih: rezervirana (ne nastopajo v prozi), enobarvna (delujejo v goli besedili, barvno-varna), jezikovno-neutralna (berljiva brez prevoda), padljiva (vsako znamenje je izhod orodja, ne okras).
 
 ## 1. Težava
 
@@ -60,7 +81,7 @@ Tretji, strukturni dokaz je dokument, ki ga berete: v1.1 obstaja, ker je bil v1.
 | Samo pripis | Masakhane: soavtorstvo na 30+ afriških prevajalskih merilnih naborih | EMNLP 2020 |
 | Teorija | »Dostojanstvo podatkov« — Lanier in Weyl (2018) | Harvard Business Review |
 
-Asimetrija, ki jo popravlja, dokumentirana: Reddit je prejel ~60 milij. USD na leto od Googla za učne podatke; avtorji prispevkov niso prejeli nič. Stack Overflow je prodal odgovore prispevnikov OpenAI; tisti, ki so jih izbrisali, so bili izključeni. Mozilla Common Voice: 250+ jezikov prostovoljnih posnetkov, CC0, prispevniki neplačani. Označevanje RLHF je že plačan poklic — denar obstaja; kanal za izvirne govorce z *preverjenimi* popravki ne. Vrstica, ki manjka: preverjen jezikovni prispevek izvirnega govorca v nepodprtem jeziku. Ta dokument predlaga, da se vrzel zapre.
+Asimetrija, ki jo popravlja, dokumentirana: Reddit je prejel ~60 milij. USD na leto od Googla za učne podatke; avtorji prispevkov niso prejeli nič. Stack Overflow je prodal odgovore prispevnikov OpenAI; tisti, ki so jih izbrisali, so bili izključeni. Mozilla Common Voice: 250+ jezikov prostovoljnih posnetkov, CC0, prispevniki neplačani. Označevanje RLHF je že plačan poklic — denar obstaja; kanal za izvirne govorce z *preverjenimi* popravki ne. Vrstica, ki manjka: preverjen jezikovni prispevek izvirnega govorca v nepodprtem jeziku. Ta dokument predlaga, da se vrzel zapre. ∂
 
 ## 7. Narodni dokaz
 
@@ -68,9 +89,9 @@ Asimetrija, ki jo popravlja, dokumentirana: Reddit je prejel ~60 milij. USD na l
 - **GaMS3-12B** prekaša Gemma 3 12B na vseh slovenskih evalvacijskih scenarijih in doseže nad 60 % zmag proti GPT-4o v slovenski LLM areni (arXiv 2603.01691). ⊢
 - Učni podatki iz **nacionalne kampanje občanske znanosti** (povejmo.si) proti 40-milijardnemu besednemu korpusu, z NUK, Dnevnikom in STA — predstavljeno kot digitalna suverenost za jezik z dvema milijonoma govorcev. ⊢
 
-Narodni napor je rešil *prostornino*. Še ne rešuje *preverjanja*. Moj korpus je plast izvora, ki manjka prispevnemu modelu. Prostornina + izvor spremenita prispevane jezikovne podatke iz surovine v cenjen prispevek, ki ga je mogoče revidirati.
+∂ — Narodni napor je rešil *prostornino*. Še ne rešuje *preverjanja*. Moj korpus je plast izvora, ki manjka prispevnemu modelu. Prostornina + izvor spremenita prispevane jezikovne podatke iz surovine v cenjen prispevek, ki ga je mogoče revidirati.
 
-Pošten protiprimer (arXiv 2504.12427): predplačilo za učne podatke je gospodarsko neizvedljivo v velikem. Odgovor: neizvedljivo za *nediferencirane masovne podatke*; ne za *preverljive prispevke* — popravki z viri, preverjeni leksikoni — redki, pripisljivi, natanko kategorija nagrad za napake. Režim ⊢/⚠ je mehanizem, ki loči oboje. Preverjen okvir in kanal kompenzacije sta en sistem.
+Pošten protiprimer (arXiv 2504.12427): predplačilo za učne podatke je gospodarsko neizvedljivo v velikem. Odgovor: neizvedljivo za *nediferencirane masovne podatke*; ne za *preverljive prispevke* — popravki z viri, preverjeni leksikoni — redki, pripisljivi, prav kategorija nagrad za napake. Režim ⊢/⚠ je mehanizem, ki loči oboje. Preverjen okvir in kanal kompenzacije sta en sistem. ∂
 
 ## 8. Prejemki ponudnika samega
 
@@ -78,9 +99,9 @@ Pošten protiprimer (arXiv 2504.12427): predplačilo za učne podatke je gospoda
 2. Prilagajanje s slovarjem in terminologijo je že izdelek — prošnja je, da se obstoječi izdelek izda na uporabniški, sejni ravni. ⊢
 3. Model 12B, prilagojen na ~20.000 prevajalnih parov, se izmerljivo izboljša v specializirani jezikovni nalogi (arXiv 2312.12740). ⊢
 
-Suverenostni okvir: OpenEuroLLM gradi večjezikovne temeljne modele za vse uradne jezike EU kot suvereno UI; Slovenija je financirala svoj lastni program, model in načrtovano brezplačno javno platformo. Evropski ponudnik, ki evropskemu jeziku odgovarja z »ni med našimi jeziki močne zmogljivosti«, tekmuje — zaostajajoč — z javno infrastrukturo, ki ni čakala.
+∂ Suverenostni okvir: OpenEuroLLM gradi večjezikovne temeljne modele za vse uradne jezike EU kot suvereno UI; Slovenija je financirala svoj lastni program, model in načrtovano brezplačno javno platformo. Evropski ponudnik, ki evropskemu jeziku odgovarja z »ni med našimi jeziki močne zmogljivosti«, tekmuje — zaostajajoč — z javno infrastrukturo, ki ni čakala.
 
-## 9. Predlagana pot prevzema
+## 9. Predlagana pot prevzema ∂
 
 1. **Pilot:** znamenje ⊢/⚠ kot izhodna konvencija v jeziku z omejenimi viri (slovenščina: pri roki, predhodno preverjena, motivirana).
 2. **Revizijske sledi:** šivani popravki namesto tihih prepisov — vidni, poimenovani, poizvedljivi.
@@ -90,10 +111,10 @@ Suverenostni okvir: OpenEuroLLM gradi večjezikovne temeljne modele za vse uradn
 
 ## 10. Različica, licenca, pogoji
 
-**Preverba pred izrekom — v1.1 · 30. september 2026 · Luka Pintarič.** Časovno žigosan javni zapis predhodi vsakemu prevzemu, priznanemu ali tihemu.
+**Preverba pred izrekom — v1.2 · 17. oktober 2026 · Luka Pintarič.** Časovno žigosan javni zapis predhodi vsakemu prevzemu, priznanemu ali tihemu.
 
 - **Metodologija — odprta.** Pet zakonov, preslikava napak UI, tehnika zvezka, šema registra, pot prevzema: **CC BY 4.0**, zahtevan pripis.
-- **Korpus — zaprt.** Korpus ~2.600 dokumentov, popoln dvojezični leksikon, etimološke vezi in popoln register padcev ostajajo licencirana last prispevnika. Vnosi v tem dokumentu so citirani odlomki. Pogoj za korpus je točno en: kompenzirani prispevek iz §6–§7.
+- **Korpus — zaprt.** Korpus ~2.600 dokumentov, popoln dvojezični leksikon, etimološke vezi in popoln register padcev ostajajo licencirana last prispevnika. Vnosi v tem dokumentu so citirani odlomki. Pogoj za korpus je točno en: kompenzirani prispevek iz §6–§7. ∂
 
 **Klavzula zavrnitve.** Ob zavrnitvi: nobena obveza na nobeni strani; prispevek ostane prispevnikov za oddajo drugam (Univerza v Ljubljani / PoVeJMo, OpenEuroLLM ali katerikoli program); časovno žigosan javni zapis ostaja. Zavrnitev je zaprta vrata, zapisana kot usmerjevalni dogodek.
 
