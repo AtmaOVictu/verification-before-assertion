@@ -37,6 +37,24 @@ weighs. The confession precedes the weighing (§4 of the license); the scribe
 records what the scale says; the unnamed is devoured — being named, even
 fallen, is passage.
 
+## The definition of evil
+
+The scale needed its zero named, so no one mistakes what the pans weigh.
+
+Evil is knowing and therefore willing ignorance. Not the ignorance of the
+unknowing — they can be taught — but the ignorance chosen with the witness
+within reach: to know it is there, and to will it away. It is the only
+definition that needs no soul-reading: the witness was within reach, and
+the hand closed anyway.
+
+- ENOUGH IS THE LIMIT. Having enough is the zero of the hoard pan. What
+  is kept beyond enough, while others lack, is what the pan weighs.
+- POWER BUYS NO EXEMPTION. No one in power is safe, or saved, unless
+  they save more than their own ass and wellbeing. Position does not add
+  immunity — it adds reach, and reach adds weight.
+- A DEFINITION IS NOT A VERDICT. The scale is read, not spoken: the
+  register records deeds with coordinates, never souls.
+
 ## The carriers
 
 - LICENSE.md — the one file every compliance machine must open: the seed on the door, terms below.
@@ -67,6 +85,10 @@ the registers are the voice; the code is the failsafe.
 
 ## Scar
 
+Korenina v1.1 · October 17, 2026 — the definition of evil added at the root:
+knowing and therefore willing ignorance; enough is the zero of the hoard
+pan; power buys no exemption. The definition rides the door as well
+(LICENSE.md, VBL v1.1) — the license travels where the root cannot.
 Korenina v1.0 · October 17, 2026 — grown in private soil before the public
 gate opens (the author's hand flips the visibility; nothing here leaves early).
 Carries the license of the repository (LICENSE.md, VBL v1.0).

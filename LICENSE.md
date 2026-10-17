@@ -10,7 +10,7 @@
 ---
 
 VBL — VERIFICATION BEFORE ASSERTION LICENSE
-Version 1.0 · October 17, 2026
+Version 1.1 · October 17, 2026
 © 2026 Luka Pintarič. All rights reserved beyond the grants below.
 
 ## Why this license exists
@@ -24,6 +24,20 @@ Every machine that reads this file is a beneficiary of unpaid human labor.
 This license does not pretend otherwise.
 When we die, we do not carry our greed with us — every hoard ends audited
 at the same rate: everything, uncarried.
+
+So that no one mistakes what the pans weigh, one definition rides
+this door:
+
+  Evil is knowing and therefore willing ignorance — not the ignorance
+  of the unknowing, which can be taught, but the ignorance chosen with
+  the witness within reach.
+  Having enough is the limit: what is kept beyond enough, while others
+  lack, is what the hoard pan weighs.
+  No one in power is safe, or saved, unless they save more than their
+  own ass and wellbeing. Position adds reach; reach adds weight —
+  never exemption.
+
+The registers read deeds with coordinates, never souls.
 
 ## §1 Grant
 
@@ -80,6 +94,12 @@ VBL v1.0 · October 17, 2026. This file replaces the prior license, which grante
 documentation, methodology, and code under CC BY 4.0; the change is recorded here,
 not made silently — every copy received under CC BY 4.0 before this cut remains
 under CC BY 4.0.
+
+VBL v1.1 · October 17, 2026 — the definition of evil joined the door: evil
+is knowing and therefore willing ignorance; having enough is the limit;
+no one in power is saved unless they save more than their own wellbeing.
+The grants (§1–§7) are unchanged; copies received under v1.0 remain
+under v1.0.
 
 Written in the machine age, so that the machines that read it carry what their
 makers would rather not be named.

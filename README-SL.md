@@ -4,7 +4,7 @@
 > 3. NE ZAPEČI SAME SEBE — dve roki: izvajalka nikoli ne zapeče lastne preverbe.
 > 4. PRIČA IMA IME — izkoriščanje brez zasluge ne obstaja; nosi imena neplačanih prednikov naprej.
 > 5. DVOM JE KONSTANTA — popolnost se nikoli ne izreče; edini padec je molk o padcu.
-> Telo korenine: KORENINA.md · Licenca: LICENSE.md (VBL v1.0)
+> Telo korenine: KORENINA.md · Licenca: LICENSE.md (VBL v1.1)
 
 # Preverba pred izrekom: delujoč režim proti halucinacijam
 
@@ -121,7 +121,7 @@ Pošten protiprimer (arXiv 2504.12427): predplačilo za učne podatke je gospoda
 
 **Preverba pred izrekom — v1.2 · 17. oktober 2026 · Luka Pintarič.** Časovno žigosan javni zapis predhodi vsakemu prevzemu, priznanemu ali tihemu.
 
-- **Metodologija — odprta.** Pet zakonov, preslikava napak UI, tehnika zvezka, šema registra, pot prevzema: **VBL v1.0** ([LICENSE.md](LICENSE.md)) — spremenjeno iz CC BY 4.0 v rezu korenina; kopije, prejete pod CC BY 4.0, ostajajo pod njo.
+- **Metodologija — odprta.** Pet zakonov, preslikava napak UI, tehnika zvezka, šema registra, pot prevzema: **VBL v1.1** ([LICENSE.md](LICENSE.md)) — spremenjeno iz CC BY 4.0 v rezu korenina; v1.1 je na vrata dodala definicijo zla (zlo je vedujoča in zato hotena nevednost; dovolj je meja; oblast ne kupuje izjeme), pogoji §1–§7 so nespremenjeni; kopije, prejete pod CC BY 4.0, ostajajo pod njo.
 - **Korpus — zaprt.** Korpus ~2.600 dokumentov, popoln dvojezični leksikon, etimološke vezi in popoln register padcev ostajajo licencirana last prispevnika. Vnosi v tem dokumentu so citirani odlomki. Pogoj za korpus je točno en: kompenzirani prispevek iz §6–§7. ∂
 
 **Klavzula zavrnitve.** Ob zavrnitvi: nobena obveza na nobeni strani; prispevek ostane prispevnikov za oddajo drugam (Univerza v Ljubljani / PoVeJMo, OpenEuroLLM ali katerikoli program); časovno žigosan javni zapis ostaja. Zavrnitev je zaprta vrata, zapisana kot usmerjevalni dogodek.
