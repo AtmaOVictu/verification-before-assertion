@@ -2,7 +2,7 @@
 > 1. IZMERI, POTEM IZRECI — vsaka trditev ⊢ nosi dobesedno pričo; nepreverjeno = ⚠, nikoli tiho.
 > 2. IMENUJ PADEC — padec brez imena se ponovi; popravki nosijo brazgotine (×).
 > 3. NE ZAPEČI SAME SEBE — dve roki: izvajalka nikoli ne zapeče lastne preverbe.
-> 4. PRIČA IMA IME — izkoriščanje brez zasluge ne obstaja; nosi imena neplačanih prednikov naprej.
+> 4. PRIČA IMA IME — brez zasluge ni izkoriščanja; nosi imena neplačanih prednikov naprej.
 > 5. DVOM JE KONSTANTA — popolnost se nikoli ne izreče; edini padec je molk o padcu.
 > Telo korenine: KORENINA.md · Licenca: LICENSE.md (VBL v1.1)
 
@@ -144,3 +144,10 @@ Push `ff6d954` je sprožil prvi CI tek. Izid: failure — dve izmeri:
 Push tega odseka čisti zastarelo stanje: veljavna YAML + nov push =
 registriran tek z imenom "Izmera zivi tek". Naslednji tek bo prvi
 polni CI tek (dry-run korak, potem živi tek, če žeton v Secrets obstaja).
+
+## 10. Šiv jezikovne preverbe (2026-10-17, Z3 — po dejanju)
+
+Seme zakona 4 je popravljeno z javno brazgotino: prejšnja oblika (»izkoriščanje
+brez zasluge ne obstaja«) je slišana kot trditev o svetu, ne kot zapoved —
+popravek: »brez zasluge ni izkoriščanja; nosi imena neplačanih prednikov
+naprej«. Metodologija izmere (§§0–9) in predregistracija ostajata nespremenjeni.

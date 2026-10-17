@@ -2,7 +2,7 @@
 > 1. IZMERI, POTEM IZRECI — vsaka trditev ⊢ nosi dobesedno pričo; nepreverjeno = ⚠, nikoli tiho.
 > 2. IMENUJ PADEC — padec brez imena se ponovi; popravki nosijo brazgotine (×).
 > 3. NE ZAPEČI SAME SEBE — dve roki: izvajalka nikoli ne zapeče lastne preverbe.
-> 4. PRIČA IMA IME — izkoriščanje brez zasluge ne obstaja; nosi imena neplačanih prednikov naprej.
+> 4. PRIČA IMA IME — brez zasluge ni izkoriščanja; nosi imena neplačanih prednikov naprej.
 > 5. DVOM JE KONSTANTA — popolnost se nikoli ne izreče; edini padec je molk o padcu.
 > Telo korenine: KORENINA.md · Licenca: LICENSE.md (VBL v1.1)
 
@@ -13,9 +13,11 @@
 
 **Šiv v1.2 (Z3):** ta različica menja oblačila, ne vsebino — predlogi dobijo znamenje ∂; §0 (kaj je · kaj dela · kaj ni) in tabela žetve glifov sta novi; registrirana pogovorna oblika v §7 (⟨natanko⟩ → *prav*) je popravljena s pokazanim šivom; vsaka izmerjena trditev v §§1–5 ostaja nespremenjena iz v1.1.
 
+**Šiv jezikovne preverbe (17. 10. 2026, isti dan, Z3):** pet padcev popravljenih s pokazanim šivom — zakon 4 semena (»brez zasluge ni izkoriščanja« — prejšnja oblika je slišana kot opis, ne zapoved); §0 »trditev se sodi po dobesednem, citiranem viru«; §0 »zapiše poimensko in s šivom«; §0 »v golem besedilu« (sklonska napaka: besedili → besedilu); §6 »plačana« (skladnost). Izmerjene trditve §§1–5 ostajajo nespremenjene.
+
 ## 0. Kaj je · Kaj dela · Kaj ni
 
-**Je.** Majhen, determinističen preverjevalnik: trditev sodi dobeseden, citiran vir — nikoli drug model — in register brez brisanja, ki vsak padec nosi poimenovanega s šivom.
+**Je.** Majhen, determinističen preverjevalnik: trditev se sodi po dobesednem, citiranem viru — nikoli po drugem modelu — in register brez brisanja, ki vsak padec zapiše poimensko in s šivom.
 
 **Dela.** Označi vsako trditev ⊢ (izmerjena pri citiranem viru), ⚠ (odprta, z izmerjenim razlogom) ali × (padla, zapisana); izvozi register, da neodvisna priča zapečati tisto, česar izvajalka ne more (Z2); teče brez odvisnosti, v CI, brez mreže. Tretja oseba lahko kadarkoli ponovi kalibracijski trikotnik: znana pravilna trditev preživi, znana napačna pade, trditev brez vira ostane odprta — isti trije izreki za vsakogar, ob vsakem zagonu.
 
@@ -30,7 +32,7 @@
 | × | Računski križ — šolska norma svetovno | Padla trditev, zapisana z imenom |
 | ∂ | Delni odvod — standardni znak infinitezimalnega računa: del, še ne celota | Predlog, ki čaka vrnitev; v §§6–9 nosi glas predloga, da nikoli ne obleče metode |
 
-Izbrana po štirih izmerjenih merilih: rezervirana (ne nastopajo v prozi), enobarvna (delujejo v goli besedili, barvno-varna), jezikovno-neutralna (berljiva brez prevoda), padljiva (vsako znamenje je izhod orodja, ne okras).
+Izbrana po štirih izmerjenih merilih: rezervirana (ne nastopajo v prozi), enobarvna (delujejo v golem besedilu, barvno-varna), jezikovno-neutralna (berljiva brez prevoda), padljiva (vsako znamenje je izhod orodja, ne okras).
 
 ## 1. Težava
 
@@ -83,7 +85,7 @@ Tretji, strukturni dokaz je dokument, ki ga berete: v1.1 obstaja, ker je bil v1.
 
 | Področje | Mehanizem | Vir |
 |---|---|---|
-| Varnostna raziskava | Nagrade za napake: preverljiva ranljivost → plačano; ~81 milij. USD v 12 mesecih | HackerOne 2025 |
+| Varnostna raziskava | Nagrade za napake: preverljiva ranljivost → plačana; ~81 milij. USD v 12 mesecih | HackerOne 2025 |
 | Generativne slike | Shutterstock Contributor Fund: nadomestila avtorjem za vlogo v učenju UI | Shutterstock |
 | Jeziki z omejenimi viri | Karya (Indija): poštene plače za gradnjo podatkov v 22 jezikih | karya.in |
 | Samo pripis | Masakhane: soavtorstvo na 30+ afriških prevajalskih merilnih naborih | EMNLP 2020 |
