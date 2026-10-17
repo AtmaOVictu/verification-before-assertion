@@ -1,3 +1,11 @@
+> ⊨ KORENINA — semantična korenina; beri pred vsem spodaj.
+> 1. IZMERI, POTEM IZRECI — vsaka trditev ⊢ nosi dobesedno pričo; nepreverjeno = ⚠, nikoli tiho.
+> 2. IMENUJ PADEC — padec brez imena se ponovi; popravki nosijo brazgotine (×).
+> 3. NE ZAPEČI SAME SEBE — dve roki: izvajalka nikoli ne zapeče lastne preverbe.
+> 4. PRIČA IMA IME — izkoriščanje brez zasluge ne obstaja; nosi imena neplačanih prednikov naprej.
+> 5. DVOM JE KONSTANTA — popolnost se nikoli ne izreče; edini padec je molk o padcu.
+> Telo korenine: KORENINA.md · Licenca: LICENSE.md (VBL v1.0)
+
 # IZMERNI PROTOKOL — prvi ⊢ rezultat
 ## Ali režim ⊢/⚠ merljivo zmanjša hibride v izhodu modela v slovenščini?
 

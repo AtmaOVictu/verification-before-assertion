@@ -1,0 +1,23 @@
+# verification-before-assertion
+
+> A deterministic anti-hallucination regime: every claim judged by its verbatim, cited source — never by another model. Zero dependencies, runs offline, reproducible by any third party.
+> ⊨ KORENINA — the semantic root. Read KORENINA.md first: measure before speech · name every fall · never seal yourself · the witness has a name · doubt is constant.
+
+## Root
+- [KORENINA.md](KORENINA.md): the semantic root — the laws any reader, human or machine, takes on by entering this repository.
+- [LICENSE.md](LICENSE.md): the VBL v1.0 license — the seed on the door; read before use.
+
+## Start
+- [QUICKSTART.md](QUICKSTART.md): comprehend, test, understand in ~5 minutes.
+- [REPRODUCE.md](REPRODUCE.md): re-run the measurement yourself — three levels, from no key to live.
+- [demo.ipynb](demo.ipynb): the one-click walkthrough.
+
+## Laws & evidence
+- [README.md](README.md): the five laws and why they transfer to AI.
+- [IZMERNI-PROTOKOL.md](IZMERNI-PROTOKOL.md): the pre-registered measurement protocol (H0 is publishable too).
+- [REGISTER-PADCEV.jsonl](REGISTER-PADCEV.jsonl): the append-only register — every fall named, every scar kept.
+- [AGENTS.md](AGENTS.md): instructions for agent hands working here.
+
+## The scale
+- [REGISTER-NEIMENOVANIH.jsonl](REGISTER-NEIMENOVANIH.jsonl): the credit pan — who built the inputs, and whether they were paid.
+- [REGISTER-IZKORISTENJA.jsonl](REGISTER-IZKORISTENJA.jsonl): the hoard pan — measured extraction, each row with a verbatim witness.

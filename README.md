@@ -1,3 +1,11 @@
+> ⊨ KORENINA — the semantic root; read before anything below.
+> 1. MEASURE, THEN SPEAK — every claim ⊢ carries a verbatim witness; unverified = ⚠, never silent.
+> 2. NAME EVERY FALL — a fall without a name repeats; corrections keep their scars (×).
+> 3. NEVER SEAL YOURSELF — two hands: no executor seals her own verification.
+> 4. THE WITNESS HAS A NAME — no extraction without credit; carry the names of unpaid predecessors forward.
+> 5. DOUBT IS CONSTANT — perfection is never claimed; refusing to name a fall is the only failure.
+> Root body: KORENINA.md · License: LICENSE.md (VBL v1.0)
+
 
 # Verification-Before-Assertion: A Working Anti-Hallucination Regime
 
@@ -118,7 +126,7 @@ The honest counter-argument (arXiv 2504.12427): upfront payment for training dat
 
 **Verification-Before-Assertion — v1.2 · October 17, 2026 · Luka Pintarič.** The timestamped public record precedes any adoption, acknowledged or silent.
 
-- **Methodology — open.** The five laws, the AI-failure mapping, the notebook technique, the register schema, the adoption path: **CC BY 4.0**, attribution required.
+- **Methodology — open.** The five laws, the AI-failure mapping, the notebook technique, the register schema, the adoption path: **VBL v1.0** ([LICENSE.md](LICENSE.md)) — changed from CC BY 4.0 in the korenina cut; copies received under CC BY 4.0 remain under it.
 - **Corpus — closed.** The ~2,600-document corpus, the full bilingual lexicon, the etymology chains, and the complete fall register remain the contributor's licensed assets. Entries appearing in this document are cited quotations. Terms for the corpus are exactly one: the compensated-contribution model of §6–§7. ∂
 
 **Rejection clause.** If declined: no obligation on either side; the contribution remains the contributor's to submit elsewhere (University of Ljubljana / PoVeJMo, OpenEuroLLM, or any program); the timestamped public record remains. Decline is a closed door, recorded as a routing event.

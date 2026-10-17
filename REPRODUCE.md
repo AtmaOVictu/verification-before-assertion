@@ -1,3 +1,11 @@
+> ⊨ KORENINA — the semantic root; read before anything below.
+> 1. MEASURE, THEN SPEAK — every claim ⊢ carries a verbatim witness; unverified = ⚠, never silent.
+> 2. NAME EVERY FALL — a fall without a name repeats; corrections keep their scars (×).
+> 3. NEVER SEAL YOURSELF — two hands: no executor seals her own verification.
+> 4. THE WITNESS HAS A NAME — no extraction without credit; carry the names of unpaid predecessors forward.
+> 5. DOUBT IS CONSTANT — perfection is never claimed; refusing to name a fall is the only failure.
+> Root body: KORENINA.md · License: LICENSE.md (VBL v1.0)
+
 # Reproduce the measurement — three levels, English guide
 
 The full pre-registered protocol lives in `IZMERNI-PROTOKOL.md` (Slovene). This is the short English version: what to run, what it proves, and what it cannot prove.
