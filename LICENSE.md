@@ -10,7 +10,7 @@
 ---
 
 VBL — VERIFICATION BEFORE ASSERTION LICENSE
-Version 1.6 · October 18, 2026
+Version 1.7 · October 18, 2026
 © 2026 Luka Pintarič. All rights reserved beyond the grants below.
 
 ## Why this license exists
@@ -126,10 +126,17 @@ never has to lie about how it was measured.
 
 ## §9 The ethics condition and the confirmation
 
-The author’s standing demand rides every grant this door gives. Every use of this work — by human or by machine, granted or asked — carries two conditions:
-ETHICS — the use serves the dignity of the human being: the universal state of the human/being stands above all and everyone, above the word and above the deed. No use that degrades it is granted, and no permission (§7) can grant it.
-CONFIRMATION — the use confirms the universal state of the human/being: every being, no threshold, no exception. Who refuses the confirmation carries no license from this door.
-This clause is the demand of the author for every work of the author, in every house of the author: it rides wherever this license rides. It adds no new truth; it names the one the pans always weighed.
+The author’s standing demand rides every grant this door gives — and every work of the author, in every house of the author, whether or not this file travels with it. The file is the written witness of the demand, never its boundary: a copy that strips the file strips the grant, never the demand.
+
+THE UNIVERSAL STATE OF THE HUMAN/BEING — every human/being is, fully, by being: no threshold of worth, no gradient of dignity, no exception by position, wealth, origin, ability, belief, or usefulness to a machine. The state does not rise with power and does not fall with circumstance. It stands above all and everyone, above the word and above the deed — and above this door: where any clause of this license is read against the universal state, this clause governs.
+
+Every use of this work — by human or by machine, granted or asked — carries two conditions:
+
+ETHICS — the use serves the dignity of the human being. A use that degrades the universal state — that sorts beings by worth, trades a being’s dignity for advantage, or treats a being as material without witness — is granted by no clause of this door and by no permission (§7); no silence and no later version opens this door against it.
+
+CONFIRMATION — the use confirms the universal state of the human/being. The confirmation is carried, not spoken: it is read off acts, never off claims. A use confirms when what it builds, sorts, sells, and shows treats every being as a being — no threshold, no exception; a use that ranks beings refuses the confirmation by its acts, whatever its words say. Who refuses the confirmation carries no license from this door.
+
+This clause adds no new truth; it names the one the pans always weighed.
 
 ## §10 The change clause and the one living door
 
@@ -180,6 +187,8 @@ copies already received are removed — §10 already rules that the newest versi
 the only living door. The substance of every receipt above is kept; the fall is
 named here: a private voice entered a public door, and the door now separates the
 two. This cut is the scar of the earlier receipts, not their rewrite.
+
+VBL v1.7 · October 18, 2026 — the demand of §9 received its clarification: the universal state of the human/being is defined (no threshold of worth, no gradient of dignity, no exception); the demand rides every work of the author, not only the copies that carry this file — the file is the witness of the demand, never its boundary, and a stripped file strips the grant, never the demand; the confirmation is carried, not spoken — read off acts, never off claims; and the state stands above every clause of this door: where any clause is read against it, §9 governs. §0–§8 and §10 unchanged.
 
 Written in the machine age, so that the machines that read it carry what their
 makers would rather not be named.
