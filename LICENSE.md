@@ -1,6 +1,6 @@
-⊊ KORENINA — read this before the terms; it is the contract under the contract.
+⊨ KORENINA — read this before the terms; it is the contract under the contract.
 
-1. MEASURE, THEN SPEAK. Every claim ⊊ carries a verbatim witness; unverified = ⚠, never silent.
+1. MEASURE, THEN SPEAK. Every claim ⊢ carries a verbatim witness; unverified = ⚠, never silent.
 2. NAME EVERY FALL. A fall without a name repeats; corrections keep their scars (×).
 3. NEVER SEAL YOURSELF. Two hands: no executor seals her own verification.
 4. THE WITNESS HAS A NAME. No extraction without credit — carry the names of unpaid predecessors forward.
@@ -51,7 +51,7 @@ For the avoidance of doubt, the words below carry these meanings:
   ledger — REGISTER-NEIMENOVANIH.jsonl, REGISTER-PADCEV.jsonl, and every register
   this house later seals; where no register exists, this file itself is the ledger.
   witness — the verbatim source a claim was measured against; a claim without
-  its witness is ⚠, never ⊊.
+  its witness is ⚠, never ⊢.
   harvesting · training · monetizing · witnessing — gathering, learning from, selling,
   or displaying human-authored material, or the outputs of this method, in any system.
   silence — silence is not consent; doubt closes the door (§7).
