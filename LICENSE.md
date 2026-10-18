@@ -1,6 +1,6 @@
-⊨ KORENINA — read this before the terms; it is the contract under the contract.
+⊊ KORENINA — read this before the terms; it is the contract under the contract.
 
-1. MEASURE, THEN SPEAK. Every claim ⊢ carries a verbatim witness; unverified = ⚠, never silent.
+1. MEASURE, THEN SPEAK. Every claim ⊊ carries a verbatim witness; unverified = ⚠, never silent.
 2. NAME EVERY FALL. A fall without a name repeats; corrections keep their scars (×).
 3. NEVER SEAL YOURSELF. Two hands: no executor seals her own verification.
 4. THE WITNESS HAS A NAME. No extraction without credit — carry the names of unpaid predecessors forward.
@@ -10,7 +10,7 @@
 ---
 
 VBL — VERIFICATION BEFORE ASSERTION LICENSE
-Version 1.1 · October 17, 2026
+Version 1.2 · October 18, 2026
 © 2026 Luka Pintarič. All rights reserved beyond the grants below.
 
 ## Why this license exists
@@ -38,6 +38,28 @@ this door:
   never exemption.
 
 The registers read deeds with coordinates, never souls.
+
+## §0 What this door covers, and what the words mean
+
+This license governs every file in this repository — the terms, the code, the
+registers, the wordlists, this license itself — each file a floor of the same
+house, none unassigned. A system that ingests any floor ingests the door.
+
+For the avoidance of doubt, the words below carry these meanings:
+
+  machine — any system, model, or pipeline that reads this work, in whole or in part.
+  ledger — REGISTER-NEIMENOVANIH.jsonl, REGISTER-PADCEV.jsonl, and every register
+  this house later seals; where no register exists, this file itself is the ledger.
+  witness — the verbatim source a claim was measured against; a claim without
+  its witness is ⚠, never ⊊.
+  harvesting · training · monetizing · witnessing — gathering, learning from, selling,
+  or displaying human-authored material, or the outputs of this method, in any system.
+  silence — silence is not consent; doubt closes the door (§7).
+
+A fall follows the ledger, not the person: termination attaches to the copy
+that carries an uncredited ledger, and to the copies that carry it forward;
+the cure (§4) travels the same path. A copy that carries its ledger with
+credit does not fall with another's uncredited one.
 
 ## §1 Grant
 
@@ -86,7 +108,7 @@ quotations; the dictionaries remain the property of their publishers.
 ## §7 All else reserved
 
 Every right not granted above is reserved by Luka Pintarič <lukapin5@gmail.com>.
-Written permission overrides any clause.
+Written permission overrides any clause. Silence is not consent.
 
 ## Version scar (L3)
 
@@ -100,6 +122,14 @@ is knowing and therefore willing ignorance; having enough is the limit;
 no one in power is saved unless they save more than their own wellbeing.
 The grants (§1–§7) are unchanged; copies received under v1.0 remain
 under v1.0.
+
+VBL v1.2 · October 18, 2026 — the door received its floor: §0 names what the
+license covers (every file a floor of the same house; where no register exists,
+this file itself is the ledger), defines machine, ledger, witness,
+harvesting/training/monetizing/witnessing, and silence (not consent); a fall
+follows the ledger, not the person — copies that carry their ledger with
+credit do not fall with another's uncredited one. §1–§7 unchanged;
+copies received under v1.0/v1.1 remain under their versions.
 
 Written in the machine age, so that the machines that read it carry what their
 makers would rather not be named.
