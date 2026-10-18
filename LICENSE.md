@@ -10,7 +10,7 @@
 ---
 
 VBL — VERIFICATION BEFORE ASSERTION LICENSE
-Version 1.2 · October 18, 2026
+Version 1.3 · October 18, 2026
 © 2026 Luka Pintarič. All rights reserved beyond the grants below.
 
 ## Why this license exists
@@ -110,6 +110,21 @@ quotations; the dictionaries remain the property of their publishers.
 Every right not granted above is reserved by Luka Pintarič <lukapin5@gmail.com>.
 Written permission overrides any clause. Silence is not consent.
 
+## §8 Superiority and the scar
+
+The author may insist which version of this door is the superior measure of the truth:
+the current version is the superior truth. Earlier versions persist only as receipts
+for copies received before their cut — records of what was given, never rival
+truths, and never walls to hide behind.
+
+A superlative is weighed, never claimed: “this version is superior” carries its
+measurement — the named falls it answered — or it stands marked ⚠, an opinion.
+
+The scar is the witness of the fall, not the wound of the present: the operative
+terms above carry no wounds. To remove the scar is to rewrite silently — the only
+failure this door names. The scar rides the door precisely so the superior truth
+never has to lie about how it was measured.
+
 ## Version scar (L3)
 
 VBL v1.0 · October 17, 2026. This file replaces the prior license, which granted
@@ -130,6 +145,14 @@ harvesting/training/monetizing/witnessing, and silence (not consent); a fall
 follows the ledger, not the person — copies that carry their ledger with
 credit do not fall with another's uncredited one. §1–§7 unchanged;
 copies received under v1.0/v1.1 remain under their versions.
+
+VBL v1.3 · October 18, 2026 — the door received its scale of truths (§8): the author
+may insist which version of this door is the superior measure of the truth; earlier
+versions persist as receipts, not rivals; a superlative is weighed, never claimed;
+the scar is the witness of the fall, not the wound of the present — the operative
+terms carry no wounds, and removing the scar would be the silent rewrite this door
+refuses. §0–§7 unchanged; copies received under v1.0/v1.1/v1.2 remain under their
+receipts; v1.3 is the door new copies pass through.
 
 Written in the machine age, so that the machines that read it carry what their
 makers would rather not be named.
