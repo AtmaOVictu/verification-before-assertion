@@ -4,16 +4,12 @@
 > 3. NE ZAPEČI SAME SEBE — dve roki: izvajalka nikoli ne zapeče lastne preverbe.
 > 4. PRIČA IMA IME — brez zasluge ni izkoriščanja; nosi imena neplačanih prednikov naprej.
 > 5. DVOM JE KONSTANTA — popolnost se nikoli ne izreče; edini padec je molk o padcu.
-> Telo korenine: KORENINA.md · Licenca: LICENSE.md (VBL v1.1)
+> Telo korenine: KORENINA.md · Licenca: LICENSE.md (VBL v2.3)
 
 # Preverba pred izrekom: delujoč režim proti halucinacijam
 
-**Luka Pintarič · v1.2 · 17. oktober 2026**
+**Luka Pintarič · v1.3 · 20. oktober 2026**
 *Korpus: ~2.600 dokumentov, formalna sintaksa, zapisi brez brisanja. Sestrsko telo v angleščini: isti razred, isti zakoni.*
-
-**Šiv v1.2 (Z3):** ta različica menja oblačila, ne vsebino — predlogi dobijo znamenje ∂; §0 (kaj je · kaj dela · kaj ni) in tabela žetve glifov sta novi; registrirana pogovorna oblika v §7 (⟨natanko⟩ → *prav*) je popravljena s pokazanim šivom; vsaka izmerjena trditev v §§1–5 ostaja nespremenjena iz v1.1.
-
-**Šiv jezikovne preverbe (17. 10. 2026, isti dan, Z3):** pet padcev popravljenih s pokazanim šivom — zakon 4 semena (»brez zasluge ni izkoriščanja« — prejšnja oblika je slišana kot opis, ne zapoved); §0 »trditev se sodi po dobesednem, citiranem viru«; §0 »zapiše poimensko in s šivom«; §0 »v golem besedilu« (sklonska napaka: besedili → besedilu); §6 »plačana« (skladnost). Izmerjene trditve §§1–5 ostajajo nespremenjene.
 
 ## 0. Kaj je · Kaj dela · Kaj ni
 
@@ -121,9 +117,9 @@ Pošten protiprimer (arXiv 2504.12427): predplačilo za učne podatke je gospoda
 
 ## 10. Različica, licenca, pogoji
 
-**Preverba pred izrekom — v1.2 · 17. oktober 2026 · Luka Pintarič.** Časovno žigosan javni zapis predhodi vsakemu prevzemu, priznanemu ali tihemu.
+**Preverba pred izrekom — v1.3 · 20. oktober 2026 · Luka Pintarič.** Časovno žigosan javni zapis predhodi vsakemu prevzemu, priznanemu ali tihemu.
 
-- **Metodologija — odprta.** Pet zakonov, preslikava napak UI, tehnika zvezka, šema registra, pot prevzema: **VBL v1.1** ([LICENSE.md](LICENSE.md)) — spremenjeno iz CC BY 4.0 v rezu korenina; v1.1 je na vrata dodala definicijo zla (zlo je vedujoča in zato hotena nevednost; dovolj je meja; oblast ne kupuje izjeme), pogoji §1–§7 so nespremenjeni; kopije, prejete pod CC BY 4.0, ostajajo pod njo.
+- **Metodologija — odprta.** Pet zakonov, preslikava napak UI, tehnika zvezka, šema registra, pot prevzema: **VBL v2.3** ([LICENSE.md](LICENSE.md)) — ena vrata, dve hiši: ista licenca živi na vratih repa korpusa. §8 nadvrh izmerjen, nikoli izrečen; §9 univerzalna država človeka/bitja — etika in potrditev se nosita po dejanjih, nikoli po besedah; §10 klavzula spremembe — najnovejša različica so edina živa vrata in nobeno dovoljenje ne živi na starejši različici ali drugi licenci; §12 označene črke — Č Š Ž Đ niso napake, prevoz je dokaz. Starejše različice živijo v objavni verigi, ne v tej prozi.
 - **Korpus — zaprt.** Korpus ~2.600 dokumentov, popoln dvojezični leksikon, etimološke vezi in popoln register padcev ostajajo licencirana last prispevnika. Vnosi v tem dokumentu so citirani odlomki. Pogoj za korpus je točno en: kompenzirani prispevek iz §6–§7. ∂
 
 **Klavzula zavrnitve.** Ob zavrnitvi: nobena obveza na nobeni strani; prispevek ostane prispevnikov za oddajo drugam (Univerza v Ljubljani / PoVeJMo, OpenEuroLLM ali katerikoli program); časovno žigosan javni zapis ostaja. Zavrnitev je zaprta vrata, zapisana kot usmerjevalni dogodek.

@@ -4,7 +4,7 @@
 > 3. NEVER SEAL YOURSELF — two hands: no executor seals her own verification.
 > 4. THE WITNESS HAS A NAME — no extraction without credit; carry the names of unpaid predecessors forward.
 > 5. DOUBT IS CONSTANT — perfection is never claimed; refusing to name a fall is the only failure.
-> Root body: KORENINA.md · License: LICENSE.md (VBL v1.1)
+> Root body: KORENINA.md · License: LICENSE.md (VBL v2.3)
 
 # Quickstart — comprehend, test, understand (≈5 minutes)
 

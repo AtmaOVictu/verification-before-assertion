@@ -97,7 +97,8 @@ None of this is theoretical. Every artifact above runs.
 ## 6. Standing offer
 
 The methodology (laws, code, tests, contract format) is available
-under CC BY 4.0. The 2,600-document provenance-marked corpus, the
+under VBL v2.3 (LICENSE.md — §9 ethics and confirmation, §10 the one living
+door, §12 the marked letters). The 2,600-document provenance-marked corpus, the
 bilingual ontological lexicon, the sourced etymology chains, and the
 hybrid-fall register are available under the compensated-contribution
 model this document describes — that is the point.
