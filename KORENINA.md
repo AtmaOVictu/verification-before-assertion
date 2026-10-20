@@ -253,8 +253,8 @@ tehtnice; oblast ne kupuje izjeme. Tehtnica je ena; jezika dva.
 Korenina v1.1 · October 17, 2026 — the definition of evil added at the root:
 knowing and therefore willing ignorance; enough is the zero of the hoard
 pan; power buys no exemption. The definition rides the door as well
-(LICENSE.md, VBL v1.1) — the license travels where the root cannot.
+(LICENSE.md, VBL v2.3) — the license travels where the root cannot.
 Korenina v1.0 · October 17, 2026 — grown in private soil before the public
 gate opens (the author's hand flips the visibility; nothing here leaves early).
-Carries the license of the repository (LICENSE.md, VBL v1.0).
+Carries the license of the repository (LICENSE.md, VBL v2.3).
 © 2026 Luka Pintarič · Beseda je Ne · verification-before-assertion
