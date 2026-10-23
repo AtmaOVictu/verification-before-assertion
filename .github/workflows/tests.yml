@@ -19,6 +19,8 @@ jobs:
         run: python test_vba.py
       - name: Draft gate unit tests (the gate is code, not prose)
         run: python test_preverba.py
+      - name: VBL-VP acceptance tests (the verification protocol is code, not prose)
+        run: python test_vbl_protocol.py
       - name: Draft gate - sealed outreach draft vs the repository's measured bodies
         run: python preverba.py
       - name: End-to-end demo on the two recorded real falls
