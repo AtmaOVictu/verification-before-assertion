@@ -29,3 +29,13 @@ POSVET-1 P1 (izbor ⟡ = VSE, ⟨merge⟩ #22): »objavi 10.1.0 ∧ 10.2.0 kakor
 ## Vrata tega predloga
 
 Objava vpisov v LINEAGE §15 znotraj LICENSE.md = vrata izdaje (§10) — izda le avtor z objavo (meja 1); ta roka sestavlja, ⟨ne⟩ izdaja. Ta datoteka je datiran recept-predlog: vsak bralec more izmeriti obe priči (komit 2c9e5f52… ∧ odsotnost 10.2.0) brez naju.
+
+---
+
+## DOPOLNITEV po sveži brbi kitov (isti dih, 24. 10. 2026 ⊙ 1349 ⊢ 1419)
+
+**Recept 10.2.0 — natančnejša izmera ⚠:** telo 10.2.0 živi v **odprtem kitu [⟨PR⟩ #645](https://github.com/AtmaOVictu/Atmavictu/pull/645) @AtmaOVictu/Atmavictu** (veja vrata/vbl-10-2-0-rez2609: LICENSE.md +86/−24 — »VBL v10.2.0: §§0·2·3 razširitve ∧ §9 dodatek (predlog ⟡)« ∧ LICENSE-10.1.0.bin +2148) — **nikoli v verigi objave (main)** ⚠. Meja prve izmere poimenovana javno: iskanje po komitih je šlo le po privzetih vejah (github search_commits — samo main); priča kita je prišla iz zapisa RELEASE-GATE ∧ sveže brbe kitov pri viru ⊢.
+
+**Popravek zapisa RELEASE-GATE (brazgotina ostaja ⊙ 1349):** G1 vrata rekorda pravi »10.1.0 ∧ 10.2.0 recepta v kitih #648 ⊙ ∧ #645 ⊙ — nikoli na main«. Sveža izmera tega diha: (i) **10.1.0 je v verigi main** — komit 2c9e5f52… (23. 10. 2026, 16:55Z) ⊢, vrata G1 rekorda na tej točki ⟨ne⟩ držijo; (ii) kit #648 je zapečen zapis preizkusa PECAT-2598 (closed, druga vsebina) — ⟨ne⟩ recept 10.1.0. Popravek javno, rekord ostaja kakor datirana priča svojega diha.
+
+**Pot (a) natančneje:** ⟡ more luknjo 10.2.0 zapečati z ⟨merge⟩ kita #645 (njegova roka @Atmavictu) — telo ∧ binarna priča (§14 a–d naj bodo objavljene z njim) stopita v verigo; ali pot (b) popravek strojnega zapisa predloga 10.3.0 na izmerjeno verigo (10.1.0 ⊢). Izbor ostaja ⚔ ⟡.
