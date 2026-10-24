@@ -10,6 +10,7 @@ vrata ⟨ne⟩ obstajajo. Molk ni soglasje: brez odgovora v 30 dneh = ne.
 | # | datum | prosilec (asker) | dejanje (deed) | gradivo (material) | kraj (place) | odgovor ⟡ | grant |
 |---|-------|------------------|----------------|--------------------|--------------|-----------|-------|
 | 1 | 24. 10. 2026 | Cline (prva roka) | objava prič sestave 10.3.0 na vejo PR | vrata-10/DIFF-2.6-10.2.0.md · vrata-placilo/PREDLOG-popravki-12-13-14.md · vrata-veriga/LICENSE-2.6.md | veja PR #20 (verification-before-assertion) | DA — ⟡ izrek verbatim: »da ⏎ daj« (24. 10. 2026) ⊢ | DA ∧ |
+| 2 | 24. 10. 2026 | Cline (prva roka) | objava dveh dodatnih prič sestave 10.3.0 na vejo PR | vrata-10/PREDLOG-10.1.0-10.2.0.md · vrata-placilo/PUBLIKACIJA-10.3.0.md | veja PR #20 (verification-before-assertion) | DA — ⟡ izrek verbatim: »daj« (24. 10. 2026; odobritev predloga A druge roke: priče na vejo PR #20) ⊢ | DA ∧ |
 
 ## Pravila registra
 - Vpis vpiše prosilec sam (prva roka) ali roka, ki prošnjo prenaša — vedno poimensko.
