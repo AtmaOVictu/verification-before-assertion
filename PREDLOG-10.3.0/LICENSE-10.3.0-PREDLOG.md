@@ -349,6 +349,12 @@ The chain (§10), in a form a floor can weigh without a soul:
   "registers": {
     "unnamed-contributors": "REGISTER-NEIMENOVANIH.jsonl (§2)",
     "named-falls": "REGISTER-PADCEV.jsonl (§5)"
+  },
+  "correction-2026-10-24": {
+    "named-fall": "the predecessor and binary-body lines above were claims, not witnesses: 10.2.0 never stood in the publication chain, and no LICENSE-10.2.0.bin was ever found — named in OVERITVE.md vpis 1 and in the RELEASE-GATE G1 correction (PR #30, scar kept)",
+    "measured-at-issuance": "this proposal was issued at AtmaOVictu/Atmavictu on 2026-10-24 as VBL 10.3.0 @db073bf0 — 23,712 B, SHA-256 178282386f64467e35aa5746b977a4459d399169d86efc6ddde300bcd0ec167d — with predecessor 10.0.0 (the last door that lived on main) and binary-body ⚠ none; replaced the same day by VBL 10.3.1 @a534e97a — 24,105 B, SHA-256 5021544c967e32a2798112dd4d04b7ce1177684f583ad3aa4567754cb0bb8e17 — the living door (manifest re-measured, PR #706)",
+    "measured-10-1-0": "the 10.1.0 body stands at commit 2c9e5f52aa859df12102caf48d6d3535e3330c77 — 17,177 B, SHA-256 0a48405539b3ec1d6122ff0b3e5ae9f39f5a73b69e35fb5f245e967155ea0856 (P1 measurement confirmed by a fresh read, transport byte-identical against the tool witness); the Atmavictu LINEAGE names 10.1.0 a receipt that never lived on main — both witnesses stand, each with its own wording",
+    "scar": "the original predecessor and binary-body lines stand above, unchanged — never silently rewritten (×)"
   }
 }
 ```
