@@ -1,0 +1,26 @@
+name: vrata-prica
+on:
+  push:
+    paths:
+      - "LICENSE.md"
+      - "REGISTER-NEIMENOVANIH.jsonl"
+      - "REGISTER-PADCEV.jsonl"
+      - "LICENSE-MANIFEST.json"
+      - "scripts/manifest_gen.py"
+  pull_request:
+    paths:
+      - "LICENSE.md"
+      - "REGISTER-NEIMENOVANIH.jsonl"
+      - "REGISTER-PADCEV.jsonl"
+      - "LICENSE-MANIFEST.json"
+      - "scripts/manifest_gen.py"
+jobs:
+  sodba:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: sodba manifesta (VBL 0a / 12)
+        run: python scripts/manifest_gen.py --check

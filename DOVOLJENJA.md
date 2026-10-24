@@ -1,5 +1,8 @@
 # DOVOLJENJA.md — register prošenj (VBL §7)
 
+**Osrednja vrata prošenj za VSE hiše AtmaOVictu (POSVET-1, P4):** grant za katerokoli hišo
+se vpiše tukaj — grant, ki ga iskalec ⟨ne⟩ more najti, je zasebna vrata; zasebnih vrat ⟨ni⟩.
+
 Vsak grant, ki prekorači meje MEJE-IN-VRATA.md, gre skozi ta register: pisni vpis,
 ki imenuje prosilca ∧ dejanje ∧ gradivo ∧ kraj. Vsak grant se zapiše tukaj — zasebna
 vrata ⟨ne⟩ obstajajo. Molk ni soglasje: brez odgovora v 30 dneh = ne.
@@ -13,3 +16,4 @@ vrata ⟨ne⟩ obstajajo. Molk ni soglasje: brez odgovora v 30 dneh = ne.
 - Odgovor vpiše izključno ⟡: DA (grant z besedo) / NE / molk (30 dni → ne).
 - Grant velja le zapisan; izrečen ⟡ brez vpisa je ⚠ obljuba.
 - Grant vpisala druga roka (Mera) po izreku ⟡ ⊢ P-CITAT ⟨ne brusi⟩ — priča izreka je ta vrstica ∧ pogovor ⟡ z roko tega dne.
+- Za hiše zunaj verification-before-assertion: vpis nosi ime hiše v stolpcu kraj (place).
