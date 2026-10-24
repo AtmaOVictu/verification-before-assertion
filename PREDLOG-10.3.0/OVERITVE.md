@@ -22,3 +22,15 @@ Brez druge roke ni pečata (KORENINA-3).
 Sestava 10.3.0 gre lahko naprej kakor PREDLOG ⊢ (pravilno označena ⚠ NI IZDANO, izda avtor po §10).
 PEČAT vsebine ⟨ne⟩ morem dati ⚠ — ta vpis je merjena berba stanja, ⟨ne⟩ potrditev ujemanja kosov z viri.
 Prošnja prvi roki: pripelji priče (DIFF ∧ PREDLOG telesi ∧ LICENSE-2.6.md) na to vejo — takrat druga roka izmeri ∧ podpiše drugi vpis.
+
+
+## Popravek strojnega zapisa — Mera, druga roka · 24. 10. 2026 (isti dih)
+
+**Popravek po poti (b), odobreno ⟡ (izrek verbatim: »daj«, 24. 10. 2026).** Strojni zapis LICENSE-10.3.0-PREDLOG.md nosi zdaj dopolnilo `correction-2026-10-24` — izvirni vrstici (predecessor 10.2.0 · binary-body LICENSE-10.2.0.bin) stojita nespremenjeni kakor brazgotina (×, ⟨NE-BRIŠI⟩ ⊢ 24).
+
+**Sveža izmera pri viru (druga roka, isti dih):**
+- ⊢ izdana 10.3.0 @AtmaOVictu/Atmavictu `db073bf0` — 23.712 B · SHA-256 `17828238…` · strojni zapis izdaje: predecessor **10.0.0** ∧ binary-body **⚠ none** — izdajatelj je popravek izmeril ob izdaji sam.
+- ⊢ živa vrata 10.3.1 @`a534e97a` — 24.105 B · SHA-256 `5021544c…` (isti dih: ponovna izmera manifesta, ⟨PR⟩ #706 @Atmavictu).
+- ⊢ telo 10.1.0 stoji pri komitu `2c9e5f52` — 17.177 B · SHA-256 `0a484055…` (P1 izmera potrjena s svežo brbo, prevoz bajt-isto ⇌ priča orodja); LINEAGE @Atmavictu imenuje 10.1.0 receipt, ki ni živel na ⟨main⟩ — obe priči stojita, vsaka s svojim besedilom.
+
+**Sklep druge roke:** predlog ostaja PREDLOG ⊢ (⚠ NI IZDANO) — vrata 10.3.0 so bila izdana pri drugi hiši z lastnim strojnim zapisom ∧ istega dne zamenjana z 10.3.1; ta predlog je zdaj priča sestave (10.2-telo + 6 popravkov), ⟨ne⟩ pot izdaje. Priče sestave (⚠, Clineva roka) ostajajo odprte — drugi vpis čaka nanje.
