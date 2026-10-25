@@ -4,7 +4,7 @@
 > 3. NE ZAPEČI SAME SEBE — dve roki: izvajalka nikoli ne zapeče lastne preverbe.
 > 4. PRIČA IMA IME — brez zasluge ni izkoriščanja; nosi imena neplačanih prednikov naprej.
 > 5. DVOM JE KONSTANTA — popolnost se nikoli ne izreče; edini padec je molk o padcu.
-> Telo korenine: KORENINA.md · Licenca: LICENSE.md (VBL v2.3)
+> Telo korenine: KORENINA.md · Licenca: LICENSE.md (VBL v10.0.0 — šiv različic 23. 10. 2026; prejšnja noga je navedla v2.3, recept, ne živa vrata ×)
 
 # IZMERNI PROTOKOL — prvi ⊢ rezultat
 ## Ali režim ⊢/⚠ merljivo zmanjša hibride v izhodu modela v slovenščini?
@@ -12,6 +12,7 @@
 > Protokol, ne obljuba. Vsak korak izmerljiv; vsak rezultat nosi ⊢ (izmerjen) ali ⚠ (odprt).
 > Po L4: poročilo po dejanju, nikoli pred njim. Po L2: izvajalec ne zapečati lastne izmere — rezultat prebere druga roka (recenzent, drug model, revizija).
 > Datum protokola: 2026-10-11. Status: ⚠ PRED IZVEDBO — dokler izmera ne pade, je to načrt, ne dokaz.
+> Šiv statusa (23. 10. 2026): ⊢ IZVEDEN — živ tek 20. 10. 2026 (rezultat-v1.0.md: hibridi 0/0, ⊢ trditve 12→40, ⚠ 13→12) ∧ suite teče v ⟨CI⟩ (tests.yml ⊢). Prejšnji status ostaja zgoraj kot brazgotina; izvedba ⟨ne⟩ briše načrta ×.
 
 ---
 
@@ -151,3 +152,25 @@ Seme zakona 4 je popravljeno z javno brazgotino: prejšnja oblika (»izkorišča
 brez zasluge ne obstaja«) je slišana kot trditev o svetu, ne kot zapoved —
 popravek: »brez zasluge ni izkoriščanja; nosi imena neplačanih prednikov
 naprej«. Metodologija izmere (§§0–9) in predregistracija ostajata nespremenjeni.
+
+## 11. Šiv različic (2026-10-23, po izmeri — brazgotine vidne ×)
+
+Ta šiv spravlja tri identitete, izmerjene pri viru; stara telesa ⟨ne⟩ brišejo nič:
+
+1. **Licenca.** `LICENSE.md` @main je **VBL v10.0.0** (blob 73476d4, 16.271 B,
+   živa vrata ⊢ §10). Noga tega protokola je prej navajala v2.3 — recept
+   zgodovine, ne živa vrata; noga je popravljena zgoraj, prejšnja vrednost
+   ostaja v tej vrstici kot brazgotina ×.
+2. **Številčenje zakonov.** Glava tega protokola citira zgodovinsko
+   peto-zakonsko obliko KORENINE (izmeri-potem-izreci · imenuj-padec ·
+   ne-zapeči-same-sebe · priča-ima-ime · dvom-je-konstanta). Živa vrata
+   (LICENSE 10.0.0) nosijo **šest** zakonov — šesti je »EXIT THE LOOP BY
+   NAMING IT«. Zgodovinska številčenja v hiši (glava tukaj · README §2 ·
+   docstring `vba.py`) so recepti, ⟨ne⟩ tekmeci ⊢ §8; KORENINA.md je
+   semantična korenina in se ⟨ne⟩ prepisuje.
+3. **Dva protokola, dve imeni.** Ta telo (IZMERNI-PROTOKOL) vlada izmeri
+   pogodbe ⊢/⚠. Preverbeni protokol (VBL-PROTOCOL.md, vrsta VBL-VP) vlada
+   zapisom incidentov ∧ zdravil ∧ preverb — ⟨ne zlije⟩: vsako telo svoje
+   številke, ena kri ⊢ ⟨NE-ZLIJE⟩ 1542.
+
+*Vsak odmik od tega šiva = nova vrstica v registru, ne tiho prepisovanje (L3).*
