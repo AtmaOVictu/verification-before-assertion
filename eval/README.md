@@ -69,6 +69,6 @@ the self-check enforces that every probe still behaves as designed.
 
 ## License
 
-CC BY 4.0 (attribution required), same as the methodology. The corpus behind
+The repository license (LICENSE.md — VBL 0.1100 × 10⁴) — attribution required, same as the methodology. The corpus behind
 the register remains the contributor's licensed asset and is not part of this
 set.

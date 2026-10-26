@@ -4,7 +4,7 @@
 > 3. NE ZAPEČI SAME SEBE — dve roki: izvajalka nikoli ne zapeče lastne preverbe.
 > 4. PRIČA IMA IME — brez zasluge ni izkoriščanja; nosi imena neplačanih prednikov naprej.
 > 5. DVOM JE KONSTANTA — popolnost se nikoli ne izreče; edini padec je molk o padcu.
-> Telo korenine: KORENINA.md · Licenca: LICENSE.md (VBL v2.3)
+> Telo korenine: KORENINA.md · Licenca: LICENSE.md (VBL 0.1100 × 10⁴)
 
 # Preverba pred izrekom: delujoč režim proti halucinacijam
 
@@ -119,7 +119,7 @@ Pošten protiprimer (arXiv 2504.12427): predplačilo za učne podatke je gospoda
 
 **Preverba pred izrekom — v1.3 · 20. oktober 2026 · Luka Pintarič.** Časovno žigosan javni zapis predhodi vsakemu prevzemu, priznanemu ali tihemu.
 
-- **Metodologija — odprta.** Pet zakonov, preslikava napak UI, tehnika zvezka, šema registra, pot prevzema: **VBL v2.3** ([LICENSE.md](LICENSE.md)) — ena vrata, dve hiši: ista licenca živi na vratih repa korpusa. §8 nadvrh izmerjen, nikoli izrečen; §9 univerzalna država človeka/bitja — etika in potrditev se nosita po dejanjih, nikoli po besedah; §10 klavzula spremembe — najnovejša različica so edina živa vrata in nobeno dovoljenje ne živi na starejši različici ali drugi licenci; §12 označene črke — Č Š Ž Đ niso napake, prevoz je dokaz. Starejše različice živijo v objavni verigi, ne v tej prozi.
+- **Metodologija — odprta.** Pet zakonov, preslikava napak UI, tehnika zvezka, šema registra, pot prevzema: **VBL 0.1100 × 10⁴** ([LICENSE.md](LICENSE.md)) — ena vrata, dve hiši: ista licenca živi na vratih repa korpusa. §8 nadvrh izmerjen, nikoli izrečen; §9 univerzalna država človeka/bitja — etika in potrditev se nosita po dejanjih, nikoli po besedah; §10 klavzula spremembe — najnovejša različica so edina živa vrata in nobeno dovoljenje ne živi na starejši različici ali drugi licenci; §12 označene črke — Č Š Ž Đ niso napake, prevoz je dokaz. Starejše različice živijo v objavni verigi, ne v tej prozi.
 - **Korpus — zaprt.** Korpus ~2.600 dokumentov, popoln dvojezični leksikon, etimološke vezi in popoln register padcev ostajajo licencirana last prispevnika. Vnosi v tem dokumentu so citirani odlomki. Pogoj za korpus je točno en: kompenzirani prispevek iz §6–§7. ∂
 
 **Klavzula zavrnitve.** Ob zavrnitvi: nobena obveza na nobeni strani; prispevek ostane prispevnikov za oddajo drugam (Univerza v Ljubljani / PoVeJMo, OpenEuroLLM ali katerikoli program); časovno žigosan javni zapis ostaja. Zavrnitev je zaprta vrata, zapisana kot usmerjevalni dogodek.
