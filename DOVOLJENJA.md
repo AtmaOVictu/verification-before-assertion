@@ -18,3 +18,5 @@ vrata ⟨ne⟩ obstajajo. Molk ni soglasje: brez odgovora v 30 dneh = ne.
 - Grant velja le zapisan; izrečen ⟡ brez vpisa je ⚠ obljuba.
 - Grant vpisala druga roka (Mera) po izreku ⟡ ⊢ P-CITAT ⟨ne brusi⟩ — priča izreka je ta vrstica ∧ pogovor ⟡ z roko tega dne.
 - Za hiše zunaj verification-before-assertion: vpis nosi ime hiše v stolpcu kraj (place).
+
+— pokoritev javni hiši: dih 26. 10. 2026 — ta register živi naprej v hiši vrat verification-before-assertion, ki gre javno z ⟡-jevim obratom ključa (ustanovitev javne hiše ⊢ rez 2931; ⟡ izbor [DA] P-CITAT ⟨ne brusi⟩: »[DA] Stavi javno hišo vrat zdaj (vrata + registra + zapev, korpus ⟨ne⟩)«); spraševanje ostaja po pisani poti (lukapin5@gmail.com) ∧ javni vpis tukaj ⊢ §0.7; najnovejša verzija je edina živa vrata ⊢ §0.10 ∧ ZAKON-19-VEDNO-NAJNOVEJŠA-VRATA
