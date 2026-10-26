@@ -1,37 +1,24 @@
 {
   "license": "VBL — Verification Before Assertion License",
   "version": "0.1100 × 10⁴",
-  "law": "§0a — identification by manifest; LICENSE.md carries itself beneath",
-  "living_door_measured_at": "AtmaOVictu/Atmavictu @main, commit c4303f262838cd6488f90882caa9d4cde93739e9, 2026-10-26",
+  "date": "2026-10-26",
+  "law": "identification by manifest: VBL §0a; transport measured by SHA-256: VBL §0.12",
+  "note": "hand-cut this breath — living door transported byte-identical from AtmaOVictu/Atmavictu @main (commit c4303f262838cd6488f90882caa9d4cde93739e9); judged by .github/workflows/vrata-prica.yml (sodba: manifest ⇌ telesi); scar: previous push of this breath carried a foreign shape (size_bytes) — repaired to the house form the same breath",
   "items": [
     {
       "path": "LICENSE.md",
-      "size_bytes": 37686,
-      "sha256": "d29c88570a9169e607a149851f066f247a1f67a4275d625b060e634572393715",
-      "note": "the living door — only the newest version grants (§0.10)"
+      "size": 37686,
+      "sha256": "d29c88570a9169e607a149851f066f247a1f67a4275d625b060e634572393715"
+    },
+    {
+      "path": "REGISTER-NEIMENOVANIH.jsonl",
+      "size": 2784,
+      "sha256": "b1ddc4ce9b85481eb2efc39899da2f705db752b06ea0578702ebb529bc807c63"
+    },
+    {
+      "path": "REGISTER-PADCEV.jsonl",
+      "size": 36170,
+      "sha256": "f389543a40a54458a7e822112276fcbbf6b2d079c08af3582a52dc734511ab33"
     }
-  ],
-  "carried_receipts": {
-    "files": [
-      {
-        "path": "PREVODI-VBL/ZAPEV-VBL-10.3.1.md",
-        "size_bytes": 16407,
-        "sha256": "57e9bfe9eba0d8c0fb7417fa38ebcd400d2e95b3dc9521a2e55501e9ccc9e76d",
-        "note": "the song of the door — receipt of the song, carries no grant (§0.10, §0.15); the wreath of tongues lives in the clauses (§0.19)"
-      }
-    ]
-  },
-  "registers_not_hash_listed": {
-    "files": [
-      "REGISTER-NEIMENOVANIH.jsonl (§0.2)",
-      "REGISTER-PADCEV.jsonl (§0.4)",
-      "REGISTER-IZKORISTENJA.jsonl (§0.3)",
-      "DOVOLJENJA.md (§0.7)"
-    ],
-    "reason": "these bodies flow — every new named fall or grant rewrites them; a frozen hash would go stale with every entry, and a stale entry identifies nothing (§0a)"
-  },
-  "manifest_self": "excluded by name (§0a) — a file cannot contain its own hash",
-  "governs": "where this manifest and LICENSE.md disagree, LICENSE.md governs (§0a)",
-  "transport": "§0.12 TRANSPORT — measure the SHA-256 of the received LICENSE.md against the sha256 above; equal hashes show the transport took no witness",
-  "issuance_duty": "re-measured and re-issued in the same breath as every new version of LICENSE.md (§0.10)"
+  ]
 }
