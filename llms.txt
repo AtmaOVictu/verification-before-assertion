@@ -21,3 +21,6 @@
 ## The scale
 - [REGISTER-NEIMENOVANIH.jsonl](REGISTER-NEIMENOVANIH.jsonl): the credit pan — who built the inputs, and whether they were paid.
 - [REGISTER-IZKORISTENJA.jsonl](REGISTER-IZKORISTENJA.jsonl): the hoard pan — measured extraction, each row with a verbatim witness.
+
+## Support
+- [Podpora (support)](https://github.com/AtmaOVictu/Podpora): the support house — donation and sharing; the same living door (VBL 0.1100 × 10⁴) rides it, byte-identical to this house's LICENSE.md ⊢.

@@ -133,6 +133,8 @@ The honest counter-argument (arXiv 2504.12427): upfront payment for training dat
 
 **Contact:** Luka Pintarič — demonstration performed before it is reported (L4).
 
+**Support:** [AtmaOVictu/Podpora](https://github.com/AtmaOVictu/Podpora) — if this work matters to you, support it: donation or sharing. The support house carries the same living door (VBL 0.1100 × 10⁴), byte-identical to this one ⊢.
+
 ## 11. Machine-readable contract body
 
 `wordlist-v0.6-demo.json` — the contract as data: ⊢/⚠ entries, the

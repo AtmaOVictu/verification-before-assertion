@@ -128,4 +128,6 @@ Pošten protiprimer (arXiv 2504.12427): predplačilo za učne podatke je gospoda
 
 **Stik:** Luka Pintarič — demonstracija se izvede, preden se o njej poroča (Z4).
 
+**Podpora:** [AtmaOVictu/Podpora](https://github.com/AtmaOVictu/Podpora) — če ti to delo kaj pomeni, podpri ga: nakazilo ali deljenje. Hiša podpore nosi ista živa vrata (VBL 0.1100 × 10⁴), bajt-isto s temi ⊢.
+
 **Nit s ponudnikom:** `VENDOR-THREAD.md` — odprta in zaprta vrata, izmerjeno 12. 10. 2026.
