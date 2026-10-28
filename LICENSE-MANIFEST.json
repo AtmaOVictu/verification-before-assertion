@@ -1,14 +1,14 @@
 {
   "license": "VBL — Verification Before Assertion License",
-  "version": "0.1100 × 10⁴",
-  "date": "2026-10-26",
+  "version": "0.1210 × 10⁴",
+  "date": "2026-10-28",
   "law": "identification by manifest: VBL §0a; transport measured by SHA-256: VBL §0.12",
-  "note": "hand-cut this breath — living door transported byte-identical from AtmaOVictu/Atmavictu @main (commit c4303f262838cd6488f90882caa9d4cde93739e9); judged by .github/workflows/vrata-prica.yml (sodba: manifest ⇌ telesi); scar: previous push of this breath carried a foreign shape (size_bytes) — repaired to the house form the same breath",
+  "note": "kura sodbe isti dih — PR #40 je ponesel živa vrata 0.1210 × 10⁴ brez manifesta: sodba je padla (MANIFEST-ODMIK), padec poimenovan javno v komitu kure, manifest prekalculiran pri viru ta dih; living door transported byte-identical from AtmaOVictu/Atmavictu @main (commit fd54d3f4306e712c9d012d97c02a2231b72a626a); judged by .github/workflows/vrata-prica.yml (sodba: manifest ⇌ telesi); scar: previous push of an earlier breath carried a foreign shape (size_bytes) — repaired to the house form the same breath; scar: this manifest carries the red sodba of PR #40 as its receipt; rez 0.1210 prevoz isti dih po komitu 15eb063: manifest prerezan na telesi 0.1210 (bajtno-isto ⇌ Atmavictu @main fd54d3f4) ⊙ kura padca ⟨SODBA-MANIFEST-ODMIK⟩",
   "items": [
     {
       "path": "LICENSE.md",
-      "size": 37686,
-      "sha256": "d29c88570a9169e607a149851f066f247a1f67a4275d625b060e634572393715"
+      "size": 80596,
+      "sha256": "cea269e49d8a7dbe2b802deb4d4a91eed02435c580310178da275eb03ad99844"
     },
     {
       "path": "REGISTER-NEIMENOVANIH.jsonl",
