@@ -28,7 +28,7 @@ does not carry the corpus.
 
 Corpus, organi, and sealed ledgers do not live here; the canonical home
 is Atmavictu/canon/ and Atmavictu/organi/. This repo publishes the
-methodology and its probes under the repository license (LICENSE.md — VBL 0.1100 × 10⁴); dictionary quotations credit
+methodology and its probes under the repository license (LICENSE.md — VBL 0.1210 × 10⁴); dictionary quotations credit
 ISJFR ZRC SAZU (fran.si).
 
 ---

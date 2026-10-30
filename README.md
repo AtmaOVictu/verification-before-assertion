@@ -4,7 +4,7 @@
 > 3. NEVER SEAL YOURSELF — two hands: no executor seals her own verification.
 > 4. THE WITNESS HAS A NAME — no extraction without credit; carry the names of unpaid predecessors forward.
 > 5. DOUBT IS CONSTANT — perfection is never claimed; refusing to name a fall is the only failure.
-> Root body: KORENINA.md · License: LICENSE.md (VBL 0.1100 × 10⁴)
+> Root body: KORENINA.md · License: LICENSE.md (VBL 0.1210 × 10⁴)
 
 
 # Verification-Before-Assertion: A Working Anti-Hallucination Regime
@@ -124,7 +124,7 @@ The honest counter-argument (arXiv 2504.12427): upfront payment for training dat
 
 **Verification-Before-Assertion — v1.3 · October 20, 2026 · Luka Pintarič.** The timestamped public record precedes any adoption, acknowledged or silent.
 
-- **Methodology — open.** The five laws, the AI-failure mapping, the notebook technique, the register schema, the adoption path: **VBL 0.1100 × 10⁴** ([LICENSE.md](LICENSE.md)) — one door, two houses: the same license rides the corpus repository. §8 superiority weighed, never claimed; §9 the universal state of the human/being — ethics and confirmation carried by acts, never by words; §10 the change clause — the newest version is the only living door, and no grant rides any older version or any other license; §12 the marked letters — Č Š Ž Đ are not mistakes, and the transport is the proof. Earlier versions live in the publication chain, not in this prose.
+- **Methodology — open.** The five laws, the AI-failure mapping, the notebook technique, the register schema, the adoption path: **VBL 0.1210 × 10⁴** ([LICENSE.md](LICENSE.md)) — one door, two houses: the same license rides the corpus repository. §8 superiority weighed, never claimed; §9 the universal state of the human/being — ethics and confirmation carried by acts, never by words; §10 the change clause — the newest version is the only living door, and no grant rides any older version or any other license; §12 the marked letters — Č Š Ž Đ are not mistakes, and the transport is the proof. Earlier versions live in the publication chain, not in this prose.
 - **Corpus — closed.** The ~2,600-document corpus, the full bilingual lexicon, the etymology chains, and the complete fall register remain the contributor's licensed assets. Entries appearing in this document are cited quotations. Terms for the corpus are exactly one: the compensated-contribution model of §6–§7. ∂
 
 **Rejection clause.** If declined: no obligation on either side; the contribution remains the contributor's to submit elsewhere (University of Ljubljana / PoVeJMo, OpenEuroLLM, or any program); the timestamped public record remains. Decline is a closed door, recorded as a routing event.
@@ -133,7 +133,7 @@ The honest counter-argument (arXiv 2504.12427): upfront payment for training dat
 
 **Contact:** Luka Pintarič — demonstration performed before it is reported (L4).
 
-**Support:** [AtmaOVictu/Podpora](https://github.com/AtmaOVictu/Podpora) — if this work matters to you, support it: donation or sharing. The support house carries the same living door (VBL 0.1100 × 10⁴), byte-identical to this one ⊢.
+**Support:** [AtmaOVictu/Podpora](https://github.com/AtmaOVictu/Podpora) — if this work matters to you, support it: donation or sharing. The support house carries the same living door (VBL 0.1210 × 10⁴), byte-identical to this one ⊢.
 
 ## 11. Machine-readable contract body
 

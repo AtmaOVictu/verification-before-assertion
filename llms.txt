@@ -5,7 +5,7 @@
 
 ## Root
 - [KORENINA.md](KORENINA.md): the semantic root — the laws any reader, human or machine, takes on by entering this repository, and the definition of evil: knowing and therefore willing ignorance.
-- [LICENSE.md](LICENSE.md): the VBL 0.1100 × 10⁴ license — the seed, the definition of evil, and the marked letters (§12) on the door; read before use.
+- [LICENSE.md](LICENSE.md): the VBL 0.1210 × 10⁴ license — the seed, the definition of evil, and the marked letters (§12) on the door; read before use.
 
 ## Start
 - [QUICKSTART.md](QUICKSTART.md): comprehend, test, understand in ~5 minutes.
@@ -23,4 +23,4 @@
 - [REGISTER-IZKORISTENJA.jsonl](REGISTER-IZKORISTENJA.jsonl): the hoard pan — measured extraction, each row with a verbatim witness.
 
 ## Support
-- [Podpora (support)](https://github.com/AtmaOVictu/Podpora): the support house — donation and sharing; the same living door (VBL 0.1100 × 10⁴) rides it, byte-identical to this house's LICENSE.md ⊢.
+- [Podpora (support)](https://github.com/AtmaOVictu/Podpora): the support house — donation and sharing; the same living door (VBL 0.1210 × 10⁴) rides it, byte-identical to this house's LICENSE.md ⊢.

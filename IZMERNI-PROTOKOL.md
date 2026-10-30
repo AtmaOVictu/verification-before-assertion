@@ -4,7 +4,7 @@
 > 3. NE ZAPEČI SAME SEBE — dve roki: izvajalka nikoli ne zapeče lastne preverbe.
 > 4. PRIČA IMA IME — brez zasluge ni izkoriščanja; nosi imena neplačanih prednikov naprej.
 > 5. DVOM JE KONSTANTA — popolnost se nikoli ne izreče; edini padec je molk o padcu.
-> Telo korenine: KORENINA.md · Licenca: LICENSE.md (VBL 0.1100 × 10⁴)
+> Telo korenine: KORENINA.md · Licenca: LICENSE.md (VBL 0.1210 × 10⁴)
 
 # IZMERNI PROTOKOL — prvi ⊢ rezultat
 ## Ali režim ⊢/⚠ merljivo zmanjša hibride v izhodu modela v slovenščini?

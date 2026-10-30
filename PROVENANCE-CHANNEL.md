@@ -97,7 +97,7 @@ None of this is theoretical. Every artifact above runs.
 ## 6. Standing offer
 
 The methodology (laws, code, tests, contract format) is available
-under VBL 0.1100 × 10⁴ (LICENSE.md — §9 ethics and confirmation, §10 the one living
+under VBL 0.1210 × 10⁴ (LICENSE.md — §9 ethics and confirmation, §10 the one living
 door, §12 the marked letters). The 2,600-document provenance-marked corpus, the
 bilingual ontological lexicon, the sourced etymology chains, and the
 hybrid-fall register are available under the compensated-contribution
