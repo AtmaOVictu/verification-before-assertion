@@ -1,0 +1,23 @@
+# .gitattributes — VBL byte-identity shield (javna hiša VBL)
+# Rodov 29. 10. 2026 ⊙ ukaz ⟡ ⟨daj⟩; izmera: pred tem kitom ×0 (404 pri viru).
+# §0.12 TRANSPORT: kopija je zvesta samo bajtno-isto (SHA-256 prejetega ⇌ objavljenega).
+# core.autocrlf mutira bajte delovne kopije brez objave — tihi prepis (§0.31 ⊙ §0.8).
+# Objavljeno vlada privatnemu ⊙ §0.27.
+
+# Privzeto: besedila veriga normalizira na LF.
+* text=auto
+
+# Telo licence — bajt-isto pri vsakem prejemniku, na vsakem OS.
+LICENSE.md text eol=lf
+
+# Priče ∧ manifesti — LF pripeti (§0a: bajti manifesta = bajti datoteke).
+LICENSE-MANIFEST.json text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+
+# Binarna telesa — git jih nikoli ne dotakne (§0.14 (a)–(d)).
+*.bin -text -diff
+*.docx binary
+*.png binary
+*.jpg binary
+*.wav binary
