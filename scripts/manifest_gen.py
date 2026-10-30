@@ -23,7 +23,7 @@ def entry(rel_path):
 def generate():
     return {
         "license": "VBL — Verification Before Assertion License",
-        "version": "0.1100 × 10⁴",
+        "version": "0.1210 × 10⁴",
         "law": "identification by manifest: VBL §0a; transport measured by SHA-256: VBL §12",
         "items": [entry(p) for p in COVERED if os.path.exists(os.path.join(ROOT, p))],
     }

@@ -9,4 +9,4 @@ repository is bound by KORENINA.md. The short form:
 4. Report after the act: claim nothing not performed (L4). "It should work" is ⚠, not ⊢.
 5. The gate guards itself: preverba.py verifies the sealed draft against this repository's own bodies (vba.py line counts, test counts, register entry counts). Do not add prologs or comments to vba.py, test_vba.py, or REGISTER-PADCEV.jsonl without re-measuring what the gate counts — an uncounted change is the entry-13 class of fall.
 6. No perfection is claimed here; do not claim it on the work's behalf.
-7. Credit travels: any derivative carries LICENSE.md and the registers of unnamed contributors (§2, VBL 0.1100 × 10⁴).
+7. Credit travels: any derivative carries LICENSE.md and the registers of unnamed contributors (§2, VBL 0.1210 × 10⁴).
