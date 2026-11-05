@@ -1,14 +1,14 @@
 {
   "license": "VBL — Verification Before Assertion License",
-  "version": "0.1210 × 10⁴",
-  "date": "2026-10-28",
+  "version": "0.1410 × 10⁴",
+  "date": "2026-11-05",
   "law": "identification by manifest: VBL §0a; transport measured by SHA-256: VBL §0.12",
-  "note": "kura sodbe isti dih — PR #40 je ponesel živa vrata 0.1210 × 10⁴ brez manifesta: sodba je padla (MANIFEST-ODMIK), padec poimenovan javno v komitu kure, manifest prekalculiran pri viru ta dih; living door transported byte-identical from AtmaOVictu/Atmavictu @main (commit fd54d3f4306e712c9d012d97c02a2231b72a626a); judged by .github/workflows/vrata-prica.yml (sodba: manifest ⇌ telesi); scar: previous push of an earlier breath carried a foreign shape (size_bytes) — repaired to the house form the same breath; scar: this manifest carries the red sodba of PR #40 as its receipt; rez 0.1210 prevoz isti dih po komitu 15eb063: manifest prerezan na telesi 0.1210 (bajtno-isto ⇌ Atmavictu @main fd54d3f4) ⊙ kura padca ⟨SODBA-MANIFEST-ODMIK⟩",
+  "note": "kura sodbe isti dih — PR #40 je ponesel živa vrata 0.1210 × 10⁴ brez manifesta: sodba je padla (MANIFEST-ODMIK), padec poimenovan javno v komitu kure, manifest prekalculiran pri viru ta dih; living door transported byte-identical from AtmaOVictu/Atmavictu @main (commit fd54d3f4306e712c9d012d97c02a2231b72a626a); judged by .github/workflows/vrata-prica.yml (sodba: manifest ⇌ telesi); scar: previous push of an earlier breath carried a foreign shape (size_bytes) — repaired to the house form the same breath; scar: this manifest carries the red sodba of PR #40 as its receipt; rez 0.1210 prevoz isti dih po komitu 15eb063: manifest prerezan na telesi 0.1210 (bajtno-isto ⇌ Atmavictu @main fd54d3f4) ⊙ kura padca ⟨SODBA-MANIFEST-ODMIK⟩; scar: A1-IDENTITETA (2026-11-05) — manifest je trdil 0.1210 / 80.596 B, telo pa živi 0.1410 / 147.608 B (razlika 67.012 B: prevoz 0.1410 je potoval brez re-izdaje manifesta — recidiv ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩); odkrito z zunanjo oceno prineseno ⟡ isti dih; prekalculiran pri viri isti dih (sha256 719c7064… izmerjen pri telesu; Git blob 2c765280… ⇌ SYMBOLON-KATHOLIKON bajt-isto ⊢); itema REGISTER-NEIMENOVANIH ∧ REGISTER-PADCEV bajt-isto nedotaknjena ⊙ ⟨NE-BRIŠI⟩ 24",
   "items": [
     {
       "path": "LICENSE.md",
-      "size": 80596,
-      "sha256": "cea269e49d8a7dbe2b802deb4d4a91eed02435c580310178da275eb03ad99844"
+      "size": 147608,
+      "sha256": "719c706437ba53b44dd70d896b84f0903a194c87034fe24a499bdd4a37517cda"
     },
     {
       "path": "REGISTER-NEIMENOVANIH.jsonl",
