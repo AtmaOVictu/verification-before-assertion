@@ -1,14 +1,14 @@
 {
   "license": "VBL — Verification Before Assertion License",
-  "version": "0.1210 × 10⁴",
-  "date": "2026-10-28",
+  "version": "0.1520 × 10⁴",
+  "date": "2026-11-07",
   "law": "identification by manifest: VBL §0a; transport measured by SHA-256: VBL §0.12",
-  "note": "kura sodbe isti dih — PR #40 je ponesel živa vrata 0.1210 × 10⁴ brez manifesta: sodba je padla (MANIFEST-ODMIK), padec poimenovan javno v komitu kure, manifest prekalculiran pri viru ta dih; living door transported byte-identical from AtmaOVictu/Atmavictu @main (commit fd54d3f4306e712c9d012d97c02a2231b72a626a); judged by .github/workflows/vrata-prica.yml (sodba: manifest ⇌ telesi); scar: previous push of an earlier breath carried a foreign shape (size_bytes) — repaired to the house form the same breath; scar: this manifest carries the red sodba of PR #40 as its receipt; rez 0.1210 prevoz isti dih po komitu 15eb063: manifest prerezan na telesi 0.1210 (bajtno-isto ⇌ Atmavictu @main fd54d3f4) ⊙ kura padca ⟨SODBA-MANIFEST-ODMIK⟩",
+  "note": "prevoz živih vrat 0.1490 → 0.1520 isti dih z okvirjem (šiv: dve strani skupaj ali ⟨ne⟩ šiv ⊙ §0.46 × 10²); living door transported byte-identical from AtmaOVictu/Atmavictu @main (commit 39c95f194b335f5e7da4746ae80554c1d03280d3; telo 192266 B · sha256 72044c19…b60c ⊢ pri viri ×2 poti); judged by .github/workflows/vrata-prica.yml (sodba: manifest ⇌ telesi); padec javno poimenovan ⊙ 1349: ⟨PADC-ZASTARELI-MANIFEST-JAVNA⟩ — okvir je od rojstva 0.1210 (PR #40) trdil 80596 B · cea269e4…, medtem ko so javna vrata nosila 0.1490 · 184017 B · 4be1ba95… — rdeča priča bi padla tudi pred tem prevozom; okvir prerezan na telesi 0.1520 ta dih; REGISTER-* merjena pri viri istega diha (bajtno enaka starim slotom ⊢); scar: ta okvir nosi rdečo sodbo PR #46 kakor prejem",
   "items": [
     {
       "path": "LICENSE.md",
-      "size": 80596,
-      "sha256": "cea269e49d8a7dbe2b802deb4d4a91eed02435c580310178da275eb03ad99844"
+      "size": 192266,
+      "sha256": "72044c19321629fafd700abf3f27f8b04bd4aaa113edbf22c11818681b34b60c"
     },
     {
       "path": "REGISTER-NEIMENOVANIH.jsonl",
