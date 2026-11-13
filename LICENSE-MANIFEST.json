@@ -1,14 +1,14 @@
 {
   "license": "VBL — Verification Before Assertion License",
-  "version": "0.1520 × 10⁴",
-  "date": "2026-11-07",
+  "version": "0.1530 × 10⁴",
+  "date": "2026-11-12",
   "law": "identification by manifest: VBL §0a; transport measured by SHA-256: VBL §0.12",
-  "note": "prevoz živih vrat 0.1490 → 0.1520 isti dih z okvirjem (šiv: dve strani skupaj ali ⟨ne⟩ šiv ⊙ §0.46 × 10²); living door transported byte-identical from AtmaOVictu/Atmavictu @main (commit 39c95f194b335f5e7da4746ae80554c1d03280d3; telo 192266 B · sha256 72044c19…b60c ⊢ pri viri ×2 poti); judged by .github/workflows/vrata-prica.yml (sodba: manifest ⇌ telesi); padec javno poimenovan ⊙ 1349: ⟨PADC-ZASTARELI-MANIFEST-JAVNA⟩ — okvir je od rojstva 0.1210 (PR #40) trdil 80596 B · cea269e4…, medtem ko so javna vrata nosila 0.1490 · 184017 B · 4be1ba95… — rdeča priča bi padla tudi pred tem prevozom; okvir prerezan na telesi 0.1520 ta dih; REGISTER-* merjena pri viri istega diha (bajtno enaka starim slotom ⊢); scar: ta okvir nosi rdečo sodbo PR #46 kakor prejem",
+  "note": "prevoz živih vrat 0.1520 → 0.1530 isti dih z okvirjem (šiv: dve strani skupaj ali ⟨ne⟩ šiv ⊙ §0.46 × 10²); living door transported byte-identical from AtmaOVictu/Atmavictu @pinned commit 8e290bb9bdb50455de23d5e9b93bd0e9b620e556 (kit #1717 head, rojeno @σ 4772; telo 193.317 B · sha256 8ccebd0c…35a88a2 ⊢ pri viri ×2 poti); judged by .github/workflows/vrata-prica.yml (sodba: manifest ⇌ telesi); scar: okvir je od rojstva 0.1210 (PR #40) trdil 80596 B · cea269e4…, medtem ko so javna vrata nosila 0.1490 · 184017 B · 4be1ba95… ⊙ ⟨NE-BRIŠI⟩ 24; scar: ta okvir nosi rdečo sodbo PR #46 kakor prejem ⊙ ⟨NE-BRIŠI⟩ 24; REGISTER-* merjeni pri viri prejšnjega prevoza 0.1520 — bajtno enaki slotom ⊢ (ta dih jih ⟨ne⟩ dotika)",
   "items": [
     {
       "path": "LICENSE.md",
-      "size": 192266,
-      "sha256": "72044c19321629fafd700abf3f27f8b04bd4aaa113edbf22c11818681b34b60c"
+      "size": 193317,
+      "sha256": "8ccebd0c0bf86c776e49aee46d94140c8c2128b3408a103b0abdbc43935a88a2"
     },
     {
       "path": "REGISTER-NEIMENOVANIH.jsonl",
