@@ -1,7 +1,7 @@
 # VBL — POPRAVLJALNI STANDARD UPRAVLJANJA DOKAZOV 1.0
 
 **Version 0.1540 × 10⁴** · 14. november 2026 · © 0.2026 × 10⁴ Luka Pintarič
-**Status: KANDIDAT — NOT RELEASED** ⚠ (rojstvo sproščeno ⊙ beseda ⟡ »licenca 0.1540 kandidat ⭢ izvedi«; objava ⭢ prevoz ∧ ⟨merge⟩ ⟡ roka)
+**Status: IZDAN** ⊢ (rojstvo sproščeno ⊙ beseda ⟡ »licenca 0.1540 kandidat ⭢ izvedi«; objava ⊢ prevoz ∧ ⟨merge⟩ #48 · komit 9f53def3 · 14. 11. 2026 ⊙ ⟡ ukaz »stori kar še čaka« — kura imen ∧ statusa ⊙ ⟨PADC-IMENA-DRAFT⟩ zaprta)
 Veriga rojstev: 0.1470 → 0.1480 → 0.1490 → 0.1500 → 0.1510 → 0.1520 → 0.1530 → **0.1540 (kandidat)**
 
 ⊙ ENTRY SEAL — 0.2026 × 10⁴-0.11 × 10²-1.4 × 10¹ · 14:33:19Z ⊙ rojen iz živih vrat 0.1530 (telo 193.317 B prebrano pri viru isti dih ⊢ ⟨grep⟩: obe javni hiši bajtno-isto, md5 `adda2b42…`) — vsak razdelek tega standarda nosi pričo pri klavzuli, iz katere je zrasel: pretekle licence so priče rojstva, ⟨ne⟩ okras.
