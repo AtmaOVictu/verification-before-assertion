@@ -2,16 +2,36 @@
 """LICENSE-MANIFEST — generator in sodba (VBL §0a: identifikacija; §12: TRANSPORT meri hash).
 
 Zagon brez argumentov izpise svež manifest; --check sodi prijavljeni manifest proti telesom
-in vrne 1 ob odmiku (rdeca prica v CI). Odvisnosti: nobene (hišni zakon)."""
+in vrne 1 ob odmiku (rdeca prica v CI). Odvisnosti: nobene (hišni zakon).
+
+Sanacija FAIL #2 (PAR.23 @licenca-vbl): različica se IZMERI iz telesa LICENSE.md (⟨NE-UGIBAJ⟩);
+prej trdo zapisana 0.1210 × 10⁴ — brazgotina ostaja (KORENINA 0.2).
+"""
 
 import hashlib
 import json
 import os
+import re
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MANIFEST = os.path.join(ROOT, "LICENSE-MANIFEST.json")
+LICENSE = os.path.join(ROOT, "LICENSE.md")
 COVERED = ["LICENSE.md", "REGISTER-NEIMENOVANIH.jsonl", "REGISTER-PADCEV.jsonl"]
+SCAR = ("SANACIJA FAIL #2 (PAR.23 @licenca-vbl, 14. 11. 2026): version je prej bila trdo "
+        "zapisana 0.1210 × 10⁴, dve rojstvi za telesi — sedaj izmerjena iz telesa "
+        "LICENSE.md ⊙ ⟨NE-UGIBAJ⟩ (brazgotina ostaja ⊙ KORENINA 0.2)")
+
+
+def license_version():
+    """Izmeri različico iz glave telesa LICENSE.md — padec brez vrstice je sodba, ⟨ne⟩ ugibanje."""
+    with open(LICENSE, encoding="utf-8") as f:
+        head = f.read(4096)
+    m = re.search(r"^Version (0\.\d{4}) × 10⁴", head, re.MULTILINE)
+    if not m:
+        print("LICENCA-NI-IZMERJENA: v glavi LICENSE.md ni vrstice »Version 0.NNNN × 10⁴« (⟨NE-UGIBAJ⟩)")
+        sys.exit(1)
+    return m.group(1) + " × 10⁴"
 
 
 def entry(rel_path):
@@ -23,8 +43,9 @@ def entry(rel_path):
 def generate():
     return {
         "license": "VBL — Verification Before Assertion License",
-        "version": "0.1210 × 10⁴",
-        "law": "identification by manifest: VBL §0a; transport measured by SHA-256: VBL §12",
+        "version": license_version(),
+        "law": "identification by manifest: VBL §0a; transport measured by SHA-256: VBL §0.12",
+        "scar": SCAR,
         "items": [entry(p) for p in COVERED if os.path.exists(os.path.join(ROOT, p))],
     }
 
