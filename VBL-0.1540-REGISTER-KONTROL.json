@@ -174,7 +174,7 @@
       "pogoj_PASS": "osebni podatek v javnem dnevniku = 0 (negativni preizkus pada prav)",
       "ravnanje_ob_neuspehu": "podatek se umakne isti dih; padec imenovan javno; dostop po stopnjah",
       "povezave_testi": ["T-06"],
-      "status": { "claim_status": "NOT_RUN", "test_result": "NOT_RUN", "decision": "HOLD" }
+      "status": { "claim_status": "NOT_RUN", "test_result": "PASS (T-06 ⊢ ⟨search_code⟩ pri viru 2026-11-15: osebni podatek v javnih dnevnikih REGISTER-*.jsonl = 0 zadetkov; kontaktni email ×3 izključno v pravnih telesih — TDM-RESERVATION.md ×2 hiši (contact, strojno berljiva rezervacija DSM 2019/790 4(3) ∧ AI Act 2024/1689 53(1)(c)) ∧ DOVOLJENJA.md ×1 (pisna pot prošenja §0.7) — namerna pravna objava, ⟨ne⟩ dnevniški podatek; ⚠ meja pravna-objava ⊥ dnevnik nosi razlago — sodba ⭢ ⟡)", "decision": "HOLD" }
     },
     {
       "id": "K-15",
@@ -186,7 +186,7 @@
       "pogoj_PASS": "globalna podelitev prek komponent = 0",
       "ravnanje_ob_neuspehu": "podelitev se razcepi po komponentah; nedokazana komponenta = ⚠",
       "povezave_testi": ["T-23", "T-24"],
-      "status": { "claim_status": "NOT_RUN", "test_result": "NOT_RUN", "decision": "HOLD" }
+      "status": { "claim_status": "NOT_RUN", "test_result": "PARTIAL (T-23 ⊢ izmera pri viru 2026-11-15: inventura manifesta = 3 vrstice ⊥ 44 datotek v korenu javne hiše @⟨main⟩; telesi 0.1540 IZDANA (VBL-0.1540-POPRAVLJALNI-STANDARD.md 22715 B ∧ VBL-0.1540-REGISTER-KONTROL.json 14676 B) brez manifestne vrstice — zakon ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩ prelomljen pri rojstvih #48–#51; kura ⭢ ∂: obnova manifesta po generatorju (kit #49 cure) naslednji dih; globalna podelitev prek komponent = 0 izmerjena ∧)", "decision": "HOLD" }
     },
     {
       "id": "K-16",
