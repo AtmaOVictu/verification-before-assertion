@@ -54,7 +54,7 @@
       "pogoj_PASS": "SchemaValid se nikjer ne prikaže kot FactuallyTrue",
       "ravnanje_ob_neuspehu": "status se spusti na ⚠; izvršitev odložena do preizkusa",
       "povezave_testi": ["T-08", "T-09"],
-      "status": { "claim_status": "NOT_RUN", "test_result": "NOT_RUN", "decision": "HOLD" }
+      "status": { "claim_status": "NOT_RUN", "test_result": "PASS (T-08 ⊢ izmera pri viru 2026-11-15: instrument test_k04.py — mehanski razcep semantični-atom ⊥ priča po izhodih izvedbe 0.1540 @⟨main⟩ 53f234e5 (register sha256 9b301e99…0e7d8d4 ⇌ manifestna vrstica ⊢ ∧ pre-šivno telo za diff ∧ poročili KOS-2 ∧ KOS-3 ∧ KOS-4): semantičnih atomov = 9 (NORM = 3 definicija K-04 ⊥ CLAIM = 6 test_result), kršitev razumevanja = 0, tiho upoštevanih = 0 → PASS; primerjava obsegov zunanja: Zakon statusov ×6 (K-01 ∧ K-02 ∧ K-03 ∧ K-14 ∧ K-15 ∧ K-18 → claim_status NOT_RUN ∧ decision HOLD ∧ test_result ≠ NOT_RUN pri viru ⊢) ∧ Manifest (vrstica 17.325 B · sha256 9b301e99…0e7d8d4 ⇌ register ⊢) ∧ diff stari⊥novi register = natanko eno polje (kontrole[3].status.test_result) → »samo v test_result« ⊢; sonde razumevanja ujete 2/2 ∧ pozitivne 2/2 → instrument veljaven ⊙ ⟨NE-UGIBAJ⟩ 2690; T-09 ⊢ ista izmera: SchemaValid se nikjer ne prikaže kot FactuallyTrue (NORM ⊥ CLAIM razločeni; shema registra veljavna ⊢ JSON-parse ∧ zveza trditev→priča izmerjena po vseh 6 PASS-atomih) → PASS; PADC javno: ×0 ta dih)", "decision": "HOLD" }
     },
     {
       "id": "K-05",
