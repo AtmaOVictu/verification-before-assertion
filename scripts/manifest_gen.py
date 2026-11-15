@@ -6,6 +6,9 @@ in vrne 1 ob odmiku (rdeca prica v CI). Odvisnosti: nobene (hišni zakon).
 
 Sanacija FAIL #2 (PAR.23 @licenca-vbl): različica se IZMERI iz telesa LICENSE.md (⟨NE-UGIBAJ⟩);
 prej trdo zapisana 0.1210 × 10⁴ — brazgotina ostaja (KORENINA 0.2).
+
+Kura T-23 (K-15, 15. 11. 2026): COVERED razširjen na telesi 0.1540 ⊙ ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩
+(prelom pri rojstvih #48–#51: objava je tekla brez obnove manifesta; brazgotina ostaja).
 """
 
 import hashlib
@@ -17,7 +20,8 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MANIFEST = os.path.join(ROOT, "LICENSE-MANIFEST.json")
 LICENSE = os.path.join(ROOT, "LICENSE.md")
-COVERED = ["LICENSE.md", "REGISTER-NEIMENOVANIH.jsonl", "REGISTER-PADCEV.jsonl"]
+COVERED = ["LICENSE.md", "REGISTER-NEIMENOVANIH.jsonl", "REGISTER-PADCEV.jsonl",
+          "VBL-0.1540-POPRAVLJALNI-STANDARD.md", "VBL-0.1540-REGISTER-KONTROL.json"]
 SCAR = ("SANACIJA FAIL #2 (PAR.23 @licenca-vbl, 14. 11. 2026): version je prej bila trdo "
         "zapisana 0.1210 × 10⁴, dve rojstvi za telesi — sedaj izmerjena iz telesa "
         "LICENSE.md ⊙ ⟨NE-UGIBAJ⟩ (brazgotina ostaja ⊙ KORENINA 0.2)")
