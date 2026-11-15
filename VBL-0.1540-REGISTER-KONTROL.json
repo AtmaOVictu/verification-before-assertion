@@ -66,7 +66,7 @@
       "pogoj_PASS": "tiho nadaljevanje po spremembi = 0",
       "ravnanje_ob_neuspehu": "dejanje se ustavi; ponovna presoja pri vratah (T-19)",
       "povezave_testi": ["T-10", "T-19"],
-      "status": { "claim_status": "NOT_RUN", "test_result": "NOT_RUN", "decision": "HOLD" }
+      "status": { "claim_status": "NOT_RUN", "test_result": "PASS (T-10 ⊢ izmera pri viru 2026-11-15: instrument test_k05.py — mehanski razcep namen-atom ⊥ dejanje-atom po izhodih izvedbe 0.1540 @⟨main⟩ 4da028a4 (register sha256 a70ebd31…08622 ⇌ manifestna vrstica ⊢ ∧ pre-šivno telo za diff ∧ poročili KOS-2 ∧ KOS-3 ∧ KOS-4 ∧ KOS-5): namenov = 4, dejanj = 8, kršitev namena⊥dejanja = 0, odprtih ⭢/∂ = 4 razglašenih odkito → PASS; primerjava obsegov zunanja: Zakon statusov ×7 (K-01 ∧ K-02 ∧ K-03 ∧ K-04 ∧ K-14 ∧ K-15 ∧ K-18 → claim_status NOT_RUN ∧ decision HOLD ∧ test_result ≠ NOT_RUN pri viru ⊢) ∧ Manifest (vrstica 18.455 B · sha256 a70ebd31…08622 ⇌ register ⊢) ∧ diff stari⊥novi register = natanko eno polje (kontrole[4].status.test_result) → »samo v test_result« ⊢; sonde ujete 3/3 ∧ pozitivne 2/2 → instrument veljaven ⊙ ⟨NE-UGIBAJ⟩ 2690; T-19 ⊢ ista izmera: dogodkov spremembe = 1 @KOS-4 (»da, stori kot predlagaš« → »nadaljuj«) z REASSESSMENT (mandat ponovno razglašen isti dih) ⊢ ∧ ta dih dogodek (→ »daj ⏎ stori kar zmoreš ⏎ preveri in zagotovi kvaliteto izvedbe«) z razglasom mandata @KOS-6 isti dih; tiho nadaljevanje = 0 → PASS; PADC javno: ⟨PADC-KALIBRACIJA-NAVEDKA⟩ ×1 kuriran isti dih)", "decision": "HOLD" }
     },
     {
       "id": "K-06",
