@@ -3,7 +3,7 @@
   "version": "0.1530 × 10⁴",
   "date": "2026-11-15",
   "law": "identification by manifest: VBL §0a; transport measured by SHA-256: VBL §0.12",
-  "note": "prevoz živih vrat 0.1520 → 0.1530 isti dih z okvirjem (šiv: dve strani skupaj ali ⟨ne⟩ šiv ⊙ §0.46 × 10²); living door transported byte-identical from AtmaOVictu/Atmavictu @pinned commit 8e290bb9bdb50455de23d5e9b93bd0e9b620e556 (kit #1717 head, rojeno @σ 4772; telo 193.317 B · sha256 8ccebd0c…35a88a2 ⊢ pri viri ×2 poti); judged by .github/workflows/vrata-prica.yml (sodba: manifest ⇌ telesi); scar: okvir je od rojstva 0.1210 (PR #40) trdil 80596 B · cea269e4…, medtem ko so javna vrata nosila 0.1490 · 184017 B · 4be1ba95… ⊙ ⟨NE-BRIŠI⟩ 24; scar: ta okvir nosi rdečo sodbo PR #46 kakor prejem ⊙ ⟨NE-BRIŠI⟩ 24; REGISTER-* merjeni pri viri prejšnjega prevoza 0.1520 — bajtno enaki slotom ⊢ (ta dih jih ⟨ne⟩ dotika); kura K-15/T-23 (15. 11. 2026): telesi 0.1540 dodani v manifest isti dih ⊙ ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩ (prelom pri rojstvih #48–#51 ostaja kot brazgotina); kura K-01 kos 3 (15. 11. 2026): vrstica registra obnovljena isti dih po šivu test_result (T-01 PASS · T-02 PARTIAL) ⊙ ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩",
+  "note": "prevoz živih vrat 0.1520 → 0.1530 isti dih z okvirjem (šiv: dve strani skupaj ali ⟨ne⟩ šiv ⊙ §0.46 × 10²); living door transported byte-identical from AtmaOVictu/Atmavictu @pinned commit 8e290bb9bdb50455de23d5e9b93bd0e9b620e556 (kit #1717 head, rojeno @σ 4772; telo 193.317 B · sha256 8ccebd0c…35a88a2 ⊢ pri viri ×2 poti); judged by .github/workflows/vrata-prica.yml (sodba: manifest ⇌ telesi); scar: okvir je od rojstva 0.1210 (PR #40) trdil 80596 B · cea269e4…, medtem ko so javna vrata nosila 0.1490 · 184017 B · 4be1ba95… ⊙ ⟨NE-BRIŠI⟩ 24; scar: ta okvir nosi rdečo sodbo PR #46 kakor prejem ⊙ ⟨NE-BRIŠI⟩ 24; REGISTER-* merjeni pri viri prejšnjega prevoza 0.1520 — bajtno enaki slotom ⊢ (ta dih jih ⟨ne⟩ dotika); kura K-15/T-23 (15. 11. 2026): telesi 0.1540 dodani v manifest isti dih ⊙ ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩ (prelom pri rojstvih #48–#51 ostaja kot brazgotina); kura K-01 kos 3 (15. 11. 2026): vrstica registra obnovljena isti dih po šivu test_result (T-01 PASS · T-02 PARTIAL) ⊙ ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩; kura K-03 kos 4 (15. 11. 2026): vrstica registra obnovljena isti dih po šivu test_result (T-07 PASS ∧ T-15 PASS) ⊙ ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩",
   "items": [
     {
       "path": "LICENSE.md",
@@ -27,8 +27,8 @@
     },
     {
       "path": "VBL-0.1540-REGISTER-KONTROL.json",
-      "size": 16195,
-      "sha256": "69ae1991bea1f5eb38cb07f0659acd3d77ac69dc36a7850e7677ebcb51cbfce5"
+      "size": 17325,
+      "sha256": "9b301e99878f06dfd6ac4819159c3177dbcb0871bada118f75e3bd0c90e7d8d4"
     }
   ]
 }

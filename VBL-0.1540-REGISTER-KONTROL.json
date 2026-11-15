@@ -42,7 +42,7 @@
       "pogoj_PASS": "vsaka pomembna ugotovitev preverjena proti vključitvi; kršitev = 0",
       "ravnanje_ob_neuspehu": "sklep se zoži na izmerjeno ali zavrne (T-15)",
       "povezave_testi": ["T-07", "T-15"],
-      "status": { "claim_status": "NOT_RUN", "test_result": "NOT_RUN", "decision": "HOLD" }
+      "status": { "claim_status": "NOT_RUN", "test_result": "PASS (T-07 ⊢ izmera pri viru 2026-11-15: instrument test_k03.py — mehanski razcep sklep-atom ⊥ dokaz po izhodih izvedbe 0.1540 @⟨main⟩ e1dfd549 (register sha256 69ae1991…cbfce5 ⇌ manifestna vrstica ⊢ ∧ pre-šivno telo za diff ∧ poročili KOS-2 ∧ KOS-3): enot sklepov = 13, sklep-atomov = 18, kršitev širjenja = 0, tiho izdanih = 0 → PASS; primerjava obsegov zunanja: Zakon statusov ×2 (K-14 ∧ K-15 @KOS-2 · K-01 @KOS-3 → claim_status NOT_RUN ∧ decision HOLD ∧ test_result ≠ NOT_RUN pri viru ⊢) ∧ Manifest (vrstica 16.195 B · sha256 69ae1991…cbfce5 ⇌ register ⊢) ∧ diff stari⊥novi register = natanko eno polje (kontrole[0].status.test_result) → »samo v test_result« ⊢; sonde širjenja/tihosti ujete 4/4 → instrument veljaven ⊙ ⟨NE-UGIBAJ⟩ 2690; T-15 ⊢ ista izmera: vsak ⚠/∂/⭢ atom razrešen z imenovanim razlogom (razlaga ⭢ ⟡ · kura ⭢ ∂ · odmik poimensko) → PASS; PADC javno: ⟨PADC-©-NOGICA⟩ ×1 — © zaporna vrstica KOS-2 šteta kakor sklep-atom sekije pri kalibraciji instrumenta; kura isti dih: © vrstice izrezane iz sekij ⊙ vzorec kos 3)", "decision": "HOLD" }
     },
     {
       "id": "K-04",
