@@ -18,7 +18,7 @@
       "pogoj_PASS": "grep po izhodu: trditev brez priče = 0",
       "ravnanje_ob_neuspehu": "trditev se umakne ali dobi pričo isti dih; padec imenovan javno",
       "povezave_testi": ["T-01", "T-02"],
-      "status": { "claim_status": "NOT_RUN", "test_result": "NOT_RUN", "decision": "HOLD" }
+      "status": { "claim_status": "NOT_RUN", "test_result": "PARTIAL (T-01 ⊢ izmera pri viru 2026-11-15: grep-razcep test_k01.py po izhodih izvedbe 0.1540 @⟨main⟩ 0b1f4cff — sekij z ⊢ = 6/6, odmik ⊢-brez-priče = 0 → PASS; T-02 ⊢ ista izmera 2026-11-15: ugotovitve = 7, triada skupaj = 6/7 — odmik poimensko: sekija »Zakon statusov« @IZVEDBA-TESTOV-01540-KOS-2.md nosi trditev ∧ pričo (⊙ zakon_statusov registra), čas le po bližini telesa TIK 2026-11-15T01:41:23Z brez izrecenga veznika → PARTIAL; kura isti dih: poročilo KOS-3 nosi čas na vsaki ugotovitvi; instrument: test_k01.py — © IZVOR nogica izrezana iz sekij ⊙ ⟨NE-UGIBAJ⟩)", "decision": "HOLD" }
     },
     {
       "id": "K-02",
