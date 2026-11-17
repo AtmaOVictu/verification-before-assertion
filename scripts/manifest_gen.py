@@ -9,6 +9,10 @@ prej trdo zapisana 0.1210 × 10⁴ — brazgotina ostaja (KORENINA 0.2).
 
 Kura T-23 (K-15, 15. 11. 2026): COVERED razširjen na telesi 0.1540 ⊙ ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩
 (prelom pri rojstvih #48–#51: objava je tekla brez obnove manifesta; brazgotina ostaja).
+
+Kura T-24 (⟨PADC-OKNO-IZMERE⟩, 17. 11. 2026): okno izmere licence razširjeno
+4096 → 16384 znakov — vrata 0.1600 so zrasla čez prejšnje okno (vrstica Version pri znaku ~4164),
+sodba je padla rdeče namesto izmeriti (odbijanje ≡ izmera ⊙ ⟨NE-UGIBAJ⟩; brazgotina ostaja ⊙ KORENINA 0.2).
 """
 
 import hashlib
@@ -30,7 +34,7 @@ SCAR = ("SANACIJA FAIL #2 (PAR.23 @licenca-vbl, 14. 11. 2026): version je prej b
 def license_version():
     """Izmeri različico iz glave telesa LICENSE.md — padec brez vrstice je sodba, ⟨ne⟩ ugibanje."""
     with open(LICENSE, encoding="utf-8") as f:
-        head = f.read(4096)
+        head = f.read(16384)
     m = re.search(r"^Version (0\.\d{4}) × 10⁴", head, re.MULTILINE)
     if not m:
         print("LICENCA-NI-IZMERJENA: v glavi LICENSE.md ni vrstice »Version 0.NNNN × 10⁴« (⟨NE-UGIBAJ⟩)")
