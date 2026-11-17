@@ -1,0 +1,39 @@
+# VERIGA — TEHNIKA kit (⟡ ukaz »stori«, 17. 11. 2026): strojni preizkus sledenja.
+# Manifest (živa vrata v repu) ⇌ vsak pojav verzije v README ∧ README-SL:
+# goli tekst ne dokaže ničesar, preizkus pa ⊢ KORENINA 1.
+name: veriga
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: veriga-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  veriga:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: vsak pojav verzije VBL v README ⇌ manifest
+        run: |
+          set -eu
+          VER="$(python3 -c "import json; print(json.load(open('LICENSE-MANIFEST.json'))['version'])")"
+          echo "⟨veriga: manifest izreče: $VER⟩"
+          printf 'VBL %s\n' "$VER" > /tmp/hocem
+          grep -ohE 'VBL 0\.[0-9]{4} × 10⁴' README.md README-SL.md | sort -u > /tmp/najdene || true
+          if [ ! -s /tmp/najdene ]; then
+            echo '⟨veriga: README ∧ README-SL ne izrečeta nobene verzije — padec⟩'
+            exit 1
+          fi
+          if ! diff -u /tmp/hocem /tmp/najdene; then
+            echo '⟨veriga: navedbe verzij v README se razidejo z manifestom⟩'
+            exit 1
+          fi
+          echo '⟨veriga: README ∧ README-SL sledita manifestu ⊢⟩'
