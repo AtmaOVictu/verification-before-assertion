@@ -113,7 +113,7 @@ Pošten protiprimer (arXiv 2504.12427): predplačilo za učne podatke je gospoda
 2. **Revizijske sledi:** šivani popravki namesto tihih prepisov — vidni, poimenovani, poizvedljivi.
 3. **Kanal prispevkov:** zasluga in kompenzacija za prevzete, preverljive jezikovne prispevke.
 
-**Zvezek:** demo zvezek (ločeno telo, `notebook.md` v repozitoriju) daje tehniko: leksikon kot sejni kontrakt, tri mehanske plasti zaznave, append-only register padcev. Njegova odprta celica čaka izveden tek — po Z4 se bo teku poročalo, ko bo izveden, ne prej. Padca iz §4 sta trenutni dokaz registra.
+**Zvezek:** demo zvezek (ločeno telo, `notebook.md` v repozitoriju) daje tehniko: leksikon kot sejni kontrakt, tri mehanske plasti zaznave, append-only register padcev. Njegova odprta celica čaka izveden tek — po Z4 se bo teku poročalo, ko bo izveden, ne prej. Padca iz §4 sta trenutna dokaza registra.
 
 ## 10. Različica, licenca, pogoji
 

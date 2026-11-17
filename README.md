@@ -10,7 +10,7 @@
 # Verification-Before-Assertion: A Working Anti-Hallucination Regime
 
 **Luka Pintarič · v1.3 · October 20, 2026**
-*Corpus: ~2,600 documents, formal syntax, append-only records. Companion Slovenian edition: REZ body (same version, same laws).*
+*Corpus: ~2,600 documents, formal syntax, append-only records. Companion Slovenian edition: [README-SL.md](README-SL.md) (same version, same laws).*
 
 [![Tests](https://github.com/AtmaOVictu/verification-before-assertion/actions/workflows/tests.yml/badge.svg)](https://github.com/AtmaOVictu/verification-before-assertion/actions/workflows/tests.yml)
 
