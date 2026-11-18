@@ -202,7 +202,7 @@ def main() -> int:
     draft = (ROOT / "outreach" / "show-hn-v1.0.md").read_text(encoding="utf-8")
     vba = (ROOT / "vba.py").read_text(encoding="utf-8")
     law = (ROOT / "test_vba.py").read_text(encoding="utf-8")
-    register = (ROOT / "REGISTER-PADCEV.jsonl").read_text(encoding="utf-8")
+    register = (ROOT / "canon" / "REGISTER-PADCEV.jsonl").read_text(encoding="utf-8")
 
     findings = findings_for(draft, vba, law, register)
     if findings:
