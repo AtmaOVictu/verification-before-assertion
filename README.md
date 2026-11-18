@@ -79,7 +79,7 @@ A third, structural proof is the document you are reading: v1.1 exists because v
 
 - Bilingual ontological lexicon — 52 English terms decomposed phonetically and semantically, with the Slovenian-side operator system (sample in the repository: `LEKSIKON-sample.md`)
 - Verified etymology chains with sources
-- Register of "hybrid word" failures — model-invented words that pass as real (three recorded falls; a fourth's absence verified by measurement) — carriers: `wordlist-v0.6.json` ⚠ entries · `REGISTER-PADCEV.jsonl` · `VENDOR-THREAD.md`
+- Register of "hybrid word" failures — model-invented words that pass as real (three recorded falls; a fourth's absence verified by measurement) — carriers: `wordlist-v0.6.json` ⚠ entries · `canon/REGISTER-PADCEV.jsonl` · `VENDOR-THREAD.md`
 - Provenance-marked corpus: every claim carries ⊢ or ⚠
 
 ## 6. Precedents: the compensation model already exists
