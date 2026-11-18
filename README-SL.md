@@ -74,7 +74,7 @@ Tretji, strukturni dokaz je dokument, ki ga berete: v1.1 obstaja, ker je bil v1.
 
 - Dvojezični ontološki leksikon — 52 angleških terminov razčlenjenih glasoslovno in pomensko, s slovenskim operatorskim sistemom (vzorec v repozitoriju: `LEKSIKON-sample.md`)
 - Preverjene etimološke vezi z viri
-- Register hibridnih besed — izumljene besede, ki se izdajajo za prave (trije zapisani padci; neobstoj četrte izmerjen) — nosilci: `wordlist-v0.6.json` ⚠ vpisi · `REGISTER-PADCEV.jsonl` · `VENDOR-THREAD.md`
+- Register hibridnih besed — izumljene besede, ki se izdajajo za prave (trije zapisani padci; neobstoj četrte izmerjen) — nosilci: `wordlist-v0.6.json` ⚠ vpisi · `canon/REGISTER-PADCEV.jsonl` · `VENDOR-THREAD.md`
 - Korpus z znamenjem izvora: vsaka trditev nosi ⊢ ali ⚠
 
 ## 6. Primernost: model kompenzacije že obstaja
